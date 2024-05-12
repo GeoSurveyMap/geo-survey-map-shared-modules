@@ -2,10 +2,19 @@
   "name": "geo-survey-map-shared-modules",
   "version": "0.0.1",
   "description": "Shared modules for web and mobile app.",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:GeoSurveyMap/geo-survey-map-shared-modules.git"
   },
-  "main": "index.js",
-  "license": "UNLICENSED"
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "@types/react": "^18.3.2",
+    "typescript": "^5.4.5"
+  }
 }

@@ -1,0 +1,6 @@
+node_modules
+lib/
+.history
+
+# Personal code editor settings
+.vscode
