@@ -1,1 +1,15 @@
-export declare const BLACK = "#000000";
+export declare const BLACK = "#222222";
+export declare const WHITE = "#FFFFFF";
+export declare const GRAY = "#DCDCDC";
+export declare const DARK_GRAY = "#666666";
+export declare const RED = "#F54545";
+export declare const LIGHT_GREEN = "#14D49B";
+export declare const DARK_GREEN = "#004E53";
+export declare const LIGHT_BLUE = "#3478F6";
+export declare const DARK_BLUE = "#00407C";
+export declare const YELLOW_GRADIENT: string[];
+export declare const BLUE_GRADIENT: string[];
+export declare const GRAY_GRADIENT: string[];
+export declare const BROWN_GRADIENT: string[];
+export declare const RED_GRADIENT: string[];
+export declare const PURPLE_GRADIENT: string[];
