@@ -1,0 +1,11 @@
+{
+  "name": "geo-survey-map-shared-modules",
+  "version": "0.0.1",
+  "description": "Shared modules for web and mobile app.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GeoSurveyMap/geo-survey-map-shared-modules.git"
+  },
+  "main": "index.js",
+  "license": "UNLICENSED"
+}
