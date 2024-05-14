@@ -1,1 +1,1 @@
-export declare const HELLO_WORLD = "Hello World";
+export declare const HELLO_WORLD = "hello world";
