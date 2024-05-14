@@ -8,9 +8,9 @@ import {
 import { axiosClient } from '../libs/axiosClient';
 
 const URLS = {
-  SURVEY: '/survey',
-  ALL_SURVEYS: '/survey/all',
-  surveysByLocation: (x: number, y: number) => `/survey/x/${x}/y/${y}`,
+  SURVEY: '/api/v1/survey',
+  ALL_SURVEYS: `/api/v1/survey/all`,
+  surveysByLocation: (x: number, y: number) => `/api/v1/survey/x/${x}/y/${y}`,
   surveysWithinRadius: (x: number, y: number, radius) =>
     URLS.surveysByLocation(x, y) + `/radius/${radius}`,
 };

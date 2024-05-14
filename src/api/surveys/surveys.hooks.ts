@@ -17,6 +17,7 @@ export function useGetSurveyByLocation(x, y) {
   return useQuery({
     queryKey: queryKeys.survey.byLocation(x, y),
     queryFn: () => getSurveyByLocation({ x, y }),
+    select: ({ data }) => data.data,
   });
 }
 
@@ -25,6 +26,7 @@ export function useGetAllSurveysWithinRadius(x, y, radius) {
   return useQuery({
     queryKey: queryKeys.survey.withinRadius(x, y, radius),
     queryFn: () => getAllSurveysWithinRadius({ x, y, radius }),
+    select: ({ data }) => data.data,
   });
 }
 
@@ -33,5 +35,6 @@ export function useGetAllSurveys() {
   return useQuery({
     queryKey: queryKeys.survey.all,
     queryFn: getAllSurveys,
+    select: ({ data }) => data.data,
   });
 }
