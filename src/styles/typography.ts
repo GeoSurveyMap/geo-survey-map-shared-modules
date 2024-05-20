@@ -1,4 +1,4 @@
-import { TextType } from 'types';
+import { TextType } from '../types';
 
 export const fontFamily = 'Montserrat';
 
