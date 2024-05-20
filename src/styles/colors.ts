@@ -15,3 +15,27 @@ export const GRAY_GRADIENT = ['#C9C9C9', '#636363'];
 export const BROWN_GRADIENT = ['#DB5C00', '#753100'];
 export const RED_GRADIENT = ['#FF2C2C', '#991A1A'];
 export const PURPLE_GRADIENT = ['#D484E8', '#442061'];
+
+type Theme = {
+  text: string;
+  background: string;
+  surface: string;
+  primary: string;
+  outline: string;
+};
+
+export const lightMode: Theme = {
+  text: BLACK,
+  background: WHITE,
+  surface: GRAY,
+  primary: LIGHT_GREEN,
+  outline: DARK_GRAY,
+}
+
+export const darkMode: Theme = {
+  text: WHITE,
+  background: BLACK,
+  surface: BLACK,
+  primary: LIGHT_GREEN,
+  outline: GRAY,
+}

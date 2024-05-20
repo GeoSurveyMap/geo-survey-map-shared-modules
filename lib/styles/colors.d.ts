@@ -13,3 +13,13 @@ export declare const GRAY_GRADIENT: string[];
 export declare const BROWN_GRADIENT: string[];
 export declare const RED_GRADIENT: string[];
 export declare const PURPLE_GRADIENT: string[];
+type Theme = {
+    text: string;
+    background: string;
+    surface: string;
+    primary: string;
+    outline: string;
+};
+export declare const lightMode: Theme;
+export declare const darkMode: Theme;
+export {};
