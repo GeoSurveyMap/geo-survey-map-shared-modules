@@ -1,25 +1,22 @@
-export declare const BLACK = "#222222";
-export declare const WHITE = "#FFFFFF";
-export declare const GRAY = "#DCDCDC";
-export declare const DARK_GRAY = "#666666";
-export declare const RED = "#F54545";
-export declare const LIGHT_GREEN = "#14D49B";
-export declare const DARK_GREEN = "#004E53";
-export declare const LIGHT_BLUE = "#3478F6";
-export declare const DARK_BLUE = "#00407C";
-export declare const YELLOW_GRADIENT: string[];
-export declare const BLUE_GRADIENT: string[];
-export declare const GRAY_GRADIENT: string[];
-export declare const BROWN_GRADIENT: string[];
-export declare const RED_GRADIENT: string[];
-export declare const PURPLE_GRADIENT: string[];
-type Theme = {
-    text: string;
-    background: string;
-    surface: string;
-    primary: string;
-    outline: string;
+import { Theme } from 'types';
+export declare const colors: {
+    BLACK: string;
+    WHITE: string;
+    GRAY: string;
+    DARK_GRAY: string;
+    RED: string;
+    LIGHT_GREEN: string;
+    DARK_GREEN: string;
+    LIGHT_BLUE: string;
+    DARK_BLUE: string;
+};
+export declare const gradients: {
+    YELLOW_GRADIENT: string[];
+    BLUE_GRADIENT: string[];
+    GRAY_GRADIENT: string[];
+    BROWN_GRADIENT: string[];
+    RED_GRADIENT: string[];
+    PURPLE_GRADIENT: string[];
 };
 export declare const lightMode: Theme;
 export declare const darkMode: Theme;
-export {};
