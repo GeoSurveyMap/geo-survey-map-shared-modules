@@ -1,4 +1,4 @@
-import { Theme } from 'types';
+import type { Theme } from 'types';
 
 const BLACK = '#222222';
 const WHITE = '#FFFFFF';
@@ -39,7 +39,7 @@ export const gradients = {
   PURPLE_GRADIENT,
 };
 
-export const lightMode: Theme = {
+export const lightTheme: Theme = {
   text: BLACK,
   background: WHITE,
   surface: GRAY,
@@ -47,7 +47,7 @@ export const lightMode: Theme = {
   outline: DARK_GRAY,
 };
 
-export const darkMode: Theme = {
+export const darkTheme: Theme = {
   text: WHITE,
   background: BLACK,
   surface: BLACK,

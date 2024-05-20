@@ -1,4 +1,4 @@
-import { Theme } from 'types';
+import type { Theme } from 'types';
 export declare const colors: {
     BLACK: string;
     WHITE: string;
@@ -18,5 +18,5 @@ export declare const gradients: {
     RED_GRADIENT: string[];
     PURPLE_GRADIENT: string[];
 };
-export declare const lightMode: Theme;
-export declare const darkMode: Theme;
+export declare const lightTheme: Theme;
+export declare const darkTheme: Theme;
