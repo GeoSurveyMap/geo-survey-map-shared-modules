@@ -12,4 +12,5 @@ export enum TextType {
   H3 = 'H3',
   H4 = 'H4',
   P = 'P',
+  TOOLTIP = 'TOOLTIP',
 }

@@ -44,7 +44,7 @@ export const lightTheme: Theme = {
   background: WHITE,
   surface: GRAY,
   primary: LIGHT_GREEN,
-  outline: DARK_GRAY,
+  outline: GRAY,
 };
 
 export const darkTheme: Theme = {

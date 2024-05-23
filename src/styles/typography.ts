@@ -15,6 +15,7 @@ export const size: Record<TextType, number> = {
   [TextType.H3]: 18,
   [TextType.H4]: 16,
   [TextType.P]: 14,
+  [TextType.TOOLTIP]: 8,
 };
 
 export const weight: Record<TextType, keyof typeof fontWeight> = {
@@ -23,4 +24,5 @@ export const weight: Record<TextType, keyof typeof fontWeight> = {
   [TextType.H3]: '700',
   [TextType.H4]: '700',
   [TextType.P]: '400',
+  [TextType.TOOLTIP]: '700',
 };
