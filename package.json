@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Shared modules for web and mobile app.",
   "scripts": {
-    "build": "tsc --project tsconfig.build.json && npm run copy-assets",
+    "build": "tsc --project tsconfig.build.json && yarn copy-assets",
     "copy-assets": "copyfiles -u 1 'src/assets/**/*' -e '**/*.ts' lib/"
   },
   "repository": {
