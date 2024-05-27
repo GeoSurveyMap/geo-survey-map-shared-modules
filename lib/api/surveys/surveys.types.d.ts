@@ -1,8 +1,10 @@
-export interface LocationRequest {
+export interface Location {
     /** @format double */
     x: number;
     /** @format double */
     y: number;
+}
+export interface LocationRequest extends Location {
 }
 export interface RadiusRequest extends LocationRequest {
     /** @format double */
@@ -66,6 +68,7 @@ export interface Survey {
     category: Category;
     description: string;
     solution: string;
+    location: Location;
 }
 export interface ApiResponseListSurvey {
     data?: Survey[];
