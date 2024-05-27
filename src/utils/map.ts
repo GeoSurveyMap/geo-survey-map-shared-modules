@@ -13,7 +13,10 @@ export const gradientForSurveyMapMarker: Record<Category, string[]> = {
   [Category.BIODIVERSITY]: gradients.PURPLE_GRADIENT,
 };
 
-export const iconForSurveyMapMarker: Record<Category, typeof Cactus> = {
+export const iconForSurveyMapMarker: Record<
+  Category,
+  React.FunctionComponent<React.SVGAttributes<SVGElement>>
+> = {
   [Category.DRY_SOILS]: Cactus,
   [Category.WET_SOILS]: Wave,
   [Category.EROSION]: Wind,
