@@ -1,3 +1,5 @@
+import { Category } from '../../types';
+
 export interface Location {
   /** @format double */
   x: number;
@@ -10,17 +12,6 @@ export interface LocationRequest extends Location {}
 export interface RadiusRequest extends LocationRequest {
   /** @format double */
   radius: number;
-}
-
-export enum Category {
-  DRY_SOILS = 'DRY_SOILS',
-  WET_SOILS = 'WET_SOILS',
-  EROSION = 'EROSION',
-  SEALED_SOILS = 'SEALED_SOILS',
-  DEGRADATION = 'DEGRADATION',
-  LOSS_OF_ORGANIC_MATTER = 'LOSS_OF_ORGANIC_MATTER',
-  PH = 'PH',
-  BIODIVERSITY = 'BIODIVERSITY',
 }
 
 export interface SurveyRequest {

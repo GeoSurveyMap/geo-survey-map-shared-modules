@@ -13,3 +13,13 @@ export declare enum TextType {
     P = "P",
     TOOLTIP = "TOOLTIP"
 }
+export declare enum Category {
+    DRY_SOILS = "DRY_SOILS",
+    WET_SOILS = "WET_SOILS",
+    EROSION = "EROSION",
+    SEALED_SOILS = "SEALED_SOILS",
+    DEGRADATION = "DEGRADATION",
+    LOSS_OF_ORGANIC_MATTER = "LOSS_OF_ORGANIC_MATTER",
+    PH = "PH",
+    BIODIVERSITY = "BIODIVERSITY"
+}
