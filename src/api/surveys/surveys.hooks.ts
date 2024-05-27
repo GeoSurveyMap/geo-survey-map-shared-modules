@@ -5,11 +5,22 @@ import {
   getAllSurveysWithinRadius,
   getSurveyByLocation,
 } from './surveys';
-import { queryKeys } from '../libs/query';
+import { queryClient, queryKeys } from '../libs/query';
 
 // Custom hook for creating a new survey
 export function useCreateSurvey() {
-  return useMutation({ mutationFn: createSurvey });
+  return useMutation({
+    mutationFn: createSurvey,
+    onSuccess: ({ data: { data } }) => {
+      queryClient.invalidateQueries({ queryKey: queryKeys.survey.all });
+
+      if (data?.location?.x && data?.location?.y) {
+        queryClient.invalidateQueries({
+          queryKey: queryKeys.survey.byLocation(data.location.x, data.location.y),
+        });
+      }
+    },
+  });
 }
 
 // Custom hook for fetching a survey by location
