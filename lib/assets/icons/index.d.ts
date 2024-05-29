@@ -12,4 +12,5 @@ import Login from './login.svg';
 import Navigate from './navigate.svg';
 import Question from './question.svg';
 import ArrowLeft from './arrow_left.svg';
-export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, };
+import Profile from './profile.svg';
+export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile };

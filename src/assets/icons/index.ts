@@ -14,6 +14,7 @@ import Login from './login.svg';
 import Navigate from './navigate.svg';
 import Question from './question.svg';
 import ArrowLeft from './arrow_left.svg';
+import Profile from './profile.svg';
 
 export {
   Cactus,
@@ -27,4 +28,5 @@ export {
   Navigate,
   Question,
   ArrowLeft,
+  Profile
 };
