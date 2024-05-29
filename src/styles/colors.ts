@@ -41,16 +41,18 @@ export const gradients = {
 
 export const lightTheme: Theme = {
   text: BLACK,
+  textFaded: DARK_GRAY,
   background: WHITE,
   surface: GRAY,
   primary: LIGHT_GREEN,
   outline: GRAY,
-};
+} as const;
 
 export const darkTheme: Theme = {
   text: WHITE,
+  textFaded: GRAY,
   background: BLACK,
   surface: BLACK,
   primary: LIGHT_GREEN,
-  outline: GRAY,
-};
+  outline: DARK_GRAY,
+} as const;

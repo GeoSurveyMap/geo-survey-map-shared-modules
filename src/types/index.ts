@@ -1,5 +1,6 @@
 export type Theme = {
   text: string;
+  textFaded: string;
   background: string;
   surface: string;
   primary: string;
