@@ -12,6 +12,7 @@ export declare const pl: {
     login: string;
     logout: string;
     register: string;
+    profile: string;
     filters: string;
     close: string;
     cancel: string;

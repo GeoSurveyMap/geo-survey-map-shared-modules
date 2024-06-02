@@ -14,6 +14,7 @@ export const pl = {
   login: 'Zaloguj',
   logout: 'Wyloguj',
   register: 'Zarejestruj',
+  profile: 'Profil',
   filters: 'Filtry',
   close: 'Zamknij',
   cancel: 'Anuluj',
