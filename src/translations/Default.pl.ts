@@ -1,6 +1,6 @@
 import { Category } from 'types';
 
-export default {
+export const pl = {
   category: {
     [Category.DRY_SOILS]: 'Gleba sucha',
     [Category.WET_SOILS]: 'Gleba mokra',

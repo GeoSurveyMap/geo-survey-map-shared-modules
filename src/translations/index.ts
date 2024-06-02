@@ -1,7 +1,11 @@
-import en from './en';
-import pl from './pl';
+import { en } from './Default.en';
+import { pl } from './Default.pl';
 
-export default {
-  en,
-  pl,
+export const fallbacks = {
+  en: {
+    Default: en,
+  },
+  pl: {
+    Default: pl,
+  },
 };
