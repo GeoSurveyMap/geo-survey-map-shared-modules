@@ -65,3 +65,10 @@ export interface ApiResponseListSurvey {
     data?: Survey[];
     metadata: ApiResponseMetadata;
 }
+export interface BoundingBoxRequest {
+    minX: number;
+    maxX: number;
+    minY: number;
+    maxY: number;
+    categories?: Category[];
+}

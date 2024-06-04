@@ -1,4 +1,5 @@
 import { QueryClient, focusManager, onlineManager } from '@tanstack/react-query';
+import { Category } from 'types';
 
 export const queryClient = new QueryClient();
 
@@ -11,5 +12,12 @@ export const queryKeys = {
     all: ['allSurveys'] as const,
     byLocation: (x: number, y: number) => ['survey', x, y] as const,
     withinRadius: (x: number, y: number, radius: number) => ['surveys', x, y, radius] as const,
+    withinBoundingBox: (
+      minX: number,
+      maxX: number,
+      minY: number,
+      maxY: number,
+      categories?: Category[],
+    ) => ['surveys', minX, maxX, minY, maxY, categories] as const,
   },
 };

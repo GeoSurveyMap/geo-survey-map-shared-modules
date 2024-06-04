@@ -4,8 +4,10 @@ import {
   getAllSurveys,
   getAllSurveysWithinRadius,
   getSurveyByLocation,
+  getSurveysWithinBoundingBox,
 } from './surveys';
 import { queryClient, queryKeys } from '../libs/query';
+import { BoundingBoxRequest } from './surveys.types';
 
 // Custom hook for creating a new survey
 export function useCreateSurvey() {
@@ -46,6 +48,20 @@ export function useGetAllSurveys() {
   return useQuery({
     queryKey: queryKeys.survey.all,
     queryFn: getAllSurveys,
+    select: ({ data }) => data.data,
+  });
+}
+
+export function useGetSurveysWithinBoundingBox({
+  minX,
+  maxX,
+  minY,
+  maxY,
+  categories,
+}: BoundingBoxRequest) {
+  return useQuery({
+    queryKey: queryKeys.survey.withinBoundingBox(minX, maxX, minY, maxY, categories),
+    queryFn: () => getSurveysWithinBoundingBox({ minX, maxX, minY, maxY, categories }),
     select: ({ data }) => data.data,
   });
 }
