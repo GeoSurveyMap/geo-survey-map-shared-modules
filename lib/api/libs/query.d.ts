@@ -1,6 +1,8 @@
+/// <reference types="react" />
 import { QueryClient } from '@tanstack/react-query';
 import { Category } from 'types';
 export declare const queryClient: QueryClient;
+export declare const TanstackQueryProvider: ({ client, children, }: import("@tanstack/react-query").QueryClientProviderProps) => JSX.Element;
 export declare const clearQueryCache: () => void;
 export declare const queryKeys: {
     survey: {

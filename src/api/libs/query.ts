@@ -1,7 +1,8 @@
-import { QueryClient, focusManager, onlineManager } from '@tanstack/react-query';
+import { QueryClient, focusManager, onlineManager, QueryClientProvider } from '@tanstack/react-query';
 import { Category } from 'types';
 
 export const queryClient = new QueryClient();
+export const TanstackQueryProvider = QueryClientProvider;
 
 export const clearQueryCache = () => {
   queryClient.clear();
