@@ -2,7 +2,7 @@ import { QueryClient, focusManager, onlineManager, QueryClientProvider } from '@
 import { Category } from 'types';
 
 export const queryClient = new QueryClient();
-export const TanstackQueryProvider = QueryClientProvider({client: queryClient});
+export const TanstackQueryProvider = QueryClientProvider;
 
 export const clearQueryCache = () => {
   queryClient.clear();
