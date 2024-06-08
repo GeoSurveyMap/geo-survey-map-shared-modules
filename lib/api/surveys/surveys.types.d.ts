@@ -4,6 +4,7 @@ export interface Location {
     x: number;
     /** @format double */
     y: number;
+    name?: string;
 }
 export interface LocationRequest extends Location {
 }
@@ -16,6 +17,8 @@ export interface SurveyRequest {
     description: string;
     solution: string;
     locationRequest: LocationRequest;
+    /** @format double */
+    affectedArea: number;
 }
 export interface ApiResponseError {
     /** @format int32 */
