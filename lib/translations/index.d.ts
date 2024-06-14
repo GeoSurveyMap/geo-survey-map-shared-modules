@@ -58,6 +58,9 @@ export declare const fallbacks: {
                         placeholder: string;
                     };
                 };
+                solution: {
+                    title: string;
+                };
                 successMessage: string;
                 errorMessage: string;
             };
@@ -136,6 +139,9 @@ export declare const fallbacks: {
                         label: string;
                         placeholder: string;
                     };
+                };
+                solution: {
+                    title: string;
                 };
                 successMessage: string;
                 errorMessage: string;

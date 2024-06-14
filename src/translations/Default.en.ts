@@ -58,6 +58,9 @@ export const en = {
         placeholder: '',
       },
     },
+	solution: {
+		title: 'Problem solution',
+	},
     successMessage: 'Success! The report has been added to the map',
     errorMessage: 'Oops! Something went wrong. Try again',
   },

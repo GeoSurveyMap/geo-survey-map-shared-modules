@@ -58,6 +58,9 @@ export const pl = {
         placeholder: '',
       },
     },
+	solution: {
+		title: 'Problem solution',
+	},
     successMessage: 'Sukces! Zgłoszenie zostało dodane do mapy',
     errorMessage: 'Ups! Coś poszło nie tak. Spróbuj ponownie',
   },

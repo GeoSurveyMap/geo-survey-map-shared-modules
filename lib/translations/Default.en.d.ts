@@ -56,6 +56,9 @@ export declare const en: {
                 placeholder: string;
             };
         };
+        solution: {
+            title: string;
+        };
         successMessage: string;
         errorMessage: string;
     };
