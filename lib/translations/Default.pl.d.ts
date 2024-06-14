@@ -14,6 +14,7 @@ export declare const pl: {
     register: string;
     profile: string;
     filters: string;
+    filtersDescription: string;
     close: string;
     cancel: string;
     back: string;
@@ -32,6 +33,7 @@ export declare const pl: {
     addPointForm: {
         chooseCategory: {
             title: string;
+            description: string;
         };
         affectedArea: {
             title: string;
@@ -43,7 +45,7 @@ export declare const pl: {
             or: string;
             chooseFromGallery: string;
         };
-        describtion: {
+        description: {
             title: string;
             placeName: {
                 label: string;
@@ -62,6 +64,7 @@ export declare const pl: {
         placeName: string;
         affectedArea: string;
         problemDescription: string;
+        problemSolution: string;
         photo: string;
     };
     userProfile: {

@@ -16,6 +16,7 @@ export const en = {
   register: 'Register',
   profile: 'Profile',
   filters: 'Filters',
+  filtersDescription: 'Wybierz kategorie punktów które chcesz zobaczyć na mapie',
   close: 'Close',
   cancel: 'Cancel',
   back: 'Back',
@@ -34,6 +35,7 @@ export const en = {
   addPointForm: {
     chooseCategory: {
       title: 'Choose category',
+	  description: 'Wypełnij krótki kwestionariusz i dodaj punkt na mapie'
     },
     affectedArea: {
       title: 'Affected area',
@@ -45,7 +47,7 @@ export const en = {
       or: 'or',
       chooseFromGallery: 'Choose from gallery',
     },
-    describtion: {
+    description: {
       title: 'Describe the place',
       placeName: {
         label: 'Place name',
@@ -64,6 +66,7 @@ export const en = {
     placeName: 'Place name',
     affectedArea: 'Problem radius',
     problemDescription: 'Problem description',
+	problemSolution: 'Problem solution',
     photo: 'Photo',
   },
   userProfile: {

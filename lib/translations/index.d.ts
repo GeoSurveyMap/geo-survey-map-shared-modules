@@ -16,6 +16,7 @@ export declare const fallbacks: {
             register: string;
             profile: string;
             filters: string;
+            filtersDescription: string;
             close: string;
             cancel: string;
             back: string;
@@ -34,6 +35,7 @@ export declare const fallbacks: {
             addPointForm: {
                 chooseCategory: {
                     title: string;
+                    description: string;
                 };
                 affectedArea: {
                     title: string;
@@ -45,7 +47,7 @@ export declare const fallbacks: {
                     or: string;
                     chooseFromGallery: string;
                 };
-                describtion: {
+                description: {
                     title: string;
                     placeName: {
                         label: string;
@@ -64,6 +66,7 @@ export declare const fallbacks: {
                 placeName: string;
                 affectedArea: string;
                 problemDescription: string;
+                problemSolution: string;
                 photo: string;
             };
             userProfile: {
@@ -92,6 +95,7 @@ export declare const fallbacks: {
             register: string;
             profile: string;
             filters: string;
+            filtersDescription: string;
             close: string;
             cancel: string;
             back: string;
@@ -110,6 +114,7 @@ export declare const fallbacks: {
             addPointForm: {
                 chooseCategory: {
                     title: string;
+                    description: string;
                 };
                 affectedArea: {
                     title: string;
@@ -121,7 +126,7 @@ export declare const fallbacks: {
                     or: string;
                     chooseFromGallery: string;
                 };
-                describtion: {
+                description: {
                     title: string;
                     placeName: {
                         label: string;
@@ -140,6 +145,7 @@ export declare const fallbacks: {
                 placeName: string;
                 affectedArea: string;
                 problemDescription: string;
+                problemSolution: string;
                 photo: string;
             };
             userProfile: {
