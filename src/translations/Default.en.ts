@@ -16,7 +16,7 @@ export const en = {
   register: 'Register',
   profile: 'Profile',
   filters: 'Filters',
-  filtersDescription: 'Wybierz kategorie punktów które chcesz zobaczyć na mapie',
+  filtersDescription: 'Select the categories of points you want to see on the map',
   close: 'Close',
   cancel: 'Cancel',
   back: 'Back',
@@ -35,7 +35,7 @@ export const en = {
   addPointForm: {
     chooseCategory: {
       title: 'Choose category',
-	  description: 'Wypełnij krótki kwestionariusz i dodaj punkt na mapie'
+	  description: 'Fill out a short survey and add a point on the map'
     },
     affectedArea: {
       title: 'Affected area',
