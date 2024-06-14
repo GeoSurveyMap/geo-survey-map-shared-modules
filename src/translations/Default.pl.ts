@@ -59,7 +59,7 @@ export const pl = {
       },
     },
 	solution: {
-		title: 'Problem solution',
+		title: 'Rozwiązanie problemu',
 	},
     successMessage: 'Sukces! Zgłoszenie zostało dodane do mapy',
     errorMessage: 'Ups! Coś poszło nie tak. Spróbuj ponownie',
