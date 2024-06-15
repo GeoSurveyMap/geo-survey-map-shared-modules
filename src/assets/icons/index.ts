@@ -17,6 +17,7 @@ import ArrowLeft from './arrow_left.svg';
 import Profile from './profile.svg';
 import Camera from './camera.svg';
 import Library from './library.svg';
+import Success from './success.svg';
 
 export {
   Cactus,
@@ -33,4 +34,5 @@ export {
   Profile,
   Camera,
   Library,
+  Success,
 };

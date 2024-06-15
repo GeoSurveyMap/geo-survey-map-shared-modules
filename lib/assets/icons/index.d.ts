@@ -15,4 +15,5 @@ import ArrowLeft from './arrow_left.svg';
 import Profile from './profile.svg';
 import Camera from './camera.svg';
 import Library from './library.svg';
-export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, };
+import Success from './success.svg';
+export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, };
