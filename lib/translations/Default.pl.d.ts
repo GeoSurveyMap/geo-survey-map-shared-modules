@@ -26,6 +26,7 @@ export declare const pl: {
     apply: string;
     categories: string;
     pressToAddPoint: string;
+    seeMore: string;
     notAuthenticatedModal: {
         title: string;
         message: string;

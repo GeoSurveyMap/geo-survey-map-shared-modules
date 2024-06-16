@@ -28,6 +28,7 @@ export const pl = {
   apply: 'Zastosuj',
   categories: 'Kategorie',
   pressToAddPoint: 'Przytrzymaj, aby dodać zgłoszenie',
+  seeMore: 'Zobacz więcej',
   notAuthenticatedModal: {
     title: 'Tylko zalogowani użytkownicy mogą dodać zgłoszenie',
     message: 'Zaloguj się aby kontynuować',

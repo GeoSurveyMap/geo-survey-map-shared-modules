@@ -28,6 +28,7 @@ export const en = {
   apply: 'Apply',
   categories: 'Categories',
   pressToAddPoint: 'Press and hold to add a report',
+  seeMore: 'See more',
   notAuthenticatedModal: {
     title: 'Only logged-in users can add a report',
     message: 'Log in to continue',

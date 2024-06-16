@@ -28,6 +28,7 @@ export declare const fallbacks: {
             apply: string;
             categories: string;
             pressToAddPoint: string;
+            seeMore: string;
             notAuthenticatedModal: {
                 title: string;
                 message: string;
@@ -110,6 +111,7 @@ export declare const fallbacks: {
             apply: string;
             categories: string;
             pressToAddPoint: string;
+            seeMore: string;
             notAuthenticatedModal: {
                 title: string;
                 message: string;
