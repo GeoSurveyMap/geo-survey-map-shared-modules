@@ -17,4 +17,5 @@ import Camera from './camera.svg';
 import Library from './library.svg';
 import Success from './success.svg';
 import Close from './close.svg';
-export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, Close, };
+import ChevronDown from './chevron-down.svg';
+export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, Close, ChevronDown, };

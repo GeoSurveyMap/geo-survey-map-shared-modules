@@ -19,6 +19,7 @@ import Camera from './camera.svg';
 import Library from './library.svg';
 import Success from './success.svg';
 import Close from './close.svg';
+import ChevronDown from './chevron-down.svg';
 
 export {
   Cactus,
@@ -37,4 +38,5 @@ export {
   Library,
   Success,
   Close,
+  ChevronDown,
 };
