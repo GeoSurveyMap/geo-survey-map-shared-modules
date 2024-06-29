@@ -1,3 +1,7 @@
+export declare const availableLanguages: {
+    name: string;
+    languageCode: string;
+}[];
 export declare const fallbacks: {
     en: {
         Default: {
