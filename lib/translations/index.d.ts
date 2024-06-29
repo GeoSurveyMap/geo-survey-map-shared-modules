@@ -1,6 +1,7 @@
 export declare const availableLanguages: {
     name: string;
     languageCode: string;
+    emoji: string;
 }[];
 export declare const fallbacks: {
     en: {
