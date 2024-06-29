@@ -18,6 +18,7 @@ import Profile from './profile.svg';
 import Camera from './camera.svg';
 import Library from './library.svg';
 import Success from './success.svg';
+import Close from './close.svg';
 
 export {
   Cactus,
@@ -35,4 +36,5 @@ export {
   Camera,
   Library,
   Success,
+  Close,
 };

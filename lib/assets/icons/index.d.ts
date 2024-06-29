@@ -16,4 +16,5 @@ import Profile from './profile.svg';
 import Camera from './camera.svg';
 import Library from './library.svg';
 import Success from './success.svg';
-export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, };
+import Close from './close.svg';
+export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, Close, };
