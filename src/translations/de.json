@@ -1,81 +1,81 @@
 {
   "category": {
-    "DRY_SOILS": "Dry soil",
-    "WET_SOILS": "Wet soil",
-    "EROSION": "Erosion",
-    "SEALED_SOILS": "Sealed soil",
-    "DEGRADATION": "Soil degradation",
-    "LOSS_OF_ORGANIC_MATTER": "Loss of organic matter",
-    "PH": "pH",
-    "BIODIVERSITY": "Biodiversity"
+    "DRY_SOILS": "Gleba sucha",
+    "WET_SOILS": "Gleba mokra",
+    "EROSION": "Erozja",
+    "SEALED_SOILS": "Gleba zasklepiona",
+    "DEGRADATION": "Degradacja gleby",
+    "LOSS_OF_ORGANIC_MATTER": "Utrata materii organicznej",
+    "PH": "PH",
+    "BIODIVERSITY": "Bioróżnorodność"
   },
-  "login": "Login",
-  "logout": "Logout",
-  "register": "Register",
-  "profile": "Profile",
-  "filters": "Filters",
-  "filtersDescription": "Select the categories of points you want to see on the map",
-  "close": "Close",
-  "cancel": "Cancel",
-  "back": "Back",
-  "next": "Next",
-  "skip": "Skip",
-  "addPoint": "Add point",
-  "clear": "Clear",
-  "remove": "Remove",
-  "apply": "Apply",
-  "categories": "Categories",
-  "pressToAddPoint": "Press and hold to add a report",
-  "seeMore": "See more",
+  "login": "Zaloguj",
+  "logout": "Wyloguj",
+  "register": "Zarejestruj",
+  "profile": "Profil",
+  "filters": "Filtry",
+  "filtersDescription": "Wybierz kategorie punktów które chcesz zobaczyć na mapie",
+  "close": "Zamknij",
+  "cancel": "Anuluj",
+  "back": "Wróć",
+  "next": "Dalej",
+  "skip": "Pomiń",
+  "addPoint": "Dodaj punkt",
+  "clear": "Wyczyść",
+  "remove": "Usuń",
+  "apply": "Zastosuj",
+  "categories": "Kategorie",
+  "pressToAddPoint": "Przytrzymaj, aby dodać zgłoszenie",
+  "seeMore": "Zobacz więcej",
   "notAuthenticatedModal": {
-    "title": "Only logged-in users can add a report",
-    "message": "Log in to continue"
+    "title": "Tylko zalogowani użytkownicy mogą dodać zgłoszenie",
+    "message": "Zaloguj się aby kontynuować"
   },
   "addPointForm": {
     "chooseCategory": {
-      "title": "Choose category",
-      "description": "Fill out a short survey and add a point on the map"
+      "title": "Wybierz kategorię",
+      "description": "Wypełnij krótki kwestionariusz i dodaj punkt na mapie"
     },
     "affectedArea": {
-      "title": "Affected area",
-      "placeholder": "Select area radius"
+      "title": "Obszar dotknięty problemem",
+      "placeholder": "Wybierz promień obszaru"
     },
     "addPhoto": {
-      "title": "Add photo",
-      "takePhoto": "Take photo",
-      "or": "or",
-      "chooseFromGallery": "Choose from gallery"
+      "title": "Dodaj zdjęcie",
+      "takePhoto": "Zrób zdjęcie",
+      "or": "lub",
+      "chooseFromGallery": "Wybierz zdjęcie z galerii"
     },
     "description": {
-      "title": "Describe the place",
+      "title": "Opisz miejsce",
       "placeName": {
-        "label": "Place name",
-        "placeholder": "e.g., Kościuszko St. Park"
+        "label": "Nazwa miejsca",
+        "placeholder": "np. Park ul. Kościuszki"
       },
       "problemDescription": {
-        "label": "Problem description",
+        "label": "Opis problemu",
         "placeholder": ""
       }
     },
     "solution": {
-      "title": "Problem solution"
+      "title": "Rozwiązanie problemu"
     },
-    "successMessage": "Success! The report has been added to the map",
-    "errorMessage": "Oops! Something went wrong. Try again"
+    "successMessage": "Sukces! Zgłoszenie zostało dodane do mapy",
+    "errorMessage": "Ups! Coś poszło nie tak. Spróbuj ponownie"
   },
   "pointDetails": {
-    "category": "Category",
-    "placeName": "Place name",
-    "affectedArea": "Problem radius",
-    "problemDescription": "Problem description",
-    "problemSolution": "Problem solution",
-    "photo": "Photo"
+    "category": "Kategoria",
+    "placeName": "Nazwa miejsca",
+    "affectedArea": "Promień problemu",
+    "problemDescription": "Opis problemu",
+    "problemSolution": "Rozwiązanie problemu",
+    "photo": "Zdjęcie"
   },
   "userProfile": {
-    "title": "User profile",
-    "appLanguage": "App language",
-    "manageAccount": "Manage account",
-    "logout": "Logout",
-    "removeAccount": "Remove account"
+    "title": "Profil użytkownika",
+    "appLanguage": "Język aplikacji",
+    "manageAccount": "Zarządzaj kontem",
+    "logout": "Wyloguj",
+    "removeAccount": "Usuń konto"
   }
 }
