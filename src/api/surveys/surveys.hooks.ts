@@ -7,12 +7,12 @@ import {
   getSurveysWithinBoundingBox,
 } from './surveys';
 import { queryClient, queryKeys } from '../libs/query';
-import { BoundingBoxRequest } from './surveys.types';
+import { BoundingBoxRequest, SurveyRequest } from './surveys.types';
 
 // Custom hook for creating a new survey
-export function useCreateSurvey() {
+export function useCreateSurvey(kindeId: string) {
   return useMutation({
-    mutationFn: createSurvey,
+    mutationFn: (data: SurveyRequest) => createSurvey(kindeId, data),
     onSuccess: ({ data: { data } }) => {
       queryClient.invalidateQueries({ queryKey: queryKeys.survey.all });
 

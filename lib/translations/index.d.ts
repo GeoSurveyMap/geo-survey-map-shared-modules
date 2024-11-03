@@ -3,6 +3,11 @@ export declare const availableLanguages: {
     languageCode: string;
     emoji: string;
 }[];
+export declare function getLanguageDetails(languageCode: string): {
+    name: string | undefined;
+    languageCode: string;
+    emoji: string;
+};
 export declare const fallbacks: {
     en: {
         Default: {

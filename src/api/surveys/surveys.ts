@@ -10,7 +10,7 @@ import { axiosClient } from '../libs/axiosClient';
 
 const URLS = {
   SURVEY: '/api/v1/survey',
-  CREATE_SURVEY: '/api/v1/survey/create',
+  createSurvey: (kindeId: string) => `/api/v1/survey/${kindeId}/create`,
   ALL_SURVEYS: `/api/v1/survey/all`,
   BOUNDING_BOX: `/api/v1/survey/bounding-box`,
   surveysByLocation: (x: number, y: number) => `/api/v1/survey/x/${x}/y/${y}`,
@@ -19,8 +19,8 @@ const URLS = {
 };
 
 // Create a new survey
-export function createSurvey(data: SurveyRequest) {
-  return axiosClient.post<ApiResponseSurvey>(URLS.CREATE_SURVEY, data);
+export function createSurvey(kindeId: string, data: SurveyRequest) {
+  return axiosClient.post<ApiResponseSurvey>(URLS.createSurvey(kindeId), data);
 }
 
 // Get survey by location
