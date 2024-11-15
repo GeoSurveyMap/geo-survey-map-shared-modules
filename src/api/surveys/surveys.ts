@@ -8,7 +8,7 @@ import {
 } from './surveys.types';
 import { axiosClient } from '../libs/axiosClient';
 
-const URLS = {
+export const URLS = {
   SURVEY: '/api/v1/survey',
   createSurvey: (filePath?: string) => {
     const params = new URLSearchParams(filePath ? { filePath } : {});
@@ -16,6 +16,7 @@ const URLS = {
   },
   ALL_SURVEYS: `/api/v1/survey/all`,
   BOUNDING_BOX: `/api/v1/survey/bounding-box`,
+  UPLOAD_FILE: '/api/v1/survey/upload',
   surveysByLocation: (x: number, y: number) => `/api/v1/survey/x/${x}/y/${y}`,
   surveysWithinRadius: (x: number, y: number, radius: number) => {
     const params = new URLSearchParams({ radius: radius.toString() });

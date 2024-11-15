@@ -7,7 +7,7 @@ import {
   getSurveysWithinBoundingBox,
 } from './surveys';
 import { queryClient, queryKeys } from '../libs/query';
-import { BoundingBoxRequest, SurveyRequest } from './surveys.types';
+import { BoundingBoxRequest } from './surveys.types';
 
 // Custom hook for creating a new survey
 export function useCreateSurvey() {
