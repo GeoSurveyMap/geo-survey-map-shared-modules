@@ -24,7 +24,9 @@ const URLS = {
 };
 
 // Create a new survey
-export function createSurvey(data: SurveyRequest, filePath?: string) {
+export function createSurvey(data: SurveyRequest) {
+  const filePath = data.filePath;
+  delete data.filePath;
   return axiosClient.post<ApiResponseSurvey>(URLS.createSurvey(filePath), data);
 }
 

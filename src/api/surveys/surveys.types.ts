@@ -22,6 +22,7 @@ export interface SurveyRequest {
   locationRequest: LocationRequest;
   /** @format double */
   affectedArea: number;
+  filePath?: string;
 }
 
 export interface ApiResponseError {
