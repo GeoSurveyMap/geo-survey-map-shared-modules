@@ -74,7 +74,7 @@ export interface Survey {
   location: Location;
   affectedArea: number;
   user: User;
-  createadAt: string;
+  createdAt: string;
   filePath?: string;
 }
 
