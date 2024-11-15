@@ -5,6 +5,7 @@ import {
   getAllSurveysWithinRadius,
   getSurveyByLocation,
   getSurveysWithinBoundingBox,
+  postUploadFile,
 } from './surveys';
 import { queryClient, queryKeys } from '../libs/query';
 import { BoundingBoxRequest } from './surveys.types';
@@ -22,6 +23,13 @@ export function useCreateSurvey() {
         });
       }
     },
+  });
+}
+
+// Custom hook for uploading a file
+export function useFileUpload() {
+  return useMutation({
+    mutationFn: postUploadFile,
   });
 }
 

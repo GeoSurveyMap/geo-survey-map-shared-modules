@@ -8,7 +8,7 @@ import {
 } from './surveys.types';
 import { axiosClient } from '../libs/axiosClient';
 
-export const URLS = {
+const URLS = {
   SURVEY: '/api/v1/survey',
   createSurvey: (filePath?: string) => {
     const params = new URLSearchParams(filePath ? { filePath } : {});
@@ -29,6 +29,15 @@ export function createSurvey(data: SurveyRequest) {
   const filePath = data.filePath;
   delete data.filePath;
   return axiosClient.post<ApiResponseSurvey>(URLS.createSurvey(filePath), data);
+}
+
+// Upload file
+export function postUploadFile(formData: FormData) {
+  return axiosClient.post<string>(URLS.UPLOAD_FILE, formData, {
+    headers: {
+      'Content-Type': 'multipart/form-data',
+    },
+  });
 }
 
 // Get survey by location
