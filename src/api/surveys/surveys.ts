@@ -10,17 +10,22 @@ import { axiosClient } from '../libs/axiosClient';
 
 const URLS = {
   SURVEY: '/api/v1/survey',
-  createSurvey: (kindeId: string) => `/api/v1/survey/${kindeId}/create`,
+  createSurvey: (filePath?: string) => {
+    const params = new URLSearchParams(filePath ? { filePath } : {});
+    return `/api/v1/survey/create?${params.toString()}`;
+  },
   ALL_SURVEYS: `/api/v1/survey/all`,
   BOUNDING_BOX: `/api/v1/survey/bounding-box`,
   surveysByLocation: (x: number, y: number) => `/api/v1/survey/x/${x}/y/${y}`,
-  surveysWithinRadius: (x: number, y: number, radius) =>
-    URLS.surveysByLocation(x, y) + `/radius/${radius}`,
+  surveysWithinRadius: (x: number, y: number, radius: number) => {
+    const params = new URLSearchParams({ radius: radius.toString() });
+    return URLS.surveysByLocation(x, y) + `?${params.toString()}`;
+  },
 };
 
 // Create a new survey
-export function createSurvey(kindeId: string, data: SurveyRequest) {
-  return axiosClient.post<ApiResponseSurvey>(URLS.createSurvey(kindeId), data);
+export function createSurvey(data: SurveyRequest, filePath?: string) {
+  return axiosClient.post<ApiResponseSurvey>(URLS.createSurvey(filePath), data);
 }
 
 // Get survey by location
