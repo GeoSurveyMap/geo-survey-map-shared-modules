@@ -5,6 +5,7 @@ import {
   LocationRequest,
   RadiusRequest,
   SurveyRequest,
+  UploadFileReponse,
 } from './surveys.types';
 import { axiosClient } from '../libs/axiosClient';
 
@@ -33,7 +34,7 @@ export function createSurvey(data: SurveyRequest) {
 
 // Upload file
 export function postUploadFile(formData: FormData) {
-  return axiosClient.post<string>(URLS.UPLOAD_FILE, formData, {
+  return axiosClient.post<UploadFileReponse>(URLS.UPLOAD_FILE, formData, {
     headers: {
       'Content-Type': 'multipart/form-data',
     },

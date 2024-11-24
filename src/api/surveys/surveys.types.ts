@@ -92,3 +92,7 @@ export interface BoundingBoxRequest {
   maxY: number;
   categories?: Category[];
 }
+
+export interface UploadFileReponse {
+  data: string;
+}
