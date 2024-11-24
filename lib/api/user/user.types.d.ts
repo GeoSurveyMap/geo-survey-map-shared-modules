@@ -29,5 +29,6 @@ export declare enum Permissions {
     GREAT_BRITAIN = "GREAT_BRITAIN",
     HUNGARY = "HUNGARY"
 }
+export type PostRegisterUserRequest = Omit<User, 'id'>;
 export type PostRegisterUserResponse = UserId;
 export {};

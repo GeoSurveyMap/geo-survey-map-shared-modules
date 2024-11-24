@@ -31,4 +31,6 @@ export enum Permissions {
   HUNGARY = 'HUNGARY',
 }
 
+export type PostRegisterUserRequest = Omit<User, 'id'>;
+
 export type PostRegisterUserResponse = UserId;
