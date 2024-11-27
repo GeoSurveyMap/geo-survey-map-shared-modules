@@ -107,6 +107,7 @@ export declare const fallbacks: {
                 appVersion: string;
             };
             pointsList: {
+                title: string;
                 noPoints: string;
                 unauthorized: string;
             };
@@ -222,6 +223,7 @@ export declare const fallbacks: {
                 appVersion: string;
             };
             pointsList: {
+                title: string;
                 noPoints: string;
                 unauthorized: string;
             };

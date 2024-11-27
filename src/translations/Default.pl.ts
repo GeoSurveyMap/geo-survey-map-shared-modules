@@ -97,6 +97,7 @@ export const pl = {
     appVersion: 'Wersja aplikacji',
   },
   pointsList: {
+    title: 'Lista dodanych punktów',
     noPoints: 'Nie dodano żadnych punktów.',
     unauthorized: 'Zaloguj się, aby zobaczyć dodane punkty.',
   },

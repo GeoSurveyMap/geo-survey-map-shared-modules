@@ -95,6 +95,7 @@ export declare const pl: {
         appVersion: string;
     };
     pointsList: {
+        title: string;
         noPoints: string;
         unauthorized: string;
     };

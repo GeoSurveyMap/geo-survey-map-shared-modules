@@ -95,6 +95,7 @@ export declare const en: {
         appVersion: string;
     };
     pointsList: {
+        title: string;
         noPoints: string;
         unauthorized: string;
     };
