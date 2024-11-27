@@ -16,7 +16,7 @@ export function useCreateSurvey() {
   return useMutation({
     mutationFn: createSurvey,
     onSuccess: ({ data: { data } }) => {
-      queryClient.invalidateQueries({ queryKey: queryKeys.survey.all });
+      queryClient.invalidateQueries({ queryKey: [queryKeys.survey.all, queryKeys.survey.user] });
 
       if (data?.location?.x && data?.location?.y) {
         queryClient.invalidateQueries({
