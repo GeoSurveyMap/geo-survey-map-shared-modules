@@ -5,6 +5,7 @@ import {
   getAllSurveysWithinRadius,
   getSurveyByLocation,
   getSurveysWithinBoundingBox,
+  getUsersSurveys,
   postUploadFile,
 } from './surveys';
 import { queryClient, queryKeys } from '../libs/query';
@@ -70,6 +71,14 @@ export function useGetSurveysWithinBoundingBox({
   return useQuery({
     queryKey: queryKeys.survey.withinBoundingBox(minX, maxX, minY, maxY, categories),
     queryFn: () => getSurveysWithinBoundingBox({ minX, maxX, minY, maxY, categories }),
+    select: ({ data }) => data.data,
+  });
+}
+
+export function useGetUsersSurveys() {
+  return useQuery({
+    queryKey: queryKeys.survey.user,
+    queryFn: getUsersSurveys,
     select: ({ data }) => data.data,
   });
 }

@@ -16,6 +16,7 @@ const URLS = {
     return `/api/v1/survey/create?${params.toString()}`;
   },
   ALL_SURVEYS: `/api/v1/survey/all`,
+  SELF_SURVEYS: `/api/v1/survey/self`,
   BOUNDING_BOX: `/api/v1/survey/bounding-box`,
   UPLOAD_FILE: '/api/v1/survey/upload',
   surveysByLocation: (x: number, y: number) => `/api/v1/survey/x/${x}/y/${y}`,
@@ -73,4 +74,8 @@ export function getSurveysWithinBoundingBox({
       categories,
     },
   });
+}
+
+export function getUsersSurveys() {
+  return axiosClient.get<ApiResponseListSurvey>(URLS.SELF_SURVEYS);
 }
