@@ -18,4 +18,7 @@ import Library from './library.svg';
 import Success from './success.svg';
 import Close from './close.svg';
 import ChevronDown from './chevron-down.svg';
-export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, Close, ChevronDown, };
+import Map from './map.svg';
+import Settings from './settings.svg';
+import User from './user.svg';
+export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, Close, ChevronDown, Map, Settings, User, };

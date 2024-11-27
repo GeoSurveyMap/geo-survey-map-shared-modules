@@ -20,6 +20,9 @@ import Library from './library.svg';
 import Success from './success.svg';
 import Close from './close.svg';
 import ChevronDown from './chevron-down.svg';
+import Map from './map.svg';
+import Settings from './settings.svg';
+import User from './user.svg';
 
 export {
   Cactus,
@@ -39,4 +42,7 @@ export {
   Success,
   Close,
   ChevronDown,
+  Map,
+  Settings,
+  User,
 };
