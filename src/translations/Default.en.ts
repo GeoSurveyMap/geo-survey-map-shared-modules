@@ -11,6 +11,16 @@ export const en = {
     [Category.PH]: 'pH',
     [Category.BIODIVERSITY]: 'Biodiversity',
   },
+  categoryInformation: {
+    [Category.DRY_SOILS]: '',
+    [Category.WET_SOILS]: '',
+    [Category.EROSION]: '',
+    [Category.SEALED_SOILS]: '',
+    [Category.DEGRADATION]: '',
+    [Category.LOSS_OF_ORGANIC_MATTER]: '',
+    [Category.PH]: '',
+    [Category.BIODIVERSITY]: '',
+  },
   login: 'Login',
   logout: 'Logout',
   register: 'Register',
@@ -28,6 +38,7 @@ export const en = {
   apply: 'Apply',
   categories: 'Categories',
   pressToAddPoint: 'Press and hold to add a report',
+  addPointHere: 'Add point in my location',
   seeMore: 'See more',
   notAuthenticatedModal: {
     title: 'Only logged-in users can add a report',
@@ -36,7 +47,7 @@ export const en = {
   addPointForm: {
     chooseCategory: {
       title: 'Choose category',
-	  description: 'Fill out a short survey and add a point on the map'
+      description: 'Fill out a short survey and add a point on the map',
     },
     affectedArea: {
       title: 'Affected area',
@@ -59,9 +70,9 @@ export const en = {
         placeholder: '',
       },
     },
-	solution: {
-		title: 'Problem solution',
-	},
+    solution: {
+      title: 'Problem solution',
+    },
     successMessage: 'Success! The report has been added to the map',
     errorMessage: 'Oops! Something went wrong. Try again',
   },
@@ -70,7 +81,7 @@ export const en = {
     placeName: 'Place name',
     affectedArea: 'Problem radius',
     problemDescription: 'Problem description',
-	problemSolution: 'Problem solution',
+    problemSolution: 'Problem solution',
     photo: 'Photo',
   },
   userProfile: {
@@ -79,5 +90,26 @@ export const en = {
     manageAccount: 'Manage account',
     logout: 'Logout',
     removeAccount: 'Remove account',
+  },
+  settings: {
+    title: 'Settings',
+    appLanguage: 'App language',
+    appVersion: 'App version',
+  },
+  pointsList: {
+    noPoints: 'No points have been added.',
+    unauthorized: 'Log in to see added points.',
+  },
+  noPermissions: {
+    library: {
+      title: "We can't access your photos",
+      description: 'Please allow access to your photos in the settings.',
+    },
+    camera: {
+      title: "We can't access your camera",
+      description: 'Please allow access to your camera in the settings.',
+    },
+    cancel: 'Cancel',
+    openSettings: 'Open settings',
   },
 };

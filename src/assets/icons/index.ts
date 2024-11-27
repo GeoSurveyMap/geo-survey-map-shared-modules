@@ -22,7 +22,6 @@ import Close from './close.svg';
 import ChevronDown from './chevron-down.svg';
 import Map from './map.svg';
 import Settings from './settings.svg';
-import User from './user.svg';
 
 export {
   Cactus,
@@ -44,5 +43,4 @@ export {
   ChevronDown,
   Map,
   Settings,
-  User,
 };

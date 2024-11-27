@@ -11,6 +11,16 @@ export const pl = {
     [Category.PH]: 'PH',
     [Category.BIODIVERSITY]: 'Bioróżnorodność',
   },
+  categoryInformation: {
+    [Category.DRY_SOILS]: '',
+    [Category.WET_SOILS]: '',
+    [Category.EROSION]: '',
+    [Category.SEALED_SOILS]: '',
+    [Category.DEGRADATION]: '',
+    [Category.LOSS_OF_ORGANIC_MATTER]: '',
+    [Category.PH]: '',
+    [Category.BIODIVERSITY]: '',
+  },
   login: 'Zaloguj',
   logout: 'Wyloguj',
   register: 'Zarejestruj',
@@ -28,6 +38,7 @@ export const pl = {
   apply: 'Zastosuj',
   categories: 'Kategorie',
   pressToAddPoint: 'Przytrzymaj, aby dodać zgłoszenie',
+  addPointHere: 'Dodaj punkt w mojej lokacji',
   seeMore: 'Zobacz więcej',
   notAuthenticatedModal: {
     title: 'Tylko zalogowani użytkownicy mogą dodać zgłoszenie',
@@ -36,7 +47,7 @@ export const pl = {
   addPointForm: {
     chooseCategory: {
       title: 'Wybierz kategorię',
-	  description: 'Wypełnij krótki kwestionariusz i dodaj punkt na mapie'
+      description: 'Wypełnij krótki kwestionariusz i dodaj punkt na mapie',
     },
     affectedArea: {
       title: 'Obszar dotknięty problemem',
@@ -59,9 +70,9 @@ export const pl = {
         placeholder: '',
       },
     },
-	solution: {
-		title: 'Rozwiązanie problemu',
-	},
+    solution: {
+      title: 'Rozwiązanie problemu',
+    },
     successMessage: 'Sukces! Zgłoszenie zostało dodane do mapy',
     errorMessage: 'Ups! Coś poszło nie tak. Spróbuj ponownie',
   },
@@ -79,5 +90,26 @@ export const pl = {
     manageAccount: 'Zarządzaj kontem',
     logout: 'Wyloguj',
     removeAccount: 'Usuń konto',
+  },
+  settings: {
+    title: 'Ustawienia',
+    appLanguage: 'Język aplikacji',
+    appVersion: 'Wersja aplikacji',
+  },
+  pointsList: {
+    noPoints: 'Nie dodano żadnych punktów.',
+    unauthorized: 'Zaloguj się, aby zobaczyć dodane punkty.',
+  },
+  noPermissions: {
+    library: {
+      title: 'Nie możemy uzyskać dostępu do zdjęć',
+      description: 'Zezwól na dostęp do zdjęć w ustawieniach.',
+    },
+    camera: {
+      title: 'Nie możemy uzyskać dostępu do kamery',
+      description: 'Zezwól na dostęp do kamery w ustawieniach.',
+    },
+    cancel: 'Anuluj',
+    openSettings: 'Otówrz ustawienia',
   },
 };

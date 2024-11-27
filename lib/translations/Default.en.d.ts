@@ -9,6 +9,16 @@ export declare const en: {
         PH: string;
         BIODIVERSITY: string;
     };
+    categoryInformation: {
+        DRY_SOILS: string;
+        WET_SOILS: string;
+        EROSION: string;
+        SEALED_SOILS: string;
+        DEGRADATION: string;
+        LOSS_OF_ORGANIC_MATTER: string;
+        PH: string;
+        BIODIVERSITY: string;
+    };
     login: string;
     logout: string;
     register: string;
@@ -26,6 +36,7 @@ export declare const en: {
     apply: string;
     categories: string;
     pressToAddPoint: string;
+    addPointHere: string;
     seeMore: string;
     notAuthenticatedModal: {
         title: string;
@@ -77,5 +88,26 @@ export declare const en: {
         manageAccount: string;
         logout: string;
         removeAccount: string;
+    };
+    settings: {
+        title: string;
+        appLanguage: string;
+        appVersion: string;
+    };
+    pointsList: {
+        noPoints: string;
+        unauthorized: string;
+    };
+    noPermissions: {
+        library: {
+            title: string;
+            description: string;
+        };
+        camera: {
+            title: string;
+            description: string;
+        };
+        cancel: string;
+        openSettings: string;
     };
 };
