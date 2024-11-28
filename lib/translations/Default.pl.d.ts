@@ -80,6 +80,7 @@ export declare const pl: {
         affectedArea: string;
         problemDescription: string;
         problemSolution: string;
+        reportDate: string;
         photo: string;
     };
     userProfile: {

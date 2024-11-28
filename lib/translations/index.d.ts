@@ -92,6 +92,7 @@ export declare const fallbacks: {
                 affectedArea: string;
                 problemDescription: string;
                 problemSolution: string;
+                reportDate: string;
                 photo: string;
             };
             userProfile: {
@@ -208,6 +209,7 @@ export declare const fallbacks: {
                 affectedArea: string;
                 problemDescription: string;
                 problemSolution: string;
+                reportDate: string;
                 photo: string;
             };
             userProfile: {

@@ -82,6 +82,7 @@ export const en = {
     affectedArea: 'Problem radius',
     problemDescription: 'Problem description',
     problemSolution: 'Problem solution',
+    reportDate: 'Date of report',
     photo: 'Photo',
   },
   userProfile: {

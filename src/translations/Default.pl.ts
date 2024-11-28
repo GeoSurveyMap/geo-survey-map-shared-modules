@@ -82,6 +82,7 @@ export const pl = {
     affectedArea: 'Promień problemu',
     problemDescription: 'Opis problemu',
     problemSolution: 'Rozwiązanie problemu',
+    reportDate: 'Data zgłoszenia',
     photo: 'Zdjęcie',
   },
   userProfile: {
