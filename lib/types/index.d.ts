@@ -25,3 +25,7 @@ export declare enum Category {
     PH = "PH",
     BIODIVERSITY = "BIODIVERSITY"
 }
+export declare enum PointStatus {
+    accepted = "accepted",
+    pending = "pending"
+}

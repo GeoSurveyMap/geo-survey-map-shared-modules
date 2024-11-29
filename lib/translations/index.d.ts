@@ -31,6 +31,10 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            pointStatus: {
+                accepted: string;
+                pending: string;
+            };
             login: string;
             logout: string;
             register: string;
@@ -123,6 +127,30 @@ export declare const fallbacks: {
                 };
                 cancel: string;
                 openSettings: string;
+            };
+            pointManagement: {
+                title: string;
+                generateReport: string;
+                pointsToApprove: string;
+                approvedPoints: string;
+                pointId: string;
+                pointName: string;
+                dateFrom: string;
+                dateTo: string;
+                pointType: string;
+                approve: string;
+                delete: string;
+                noData: string;
+                download: string;
+            };
+            userManagement: {
+                title: string;
+                emailPlaceholder: string;
+                deleteUser: string;
+                confirmDeleteMessage: string;
+                cancel: string;
+                confirm: string;
+                noUsers: string;
             };
         };
     };
@@ -148,6 +176,10 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            pointStatus: {
+                accepted: string;
+                pending: string;
+            };
             login: string;
             logout: string;
             register: string;
@@ -240,6 +272,30 @@ export declare const fallbacks: {
                 };
                 cancel: string;
                 openSettings: string;
+            };
+            pointManagement: {
+                title: string;
+                generateReport: string;
+                pointsToApprove: string;
+                approvedPoints: string;
+                pointId: string;
+                pointName: string;
+                dateFrom: string;
+                dateTo: string;
+                pointType: string;
+                approve: string;
+                delete: string;
+                noData: string;
+                download: string;
+            };
+            userManagement: {
+                title: string;
+                emailPlaceholder: string;
+                deleteUser: string;
+                confirmDeleteMessage: string;
+                cancel: string;
+                confirm: string;
+                noUsers: string;
             };
         };
     };

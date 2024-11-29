@@ -1,4 +1,4 @@
-import { Category } from '../types';
+import { Category, PointStatus } from '../types';
 
 export const pl = {
   category: {
@@ -20,6 +20,10 @@ export const pl = {
     [Category.LOSS_OF_ORGANIC_MATTER]: '',
     [Category.PH]: '',
     [Category.BIODIVERSITY]: '',
+  },
+  pointStatus: {
+	[PointStatus.accepted]: 'Zaakceptowany',
+	[PointStatus.pending]: 'W trakcie weryfikacji',
   },
   login: 'Zaloguj',
   logout: 'Wyloguj',
@@ -113,5 +117,29 @@ export const pl = {
     },
     cancel: 'Anuluj',
     openSettings: 'Otówrz ustawienia',
+  },
+  pointManagement: {
+	title: 'Punkty',
+	generateReport: 'Wygeneruj raport',
+	pointsToApprove: 'Punkty do akceptacji',
+	approvedPoints: 'Punkty',
+	pointId: 'Id punktu',
+	pointName: 'Nazwa punktu',
+	dateFrom: 'Data od',
+	dateTo: 'Data do',
+	pointType: 'Typ punktu',
+	approve: 'Zaakceptuj',
+	delete: 'Usuń',
+	noData: 'Brak danych do wyświetlenia',
+	download: 'Pobierz',
+  },
+  userManagement: {
+	title: 'Zarządzanie użytkownikami',
+	emailPlaceholder: 'Szukaj po emailu ...',
+	deleteUser: 'Usuń użytkownika',
+	confirmDeleteMessage: 'Czy na pewno chcesz usunąć konto użytkownika wraz ze wszystkimi jego wpisami?',
+	cancel: 'Anuluj',
+	confirm: 'Usuń konto',
+	noUsers: 'Brak użytkowników do wyświetlenia',
   },
 };
