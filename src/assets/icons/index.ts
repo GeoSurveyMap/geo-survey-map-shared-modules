@@ -22,6 +22,7 @@ import Close from './close.svg';
 import ChevronDown from './chevron-down.svg';
 import Map from './map.svg';
 import Settings from './settings.svg';
+import GSMIcon from './icon.svg';
 
 export {
   Cactus,
@@ -43,4 +44,5 @@ export {
   ChevronDown,
   Map,
   Settings,
+  GSMIcon,
 };
