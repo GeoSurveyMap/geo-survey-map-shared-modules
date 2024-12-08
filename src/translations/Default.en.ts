@@ -147,7 +147,7 @@ export const en = {
   onboarding: {
     goToTheAppButton: 'Go to the app',
     welcome: {
-      title: 'Welcome to\n GeoSurveyMap!',
+      title: 'Welcome to\nGeoSurveyMap!',
       description: 'A tool designed to report soils in unhealthy conditions',
     },
     instruction: {

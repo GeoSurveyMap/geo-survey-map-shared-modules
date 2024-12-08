@@ -146,7 +146,7 @@ export const pl = {
   onboarding: {
     goToTheAppButton: 'Przejdź do aplikacji',
     welcome: {
-      title: 'Witamy w\n GeoSurveyMap!',
+      title: 'Witamy w\nGeoSurveyMap!',
       description: 'Narzędzie zaprojektowane do zgłaszania gleb w niezdrowym stanie',
     },
     instruction: {
