@@ -152,6 +152,31 @@ export declare const fallbacks: {
                 confirm: string;
                 noUsers: string;
             };
+            onboarding: {
+                goToTheAppButton: string;
+                welcome: {
+                    title: string;
+                    description: string;
+                };
+                instruction: {
+                    step1: {
+                        title: string;
+                        description: string;
+                    };
+                    step2: {
+                        title: string;
+                        description: string;
+                    };
+                    step3: {
+                        title: string;
+                        description: string;
+                    };
+                };
+                aboutSoils: {
+                    title: string;
+                    description: string;
+                };
+            };
         };
     };
     pl: {
@@ -296,6 +321,31 @@ export declare const fallbacks: {
                 cancel: string;
                 confirm: string;
                 noUsers: string;
+            };
+            onboarding: {
+                goToTheAppButton: string;
+                welcome: {
+                    title: string;
+                    description: string;
+                };
+                instruction: {
+                    step1: {
+                        title: string;
+                        description: string;
+                    };
+                    step2: {
+                        title: string;
+                        description: string;
+                    };
+                    step3: {
+                        title: string;
+                        description: string;
+                    };
+                };
+                aboutSoils: {
+                    title: string;
+                    description: string;
+                };
             };
         };
     };

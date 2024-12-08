@@ -140,4 +140,29 @@ export declare const en: {
         confirm: string;
         noUsers: string;
     };
+    onboarding: {
+        goToTheAppButton: string;
+        welcome: {
+            title: string;
+            description: string;
+        };
+        instruction: {
+            step1: {
+                title: string;
+                description: string;
+            };
+            step2: {
+                title: string;
+                description: string;
+            };
+            step3: {
+                title: string;
+                description: string;
+            };
+        };
+        aboutSoils: {
+            title: string;
+            description: string;
+        };
+    };
 };
