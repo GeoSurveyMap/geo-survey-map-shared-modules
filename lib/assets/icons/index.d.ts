@@ -21,4 +21,7 @@ import ChevronDown from './chevron-down.svg';
 import Map from './map.svg';
 import Settings from './settings.svg';
 import GSMIcon from './icon.svg';
-export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, Close, ChevronDown, Map, Settings, GSMIcon, };
+import Binoculars from './binoculars.svg';
+import AddLocation from './add_location.svg';
+import Confirmation from './confirmation.svg';
+export { Cactus, Dirt, Factory, Tractor, Wave, Wind, Filters, Login, Navigate, Question, ArrowLeft, Profile, Camera, Library, Success, Close, ChevronDown, Map, Settings, GSMIcon, Binoculars, AddLocation, Confirmation, };

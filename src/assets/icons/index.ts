@@ -23,6 +23,9 @@ import ChevronDown from './chevron-down.svg';
 import Map from './map.svg';
 import Settings from './settings.svg';
 import GSMIcon from './icon.svg';
+import Binoculars from './binoculars.svg';
+import AddLocation from './add_location.svg';
+import Confirmation from './confirmation.svg';
 
 export {
   Cactus,
@@ -45,4 +48,7 @@ export {
   Map,
   Settings,
   GSMIcon,
+  Binoculars,
+  AddLocation,
+  Confirmation,
 };
