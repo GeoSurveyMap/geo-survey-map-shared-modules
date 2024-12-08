@@ -36,6 +36,7 @@ export const en = {
   cancel: 'Cancel',
   back: 'Back',
   next: 'Next',
+  continue: 'Continue',
   skip: 'Skip',
   addPoint: 'Add point',
   clear: 'Clear',

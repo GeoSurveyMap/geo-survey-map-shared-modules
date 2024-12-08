@@ -45,6 +45,7 @@ export declare const fallbacks: {
             cancel: string;
             back: string;
             next: string;
+            continue: string;
             skip: string;
             addPoint: string;
             clear: string;
@@ -215,6 +216,7 @@ export declare const fallbacks: {
             cancel: string;
             back: string;
             next: string;
+            continue: string;
             skip: string;
             addPoint: string;
             clear: string;

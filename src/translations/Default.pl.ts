@@ -35,6 +35,7 @@ export const pl = {
   cancel: 'Anuluj',
   back: 'Wróć',
   next: 'Dalej',
+  continue: 'Kontynuuj',
   skip: 'Pomiń',
   addPoint: 'Dodaj punkt',
   clear: 'Wyczyść',

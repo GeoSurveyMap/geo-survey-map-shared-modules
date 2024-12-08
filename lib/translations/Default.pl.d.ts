@@ -33,6 +33,7 @@ export declare const pl: {
     cancel: string;
     back: string;
     next: string;
+    continue: string;
     skip: string;
     addPoint: string;
     clear: string;
