@@ -152,6 +152,7 @@ export const en = {
       description: 'A tool designed to report soils in unhealthy conditions',
     },
     instruction: {
+      title: 'How to use our tool?',
       step1: {
         title: 'Find soil that seem unhealthy',
         description:

@@ -151,6 +151,7 @@ export const pl = {
       description: 'Narzędzie zaprojektowane do zgłaszania gleb w niezdrowym stanie',
     },
     instruction: {
+      title: 'Jak używać aplikacji?',
       step1: {
         title: 'Znajdź glebę, która wydaje się niezdrowa',
         description:

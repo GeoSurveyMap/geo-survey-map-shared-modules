@@ -160,6 +160,7 @@ export declare const fallbacks: {
                     description: string;
                 };
                 instruction: {
+                    title: string;
                     step1: {
                         title: string;
                         description: string;
@@ -331,6 +332,7 @@ export declare const fallbacks: {
                     description: string;
                 };
                 instruction: {
+                    title: string;
                     step1: {
                         title: string;
                         description: string;

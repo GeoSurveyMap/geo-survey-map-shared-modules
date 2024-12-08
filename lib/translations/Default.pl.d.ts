@@ -148,6 +148,7 @@ export declare const pl: {
             description: string;
         };
         instruction: {
+            title: string;
             step1: {
                 title: string;
                 description: string;
