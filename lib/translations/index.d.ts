@@ -40,6 +40,7 @@ export declare const fallbacks: {
             register: string;
             profile: string;
             filters: string;
+            other: string;
             filtersDescription: string;
             close: string;
             cancel: string;
@@ -212,6 +213,7 @@ export declare const fallbacks: {
             register: string;
             profile: string;
             filters: string;
+            other: string;
             filtersDescription: string;
             close: string;
             cancel: string;

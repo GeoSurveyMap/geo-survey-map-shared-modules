@@ -28,6 +28,7 @@ export declare const en: {
     register: string;
     profile: string;
     filters: string;
+    other: string;
     filtersDescription: string;
     close: string;
     cancel: string;

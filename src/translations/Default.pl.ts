@@ -30,6 +30,7 @@ export const pl = {
   register: 'Zarejestruj',
   profile: 'Profil',
   filters: 'Filtry',
+  other: 'Inne',
   filtersDescription: 'Wybierz kategorie punktów które chcesz zobaczyć na mapie',
   close: 'Zamknij',
   cancel: 'Anuluj',

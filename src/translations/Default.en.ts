@@ -31,6 +31,7 @@ export const en = {
   register: 'Register',
   profile: 'Profile',
   filters: 'Filters',
+  other: 'Other',
   filtersDescription: 'Select the categories of points you want to see on the map',
   close: 'Close',
   cancel: 'Cancel',
