@@ -22,7 +22,4 @@ export const queryKeys = {
       categories?: Category[],
     ) => ['surveys', minX, maxX, minY, maxY, categories] as const,
   },
-  ipInfo: {
-	country: ['country'] as const,
-  }
 };

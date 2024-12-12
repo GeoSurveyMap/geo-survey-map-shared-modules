@@ -94,7 +94,7 @@ export const pl = {
   userProfile: {
     title: 'Profil użytkownika',
     appLanguage: 'Język aplikacji',
-    manageAccount: 'Zarządzaj kontem',
+    manageAccount: 'Zarządzanie kontem',
     logout: 'Wyloguj',
     removeAccount: 'Usuń konto',
 	pts: 'PKT',

@@ -12,7 +12,4 @@ export declare const queryKeys: {
         withinRadius: (x: number, y: number, radius: number) => readonly ["surveys", number, number, number];
         withinBoundingBox: (minX: number, maxX: number, minY: number, maxY: number, categories?: Category[]) => readonly ["surveys", number, number, number, number, Category[] | undefined];
     };
-    ipInfo: {
-        country: readonly ["country"];
-    };
 };
