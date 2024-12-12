@@ -107,6 +107,7 @@ export declare const fallbacks: {
                 manageAccount: string;
                 logout: string;
                 removeAccount: string;
+                pts: string;
             };
             settings: {
                 title: string;
@@ -280,6 +281,7 @@ export declare const fallbacks: {
                 manageAccount: string;
                 logout: string;
                 removeAccount: string;
+                pts: string;
             };
             settings: {
                 title: string;

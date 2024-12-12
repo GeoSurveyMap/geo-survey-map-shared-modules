@@ -97,6 +97,7 @@ export const pl = {
     manageAccount: 'Zarządzaj kontem',
     logout: 'Wyloguj',
     removeAccount: 'Usuń konto',
+	pts: 'PKT',
   },
   settings: {
     title: 'Ustawienia',

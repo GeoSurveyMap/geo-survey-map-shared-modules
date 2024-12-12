@@ -98,6 +98,7 @@ export const en = {
     manageAccount: 'Manage account',
     logout: 'Logout',
     removeAccount: 'Remove account',
+	pts: 'PTS',
   },
   settings: {
     title: 'Settings',

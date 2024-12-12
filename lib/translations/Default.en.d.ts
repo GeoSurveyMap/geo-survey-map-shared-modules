@@ -95,6 +95,7 @@ export declare const en: {
         manageAccount: string;
         logout: string;
         removeAccount: string;
+        pts: string;
     };
     settings: {
         title: string;
