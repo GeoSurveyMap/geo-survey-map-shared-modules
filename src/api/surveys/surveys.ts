@@ -5,6 +5,8 @@ import {
   LocationRequest,
   RadiusRequest,
   SurveyRequest,
+  SurveyStatus,
+  UpdateSurveyStatusRequest,
   UploadFileReponse,
 } from './surveys.types';
 import { axiosClient } from '../libs/axiosClient';
@@ -24,6 +26,7 @@ const URLS = {
     const params = new URLSearchParams({ radius: radius.toString() });
     return URLS.surveysByLocation(x, y) + `?${params.toString()}`;
   },
+  updateSurveyStatus: (surveyId: number, SurveyStatus: SurveyStatus) => `/${surveyId}/status/${SurveyStatus}`
 };
 
 // Create a new survey
@@ -78,4 +81,9 @@ export function getSurveysWithinBoundingBox({
 
 export function getUsersSurveys() {
   return axiosClient.get<ApiResponseListSurvey>(URLS.SELF_SURVEYS);
+}
+
+export function updateSurveyStatus(data: UpdateSurveyStatusRequest) {
+	const {status, surveyId} = data
+	return axiosClient.put<ApiResponseListSurvey>(URLS.updateSurveyStatus(surveyId, status));
 }

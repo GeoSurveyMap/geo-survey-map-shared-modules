@@ -12,6 +12,7 @@ import {
 const URLS = {
   USER: `/api/v1/user`,
   ALL: `/api/v1/user/filter`,
+  DELETE_SELF: `/api/v1/user/self`,
   usersWithinCountry: (permissions: Permissions) => {
     const params = new URLSearchParams({ permissions: permissions.toString() });
     return `/api/v1/user/filter?${params.toString()}`;
@@ -19,10 +20,6 @@ const URLS = {
   updatePermissions: (kindeId: string, permissions: Permissions[]) => {
     const params = new URLSearchParams({ permissions: permissions.toString() });
     return `/api/v1/user/update/${kindeId}?${params.toString()}`;
-  },
-  delete: (kindeId: string) => {
-    const params = new URLSearchParams({ kindeId: kindeId.toString() });
-    return `/users/${params.toString()}/delete`;
   },
   banOrReactivate: (kindeId: string, userStatus: UserStatus) => {
     return `/users/${kindeId}/status/${userStatus}`;
@@ -46,14 +43,11 @@ export function setUserPermissions(data: UpdateUserPermissionsRequest) {
 	return axiosClient.put<GetUsersResponse>(URLS.updatePermissions(kindeId, permissions));
 }
 
-export function deleteUser(data: UpdateUserPermissionsRequest) {
-	const { kindeId } = data;
-	return axiosClient.delete<GetUsersResponse>(URLS.delete(kindeId));
+export function deleteUserSelf() {
+	return axiosClient.delete<GetUsersResponse>(URLS.DELETE_SELF);
 }
 
 export function banOrReactivateUser(data: BanOrReactivateUserRequest) {
 	const { kindeId, status } = data;
 	return axiosClient.delete<GetUsersResponse>(URLS.banOrReactivate(kindeId, status));
 }
-
-

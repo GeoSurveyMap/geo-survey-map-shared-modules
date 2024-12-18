@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
-import { banOrReactivateUser, deleteUser, getAllUsers, getUsersWithinCountry, postRegisterUser, setUserPermissions } from './user';
+import { banOrReactivateUser, deleteUserSelf, getAllUsers, getUsersWithinCountry, postRegisterUser, setUserPermissions } from './user';
 import { queryClient, queryKeys } from '../../api/libs/query';
 import { Permissions } from './user.types';
 
@@ -40,6 +40,7 @@ export function useSetUserPermissions() {
 	});
 }
 
+// Custom hook for banning or reactivating a user
 export function useBanOrReactivateUser() {
 	return useMutation({
 	  mutationFn: banOrReactivateUser,
@@ -49,9 +50,10 @@ export function useBanOrReactivateUser() {
 	});
 }
 
-export function useDeleteUser() {
+// Custom hook for self deleting account
+export function useDeleteUserSelf() {
 	return useMutation({
-	  mutationFn: deleteUser,
+	  mutationFn: deleteUserSelf,
 	  onSuccess: () => {
 		queryClient.invalidateQueries({ queryKey: [queryKeys.users.all, queryKeys.users.withinCountry] });
 	  },

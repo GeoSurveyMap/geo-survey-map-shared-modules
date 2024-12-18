@@ -7,6 +7,7 @@ import {
   getSurveysWithinBoundingBox,
   getUsersSurveys,
   postUploadFile,
+  updateSurveyStatus,
 } from './surveys';
 import { queryClient, queryKeys } from '../libs/query';
 import { BoundingBoxRequest } from './surveys.types';
@@ -81,4 +82,13 @@ export function useGetUsersSurveys() {
     queryFn: getUsersSurveys,
     select: ({ data }) => data.data,
   });
+}
+
+export function useUpdateSurveyStatus() {
+	return useMutation({
+	  mutationFn: updateSurveyStatus,
+	  onSuccess: ({ data: { data } }) => {
+		queryClient.invalidateQueries({ queryKey: [queryKeys.survey.all, queryKeys.survey.user] });
+	  },
+	});
 }

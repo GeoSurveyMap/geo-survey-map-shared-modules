@@ -1,6 +1,8 @@
 import { User } from 'api/user/user.types';
 import { Category } from '../../types';
 
+export type SurveyStatus = 'PENDING' | 'ACCEPTED' | 'REJECTED';
+
 export interface Location {
   /** @format double */
   x: number;
@@ -78,6 +80,7 @@ export interface Survey {
   user: User;
   createdAt: string;
   filePath?: string;
+  status: SurveyStatus;
 }
 
 export interface ApiResponseListSurvey {
@@ -95,4 +98,9 @@ export interface BoundingBoxRequest {
 
 export interface UploadFileReponse {
   data: string;
+}
+
+export interface UpdateSurveyStatusRequest {
+	surveyId: number;
+	status: SurveyStatus;
 }

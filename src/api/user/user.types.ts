@@ -49,10 +49,6 @@ export type GetUsersResponse = {
 	metadata: ApiResponseMetadata;
 }
 
-export interface DeleteUserRequest {
-	kindId: string;
-}
-
 export interface BanOrReactivateUserRequest {
 	kindeId: string;
 	status: UserStatus;
