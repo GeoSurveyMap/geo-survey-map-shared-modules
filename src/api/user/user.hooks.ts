@@ -13,7 +13,7 @@ export const useRegisterUser = () => {
 };
 
 // Custom hook for fetching users within a given country permissions
-export const useGetUsersWithinCountry = (permissions: Permissions) => {
+export function useGetUsersWithinCountry (permissions: Permissions) {
 	return useQuery({
 	  queryKey: queryKeys.users.withinCountry(permissions),
 	  queryFn: () => getUsersWithinCountry(permissions),
