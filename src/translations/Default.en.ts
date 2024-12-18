@@ -138,7 +138,7 @@ export const en = {
     download: 'Download',
   },
   userManagement: {
-    title: 'User Management',
+    title: 'Users Management',
     searchUser: 'Search user',
     deleteUser: 'Delete user',
     confirmDeleteMessage:
