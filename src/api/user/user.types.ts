@@ -6,8 +6,7 @@ export interface User {
   id: UserId;
   kindeId: string;
   email: string;
-  role: Role;
-  permissions: Permissions[];
+  permissions?: Permissions[];
 }
 export enum Role {
   ROLE_ADMIN = 'ROLE_ADMIN',
@@ -33,7 +32,7 @@ export enum Permissions {
   HUNGARY = 'HUNGARY',
 }
 
-export type PostRegisterUserRequest = Omit<User, 'id'> & { permissions?: Permissions[] };
+export type PostRegisterUserRequest = Omit<User, 'id'> ;
 
 export type PostRegisterUserResponse = UserId;
 
