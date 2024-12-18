@@ -35,6 +35,4 @@ export type PostRegisterUserRequest = Omit<User, 'id'> & { permissions?: Permiss
 
 export type PostRegisterUserResponse = UserId;
 
-export type GetUsersWithinCountryRequest = {permissions: Permissions[]}
-
 export type GetUsersWithinCountryResponse = Omit<User, 'id'> & { permissions?: Permissions[] };
