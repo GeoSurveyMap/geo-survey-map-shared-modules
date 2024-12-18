@@ -2,10 +2,13 @@ import { ApiResponseMetadata } from "api/surveys/surveys.types";
 
 type UserId = number;
 
+export type UserStatus = 'ACTIVE' | 'BANNED';
+
 export interface User {
   id: UserId;
   kindeId: string;
   email: string;
+  status: UserStatus;
   permissions?: Permissions[];
 }
 export enum Role {
@@ -36,7 +39,21 @@ export type PostRegisterUserRequest = Omit<User, 'id'> ;
 
 export type PostRegisterUserResponse = UserId;
 
+export interface UpdateUserPermissionsRequest {
+	permissions: Permissions[];
+	kindeId: string;
+}
+
 export type GetUsersResponse = {
 	data?: Omit<User, 'id'>[];
 	metadata: ApiResponseMetadata;
+}
+
+export interface DeleteUserRequest {
+	kindId: string;
+}
+
+export interface BanOrReactivateUserRequest {
+	kindeId: string;
+	status: UserStatus;
 }

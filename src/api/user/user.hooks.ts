@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
-import { getAllUsers, getUsersWithinCountry, postRegisterUser } from './user';
+import { banOrReactivateUser, deleteUser, getAllUsers, getUsersWithinCountry, postRegisterUser, setUserPermissions } from './user';
 import { queryClient, queryKeys } from '../../api/libs/query';
 import { Permissions } from './user.types';
 
@@ -29,3 +29,31 @@ export function useGetUsersWithinCountry (permissions: Permissions) {
 	  select: ({ data }) => data.data,
 	});
   }
+
+// Custom hook for setting user permissions
+export function useSetUserPermissions() {
+	return useMutation({
+	  mutationFn: setUserPermissions,
+	  onSuccess: () => {
+		queryClient.invalidateQueries({ queryKey: [queryKeys.users.all, queryKeys.users.withinCountry] });
+	  },
+	});
+}
+
+export function useBanOrReactivateUser() {
+	return useMutation({
+	  mutationFn: banOrReactivateUser,
+	  onSuccess: () => {
+		queryClient.invalidateQueries({ queryKey: [queryKeys.users.all, queryKeys.users.withinCountry] });
+	  },
+	});
+}
+
+export function useDeleteUser() {
+	return useMutation({
+	  mutationFn: deleteUser,
+	  onSuccess: () => {
+		queryClient.invalidateQueries({ queryKey: [queryKeys.users.all, queryKeys.users.withinCountry] });
+	  },
+	});
+}
