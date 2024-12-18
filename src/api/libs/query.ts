@@ -24,6 +24,6 @@ export const queryKeys = {
     ) => ['surveys', minX, maxX, minY, maxY, categories] as const,
   },
   users: {
-	withinCountry: (permissions: Permissions[]) => ['users', permissions] as const,
+	withinCountry: (permissions: Permissions) => ['users', permissions] as const,
   }
 };
