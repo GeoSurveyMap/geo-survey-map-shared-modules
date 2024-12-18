@@ -17,8 +17,7 @@ const URLS = {
     return `/api/v1/user/filter?${params.toString()}`;
   },
   updatePermissions: (kindeId: string) => {
-    const params = new URLSearchParams({ kindeId: kindeId.toString() });
-    return `/api/v1/user/update/${params.toString()}`;
+    return `/api/v1/user/update/${kindeId}`;
   },
   delete: (kindeId: string) => {
     const params = new URLSearchParams({ kindeId: kindeId.toString() });
