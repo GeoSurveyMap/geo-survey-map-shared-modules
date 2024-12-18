@@ -138,7 +138,7 @@ export const pl = {
   },
   userManagement: {
     title: 'Zarządzanie użytkownikami',
-    emailPlaceholder: 'Szukaj po emailu ...',
+    searchUser: 'Szukaj użytkownika ...',
     deleteUser: 'Usuń użytkownika',
     confirmDeleteMessage:
       'Czy na pewno chcesz usunąć konto użytkownika wraz ze wszystkimi jego wpisami?',

@@ -136,7 +136,7 @@ export declare const en: {
     };
     userManagement: {
         title: string;
-        emailPlaceholder: string;
+        searchUser: string;
         deleteUser: string;
         confirmDeleteMessage: string;
         cancel: string;

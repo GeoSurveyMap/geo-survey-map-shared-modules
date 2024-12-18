@@ -148,7 +148,7 @@ export declare const fallbacks: {
             };
             userManagement: {
                 title: string;
-                emailPlaceholder: string;
+                searchUser: string;
                 deleteUser: string;
                 confirmDeleteMessage: string;
                 cancel: string;
@@ -322,7 +322,7 @@ export declare const fallbacks: {
             };
             userManagement: {
                 title: string;
-                emailPlaceholder: string;
+                searchUser: string;
                 deleteUser: string;
                 confirmDeleteMessage: string;
                 cancel: string;

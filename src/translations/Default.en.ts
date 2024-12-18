@@ -139,7 +139,7 @@ export const en = {
   },
   userManagement: {
     title: 'User Management',
-    emailPlaceholder: 'Search by email ...',
+    searchUser: 'Search user',
     deleteUser: 'Delete user',
     confirmDeleteMessage:
       'Are you sure you want to delete this user account along with all their entries?',
