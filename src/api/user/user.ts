@@ -25,8 +25,7 @@ const URLS = {
     return `/users/${params.toString()}/delete`;
   },
   banOrReactivate: (kindeId: string, userStatus: UserStatus) => {
-    const params = new URLSearchParams({ kindeId: kindeId.toString() });
-    return `/users/${params.toString()}/status/`;
+    return `/users/${kindeId}/status/${userStatus}`;
   }
 };
 
