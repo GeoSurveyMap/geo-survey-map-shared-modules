@@ -16,8 +16,9 @@ const URLS = {
     const params = new URLSearchParams({ permissions: permissions.toString() });
     return `/api/v1/user/filter?${params.toString()}`;
   },
-  updatePermissions: (kindeId: string) => {
-    return `/api/v1/user/update/${kindeId}`;
+  updatePermissions: (kindeId: string, permissions: Permissions[]) => {
+    const params = new URLSearchParams({ permissions: permissions.toString() });
+    return `/api/v1/user/update/${kindeId}?${params.toString()}`;
   },
   delete: (kindeId: string) => {
     const params = new URLSearchParams({ kindeId: kindeId.toString() });
@@ -41,8 +42,8 @@ export const getUsersWithinCountry = (permissions: Permissions) => {
   };
 
 export function setUserPermissions(data: UpdateUserPermissionsRequest) {
-	const { kindeId } = data;
-	return axiosClient.put<GetUsersResponse>(URLS.updatePermissions(kindeId), data);
+	const { kindeId, permissions } = data;
+	return axiosClient.put<GetUsersResponse>(URLS.updatePermissions(kindeId, permissions));
 }
 
 export function deleteUser(data: UpdateUserPermissionsRequest) {
