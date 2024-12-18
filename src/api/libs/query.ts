@@ -1,4 +1,5 @@
 import { QueryClient, focusManager, onlineManager, QueryClientProvider } from '@tanstack/react-query';
+import { Permissions } from 'api/user/user.types';
 import { Category } from 'types';
 
 export const queryClient = new QueryClient();
@@ -22,4 +23,7 @@ export const queryKeys = {
       categories?: Category[],
     ) => ['surveys', minX, maxX, minY, maxY, categories] as const,
   },
+  users: {
+	withinCountry: (permissions: Permissions[]) => ['users', permissions] as const,
+  }
 };

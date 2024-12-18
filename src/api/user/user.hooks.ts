@@ -1,5 +1,5 @@
-import { useMutation } from '@tanstack/react-query';
-import { postRegisterUser } from './user';
+import { useMutation, useQuery } from '@tanstack/react-query';
+import { getUsersWithinCountry, postRegisterUser } from './user';
 import { queryClient, queryKeys } from '../../api/libs/query';
 
 export const useRegisterUser = () => {
@@ -10,3 +10,12 @@ export const useRegisterUser = () => {
     },
   });
 };
+
+// Custom hook for fetching users within a given country permissions
+export const useGetUsersWithinCountry = (permissions) => {
+	return useQuery({
+	  queryKey: queryKeys.users.withinCountry(permissions),
+	  queryFn: () => getUsersWithinCountry(permissions),
+	  select: ({ data }) => data,
+	});
+  }
