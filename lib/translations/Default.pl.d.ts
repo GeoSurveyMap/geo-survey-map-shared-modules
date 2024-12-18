@@ -138,6 +138,7 @@ export declare const pl: {
         title: string;
         searchUser: string;
         deleteUser: string;
+        setPermissions: string;
         confirmDeleteMessage: string;
         cancel: string;
         confirm: string;

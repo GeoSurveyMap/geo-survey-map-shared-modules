@@ -141,6 +141,7 @@ export const en = {
     title: 'Users Management',
     searchUser: 'Search user',
     deleteUser: 'Delete user',
+	setPermissions: 'Set permissions',
     confirmDeleteMessage:
       'Are you sure you want to delete this user account along with all their entries?',
     cancel: 'Cancel',

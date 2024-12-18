@@ -14,6 +14,7 @@ export declare const queryKeys: {
         withinBoundingBox: (minX: number, maxX: number, minY: number, maxY: number, categories?: Category[]) => readonly ["surveys", number, number, number, number, Category[] | undefined];
     };
     users: {
+        all: readonly ["allUsers"];
         withinCountry: (permissions: Permissions) => readonly ["users", Permissions];
     };
 };

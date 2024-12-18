@@ -150,6 +150,7 @@ export declare const fallbacks: {
                 title: string;
                 searchUser: string;
                 deleteUser: string;
+                setPermissions: string;
                 confirmDeleteMessage: string;
                 cancel: string;
                 confirm: string;
@@ -324,6 +325,7 @@ export declare const fallbacks: {
                 title: string;
                 searchUser: string;
                 deleteUser: string;
+                setPermissions: string;
                 confirmDeleteMessage: string;
                 cancel: string;
                 confirm: string;

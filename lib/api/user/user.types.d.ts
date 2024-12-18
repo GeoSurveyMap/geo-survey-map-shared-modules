@@ -31,10 +31,8 @@ export declare enum Permissions {
 }
 export type PostRegisterUserRequest = Omit<User, 'id'>;
 export type PostRegisterUserResponse = UserId;
-export type GetUsersWithinCountryResponse = {
-    data?: Omit<User, 'id'> & {
-        permissions?: Permissions[];
-    }[];
+export type GetUsersResponse = {
+    data?: Omit<User, 'id'>[];
     metadata: ApiResponseMetadata;
 };
 export {};

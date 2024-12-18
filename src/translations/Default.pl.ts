@@ -138,8 +138,9 @@ export const pl = {
   },
   userManagement: {
     title: 'Zarządzanie użytkownikami',
-    searchUser: 'Szukaj użytkownika ...',
+    searchUser: 'Szukaj użytkownika',
     deleteUser: 'Usuń użytkownika',
+	setPermissions: 'Ustaw uprawnienia',
     confirmDeleteMessage:
       'Czy na pewno chcesz usunąć konto użytkownika wraz ze wszystkimi jego wpisami?',
     cancel: 'Anuluj',
