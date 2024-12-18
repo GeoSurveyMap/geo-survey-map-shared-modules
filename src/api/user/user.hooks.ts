@@ -17,6 +17,6 @@ export function useGetUsersWithinCountry (permissions: Permissions) {
 	return useQuery({
 	  queryKey: queryKeys.users.withinCountry(permissions),
 	  queryFn: () => getUsersWithinCountry(permissions),
-	  select: ({ data }) => data,
+	  select: ({ data }) => data.data,
 	});
   }

@@ -1,3 +1,5 @@
+import { ApiResponseMetadata } from "api/surveys/surveys.types";
+
 type UserId = number;
 
 export interface User {
@@ -35,4 +37,7 @@ export type PostRegisterUserRequest = Omit<User, 'id'> & { permissions?: Permiss
 
 export type PostRegisterUserResponse = UserId;
 
-export type GetUsersWithinCountryResponse = Omit<User, 'id'> & { permissions?: Permissions[] };
+export type GetUsersWithinCountryResponse = {
+	data?: Omit<User, 'id'> & { permissions?: Permissions[] }[];
+	metadata: ApiResponseMetadata;
+}
