@@ -97,7 +97,20 @@ export const pl = {
     manageAccount: 'Zarządzanie kontem',
     logout: 'Wyloguj',
     removeAccount: 'Usuń konto',
-	pts: 'PKT',
+    pts: 'PKT',
+    deleteAccountPopup: {
+      button: 'Usuń konto',
+      cancel: 'Anuluj',
+      firstConfirmation: {
+        title: 'Usuwanie konta',
+        description:
+          'Czy jesteś pewien, że chcesz usunąć swoje konto? Wszystkie dodane przez Ciebie treści zostaną usunięte, bez możliwosci ich przywrócenia.',
+      },
+      secondConfirmation: {
+        title: 'Czy na pewno chcesz usunąć swoje konto?',
+        description: 'NIE BĘDZIE MOŻLIWOŚCI COFNIĘCIA TEJ AKCJI',
+      },
+    },
   },
   settings: {
     title: 'Ustawienia',
@@ -140,7 +153,7 @@ export const pl = {
     title: 'Zarządzanie użytkownikami',
     searchUser: 'Szukaj użytkownika',
     deleteUser: 'Usuń użytkownika',
-	setPermissions: 'Ustaw uprawnienia',
+    setPermissions: 'Ustaw uprawnienia',
     confirmDeleteMessage:
       'Czy na pewno chcesz usunąć konto użytkownika wraz ze wszystkimi jego wpisami?',
     cancel: 'Anuluj',
@@ -150,7 +163,7 @@ export const pl = {
   onboarding: {
     goToTheAppButton: 'Przejdź do aplikacji',
     welcome: {
-      title: 'Witamy w\nGeoSurveyMap!',
+      title: 'Witamy w\nLOESS Soil Tool!',
       description: 'Narzędzie zaprojektowane do zgłaszania gleb w niezdrowym stanie',
     },
     instruction: {
@@ -167,7 +180,8 @@ export const pl = {
       },
       step3: {
         title: 'Poczekaj na potwierdzenie',
-        description: 'Każdy raport musi zostać zweryfikowany przez nasz zespół, aby uniknąć szkodliwych treści.',
+        description:
+          'Każdy raport musi zostać zweryfikowany przez nasz zespół, aby uniknąć szkodliwych treści.',
       },
     },
     aboutSoils: {

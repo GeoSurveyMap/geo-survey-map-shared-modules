@@ -96,6 +96,18 @@ export declare const en: {
         logout: string;
         removeAccount: string;
         pts: string;
+        deleteAccountPopup: {
+            button: string;
+            cancel: string;
+            firstConfirmation: {
+                title: string;
+                description: string;
+            };
+            secondConfirmation: {
+                title: string;
+                description: string;
+            };
+        };
     };
     settings: {
         title: string;

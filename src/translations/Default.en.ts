@@ -98,7 +98,20 @@ export const en = {
     manageAccount: 'Manage account',
     logout: 'Logout',
     removeAccount: 'Remove account',
-	pts: 'PTS',
+	  pts: 'PTS',
+    deleteAccountPopup: {
+      button: 'Remove account',
+      cancel: 'Cancel',
+      firstConfirmation: {
+        title: 'Remove account',
+        description:
+          'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.',
+      },
+      secondConfirmation: {
+        title: 'Are you sure you want to remove your account?',
+        description: 'THIS ACTION CANNOT BE UNDONE.',
+      },
+    },
   },
   settings: {
     title: 'Settings',
@@ -151,7 +164,7 @@ export const en = {
   onboarding: {
     goToTheAppButton: 'Go to the app',
     welcome: {
-      title: 'Welcome to\nGeoSurveyMap!',
+      title: 'Welcome to\nLOESS Soil Map!',
       description: 'A tool designed to report soils in unhealthy conditions',
     },
     instruction: {
