@@ -6,10 +6,10 @@ export interface Location {
     x: number;
     /** @format double */
     y: number;
-    name?: string;
+    name: string;
+    countryCode: 'PL' | 'DE' | 'BE' | 'SE' | 'AT' | 'IT' | 'ES' | 'IE' | 'SK' | 'NL' | 'RS' | 'LT' | 'TR' | 'GR' | 'GB' | 'HU';
 }
-export interface LocationRequest extends Location {
-}
+export type LocationRequest = Omit<Location, 'name' | 'countryCode'>;
 export interface RadiusRequest extends LocationRequest {
     /** @format double */
     radius: number;
