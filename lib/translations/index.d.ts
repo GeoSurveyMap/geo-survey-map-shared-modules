@@ -32,8 +32,9 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             pointStatus: {
-                accepted: string;
-                pending: string;
+                PENDING: string;
+                ACCEPTED: string;
+                REJECTED: string;
             };
             login: string;
             logout: string;
@@ -219,8 +220,9 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             pointStatus: {
-                accepted: string;
-                pending: string;
+                PENDING: string;
+                ACCEPTED: string;
+                REJECTED: string;
             };
             login: string;
             logout: string;

@@ -20,8 +20,9 @@ export declare const en: {
         BIODIVERSITY: string;
     };
     pointStatus: {
-        accepted: string;
-        pending: string;
+        PENDING: string;
+        ACCEPTED: string;
+        REJECTED: string;
     };
     login: string;
     logout: string;

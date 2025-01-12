@@ -1,4 +1,4 @@
-import { Category, PointStatus } from '../types';
+import { Category } from '../types';
 
 export const pl = {
   category: {
@@ -22,8 +22,9 @@ export const pl = {
     [Category.BIODIVERSITY]: '',
   },
   pointStatus: {
-    [PointStatus.accepted]: 'Zaakceptowany',
-    [PointStatus.pending]: 'W trakcie weryfikacji',
+    PENDING: 'W trakcie weryfikacji',
+    ACCEPTED: 'Zaakceptowany',
+    REJECTED: 'Odrzucony',
   },
   login: 'Zaloguj',
   logout: 'Wyloguj',
@@ -79,7 +80,7 @@ export const pl = {
     solution: {
       title: 'Rozwiązanie problemu',
     },
-    successMessage: 'Sukces! Zgłoszenie zostało dodane do mapy',
+    successMessage: 'Sukces! Zgłoszenie zostało wysłane do weryfikacji',
     errorMessage: 'Ups! Coś poszło nie tak. Spróbuj ponownie',
   },
   pointDetails: {

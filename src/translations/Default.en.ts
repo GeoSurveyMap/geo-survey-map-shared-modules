@@ -1,5 +1,4 @@
-import { title } from 'process';
-import { Category, PointStatus } from '../types';
+import { Category } from '../types';
 
 export const en = {
   category: {
@@ -23,8 +22,9 @@ export const en = {
     [Category.BIODIVERSITY]: '',
   },
   pointStatus: {
-    [PointStatus.accepted]: 'Accepted',
-    [PointStatus.pending]: 'Pending verification',
+    PENDING: 'Pending verification',
+    ACCEPTED: 'Accepted',
+    REJECTED: 'Rejected',
   },
   login: 'Login',
   logout: 'Logout',
@@ -80,7 +80,7 @@ export const en = {
     solution: {
       title: 'Problem solution',
     },
-    successMessage: 'Success! The report has been added to the map',
+    successMessage: 'Success! The report has been sent for verification',
     errorMessage: 'Oops! Something went wrong. Try again',
   },
   pointDetails: {
@@ -98,7 +98,7 @@ export const en = {
     manageAccount: 'Manage account',
     logout: 'Logout',
     removeAccount: 'Remove account',
-	  pts: 'PTS',
+    pts: 'PTS',
     deleteAccountPopup: {
       button: 'Remove account',
       cancel: 'Cancel',
@@ -154,7 +154,7 @@ export const en = {
     title: 'Users Management',
     searchUser: 'Search user',
     deleteUser: 'Delete user',
-	setPermissions: 'Set permissions',
+    setPermissions: 'Set permissions',
     confirmDeleteMessage:
       'Are you sure you want to delete this user account along with all their entries?',
     cancel: 'Cancel',
