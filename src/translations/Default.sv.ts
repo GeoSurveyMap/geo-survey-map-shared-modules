@@ -1,0 +1,196 @@
+export const sv = {
+  category: {
+    DRY_SOILS: 'torr jord',
+    WET_SOILS: 'blöt jord',
+    EROSION: 'erosion',
+    SEALED_SOILS: 'packad jord',
+    DEGRADATION: 'markförstöring',
+    LOSS_OF_ORGANIC_MATTER: 'förlust av organiskt material',
+    PH: 'pH',
+    BIODIVERSITY: 'biologisk mångfald',
+  },
+  categoryInformation: {
+    DRY_SOILS: '',
+    WET_SOILS: '',
+    EROSION: '',
+    SEALED_SOILS: '',
+    DEGRADATION: '',
+    LOSS_OF_ORGANIC_MATTER: '',
+    PH: '',
+    BIODIVERSITY: '',
+  },
+  pointStatus: {
+    status: 'Status',
+    PENDING: 'Pending verification',
+    ACCEPTED: 'Accepted',
+    REJECTED: 'Rejected',
+  },
+  login: 'logga in',
+  logout: 'logga ut',
+  register: 'registrera dig',
+  profile: 'profil',
+  filters: 'filters',
+  other: 'Other',
+  filtersDescription: 'Välj de kategorier av punkter som du vill se på kartan',
+  close: 'stäng',
+  cancel: 'avbryt',
+  back: 'tillbaka',
+  next: 'nästa',
+  continue: 'fortsätt',
+  skip: 'hoppa över',
+  addPoint: 'lägg till punkt',
+  clear: 'rensa',
+  remove: 'ta bort',
+  apply: 'tillämpa',
+  categories: 'kategorier',
+  pressToAddPoint: 'tryck och håll ned',
+  addPointHere: 'lägg till punkt på min plats',
+  seeMore: 'Se mer',
+  notAuthenticatedModal: {
+    title: 'Endast inloggade användare kan skicka in en rapport',
+    message: 'Logga in för att fortsätta',
+  },
+  addPointForm: {
+    chooseCategory: {
+      title: 'Välj en katgori',
+      description: 'Fyll i en kort enkät och lägg till en punkt på kartan',
+    },
+    affectedArea: {
+      title: 'Påverkat område',
+      placeholder: 'Välj områdesradie',
+    },
+    addPhoto: {
+      title: 'Lägg till ett foto',
+      takePhoto: 'Ta ett foto',
+      or: 'eller',
+      chooseFromGallery: 'Välj från bildgalleri',
+    },
+    description: {
+      title: 'Beskriv platsen',
+      placeName: {
+        label: 'Ange namnet på platsen',
+        placeholder: 't. ex. Kungsträdgården',
+      },
+      problemDescription: {
+        label: 'Problembeskrivning',
+        placeholder: '',
+      },
+    },
+    solution: {
+      title: 'Förslag på lösning på problemet',
+    },
+    successMessage: 'Du lyckades! Rapporten har lagts till på kartan',
+    errorMessage: 'Hoppsan! Nånting gick fel. Försök igen',
+  },
+  pointDetails: {
+    category: 'Kategorie',
+    placeName: 'Ange namnet på platsen',
+    affectedArea: 'Problem-area',
+    problemDescription: 'Problembeskrivning',
+    problemSolution: 'Förslag på lösning på problemet',
+    reportDate: 'Datum på rapporten',
+    photo: 'Foto',
+  },
+  userProfile: {
+    title: 'Användarprofil',
+    appLanguage: 'Appspråk',
+    manageAccount: 'Hantera konto',
+    logout: 'Logga ut',
+    removeAccount: 'Ta bort konto',
+    pts: 'PTS',
+    deleteAccountPopup: {
+      button: 'Remove account',
+      cancel: 'Cancel',
+      firstConfirmation: {
+        title: 'Remove account',
+        description:
+          'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.',
+      },
+      secondConfirmation: {
+        title: 'Are you sure you want to remove your account?',
+        description: 'THIS ACTION CANNOT BE UNDONE.',
+      },
+    },
+  },
+  settings: {
+    title: 'Inställningar',
+    appLanguage: 'Appspråk',
+    appVersion: 'Appversion',
+    howToUse: 'How to use the app',
+    aboutSoils: 'About soil categories',
+    privacyPolicy: 'Privacy policy',
+  },
+  pointsList: {
+    title: 'Tillagda punkter',
+    noPoints: 'Inga punkter har lagts till',
+    unauthorized: 'Logga in för att se tillagda punkter',
+  },
+  noPermissions: {
+    library: {
+      title: 'Vi har inte tillgång till dina foton',
+      description: 'Vänligen tillåt appåtkomst till dina foton i inställningar',
+    },
+    camera: {
+      title: 'Vi har inte tillgång till din kamera',
+      description: 'Vänligen tillåt appåtkomst till din kamera i inställningar',
+    },
+    cancel: 'avbryt',
+    openSettings: 'Öppna inställningar',
+  },
+  pointManagement: {
+    title: 'Points',
+    generateReport: 'Generate report',
+    pointsToApprove: 'Points to approve',
+    approvedPoints: 'Points',
+    pointId: 'Point ID',
+    pointName: 'Point name',
+    dateFrom: 'Date from',
+    dateTo: 'Date to',
+    pointType: 'Point type',
+    approve: 'Approve',
+    delete: 'Delete',
+    noData: 'No data to display',
+    download: 'Download',
+  },
+  userManagement: {
+    title: 'Users Management',
+    searchUser: 'Search user',
+    deleteUser: 'Delete user',
+    setPermissions: 'Set permissions',
+    confirmDeleteMessage:
+      'Are you sure you want to delete this user account along with all their entries?',
+    cancel: 'Cancel',
+    confirm: 'Delete account',
+    noUsers: 'No users to display',
+  },
+  onboarding: {
+    goToTheAppButton: 'Gå till appen',
+    welcome: {
+      title: 'Välkommen till GeoSurveyMap!',
+      description: 'Ett verktyg för att rapportera platser för jord som inte mår bra',
+    },
+    instruction: {
+      title: 'Hur ska appen användas?',
+      step1: {
+        title: 'Hitta jord som inte verkar må bra',
+        description:
+          'Du kan titta på jordprover från vårt team för att avgöra vilken typ av jord det handlar om',
+      },
+      step2: {
+        title: 'Lägg till en rapport för en plats',
+        description:
+          'Lägg till all information om jorden och platsen som du tror kan hjälpa forskarna att lösa problemet.',
+      },
+      step3: {
+        title: 'Vänta på bekräftelse',
+        description:
+          'Alla rapporter måste verifieras av vårt team för att undvika skadligt innehåll.',
+      },
+    },
+    aboutSoils: {
+      title: 'Om jord',
+      description:
+        'Klicka på jordkategori för mer infomation om jord. Samma information finns också i inställningar',
+    },
+  },
+};

@@ -1,0 +1,195 @@
+export const sk = {
+  category: {
+    DRY_SOILS: 'Suchá pôda',
+    WET_SOILS: 'Vlhká pôda',
+    EROSION: 'Erózia',
+    SEALED_SOILS: 'Zhutnená pôda',
+    DEGRADATION: 'Pôdna degradácia',
+    LOSS_OF_ORGANIC_MATTER: 'Úbytok organickej hmoty',
+    PH: 'pH',
+    BIODIVERSITY: 'Biodiverzita',
+  },
+  categoryInformation: {
+    DRY_SOILS: '',
+    WET_SOILS: '',
+    EROSION: '',
+    SEALED_SOILS: '',
+    DEGRADATION: '',
+    LOSS_OF_ORGANIC_MATTER: '',
+    PH: '',
+    BIODIVERSITY: '',
+  },
+  pointStatus: {
+    status: 'Status',
+    PENDING: 'Pending verification',
+    ACCEPTED: 'Accepted',
+    REJECTED: 'Rejected',
+  },
+  login: 'Prihlásenie',
+  logout: 'Odhlásenie',
+  register: 'Registrácia',
+  profile: 'Profil',
+  filters: 'Filtre',
+  other: 'Other',
+  filtersDescription: 'Vybere kategórie bodov, ktoré majú byť zobrazené na mape.',
+  close: 'Zatvoriť',
+  cancel: 'Zrušiť',
+  back: 'Späť',
+  next: 'Ďalšie',
+  continue: 'Pokračovať',
+  skip: 'Vynechať',
+  addPoint: 'Pridať bod',
+  clear: 'Vymazať',
+  remove: 'Odstrániť',
+  apply: 'Použiť',
+  categories: 'Kategórie',
+  pressToAddPoint: 'Stlačte a podržte pre pridanie správy.',
+  addPointHere: 'Pridať bod v mojej lokalite',
+  seeMore: 'Pozri viac',
+  notAuthenticatedModal: {
+    title: 'Správu môžu pridať len prihlásení používatelia',
+    message: 'Ak chcete pokračovať, prihláste sa',
+  },
+  addPointForm: {
+    chooseCategory: {
+      title: 'Vyberte kategóriu',
+      description: 'Vyplňte krátky dotazník a pridajte bod na mapu',
+    },
+    affectedArea: {
+      title: 'Postihnutá oblasť',
+      placeholder: 'Vyberte rozsah oblasti',
+    },
+    addPhoto: {
+      title: 'Pridajte fotografiu',
+      takePhoto: 'Nasnímajte fotografiu',
+      or: 'alebo',
+      chooseFromGallery: 'Vyberte z galérie',
+    },
+    description: {
+      title: 'Opíšte miesto',
+      placeName: {
+        label: 'Názov miesta',
+        placeholder: 'napr. Štátny park Kościuszko',
+      },
+      problemDescription: {
+        label: 'Opis problému',
+        placeholder: '',
+      },
+    },
+    solution: {
+      title: 'Riešenie problému',
+    },
+    successMessage: 'Výborne! Správa bola pridaná k mape.',
+    errorMessage: 'Oops! Niečo sa pokazilo. Skúste to znova.',
+  },
+  pointDetails: {
+    category: 'Kategória',
+    placeName: 'Názov miesta',
+    affectedArea: 'Problematická oblasť',
+    problemDescription: 'Opis problému',
+    problemSolution: 'Riešenie problému',
+    reportDate: 'Dátum nahlásenia',
+    photo: 'Fotografia',
+  },
+  userProfile: {
+    title: 'Profil používateľa',
+    appLanguage: 'Jazyk aplikácie',
+    manageAccount: 'Správa účtu',
+    logout: 'Odhlásenie',
+    removeAccount: 'Odstrániť účet',
+    pts: 'PTS',
+    deleteAccountPopup: {
+      button: 'Remove account',
+      cancel: 'Cancel',
+      firstConfirmation: {
+        title: 'Remove account',
+        description:
+          'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.',
+      },
+      secondConfirmation: {
+        title: 'Are you sure you want to remove your account?',
+        description: 'THIS ACTION CANNOT BE UNDONE.',
+      },
+    },
+  },
+  settings: {
+    title: 'Nastavenia',
+    appLanguage: 'Jazyk aplikácie',
+    appVersion: 'Verzia aplikácie',
+    howToUse: 'How to use the app',
+    aboutSoils: 'About soil categories',
+    privacyPolicy: 'Privacy policy',
+  },
+  pointsList: {
+    title: 'Pridané body',
+    noPoints: 'Neboli pridané žiadne body.',
+    unauthorized: 'Prihláste sa, ak chcete vidieť pridané body.',
+  },
+  noPermissions: {
+    library: {
+      title: 'Nemáme prístup k vašim fotografiám.',
+      description: 'Povoľte v nastaveniach prístup k vašim fotografiám.',
+    },
+    camera: {
+      title: 'Nemáme prístup k vášmu fotoaparátu.',
+      description: 'Povoľte v nastaveniach prístup k vášmu fotoaparátu.',
+    },
+    cancel: 'Zrušiť',
+    openSettings: 'Otvorte nastavenia',
+  },
+  pointManagement: {
+    title: 'Points',
+    generateReport: 'Generate report',
+    pointsToApprove: 'Points to approve',
+    approvedPoints: 'Points',
+    pointId: 'Point ID',
+    pointName: 'Point name',
+    dateFrom: 'Date from',
+    dateTo: 'Date to',
+    pointType: 'Point type',
+    approve: 'Approve',
+    delete: 'Delete',
+    noData: 'No data to display',
+    download: 'Download',
+  },
+  userManagement: {
+    title: 'Users Management',
+    searchUser: 'Search user',
+    deleteUser: 'Delete user',
+    setPermissions: 'Set permissions',
+    confirmDeleteMessage:
+      'Are you sure you want to delete this user account along with all their entries?',
+    cancel: 'Cancel',
+    confirm: 'Delete account',
+    noUsers: 'No users to display',
+  },
+  onboarding: {
+    goToTheAppButton: 'Prejdite do aplikácie',
+    welcome: {
+      title: 'Vitajte v aplikácii GeoSurveyMap!',
+      description: 'Nástroj určený na nahlasovanie pôd v nezdravom stave.',
+    },
+    instruction: {
+      title: 'Ako používať náš nástroj?',
+      step1: {
+        title: 'Vyhľadajte pôdu, ktorá pôsobí ako nezdravá.',
+        description:
+          'Môžete použiť vzorky poskytnuté našim tímom, aby ste zistili, s akým typom pôdy máte dočinenia.',
+      },
+      step2: {
+        title: 'Pridajte správu na požadované miesto.',
+        description:
+          'Uveďte všetky informácie zozbierané pre správu, ktorú pomôžu výskumíkom pri riešení problému.',
+      },
+      step3: {
+        title: 'Počkajte na potvrdenie',
+        description: 'Každú správu musí overiť náš tím, aby sme predišli škodlivému obsahu.',
+      },
+    },
+    aboutSoils: {
+      title: 'O pôdach',
+      description:
+        'Kliknite na kategóriu pôdy pre bližšie informácie. Tieto sú k dispozícii aj v nastaveniach aplikácie.',
+    },
+  },
+};
