@@ -1,4 +1,5 @@
 /**
  * src/images contains all the images used in the project.
  */
-export declare const helloWorld = "hello world!";
+import * as fundedByTheEU from './funded_by_the_eu.png';
+export { fundedByTheEU, };
