@@ -20,6 +20,7 @@ export declare const pl: {
         BIODIVERSITY: string;
     };
     pointStatus: {
+        status: string;
         PENDING: string;
         ACCEPTED: string;
         REJECTED: string;
@@ -114,6 +115,9 @@ export declare const pl: {
         title: string;
         appLanguage: string;
         appVersion: string;
+        howToUse: string;
+        aboutSoils: string;
+        privacyPolicy: string;
     };
     pointsList: {
         title: string;

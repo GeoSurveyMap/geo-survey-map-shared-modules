@@ -22,6 +22,7 @@ export const pl = {
     [Category.BIODIVERSITY]: '',
   },
   pointStatus: {
+    status: 'Status',
     PENDING: 'W trakcie weryfikacji',
     ACCEPTED: 'Zaakceptowany',
     REJECTED: 'Odrzucony',
@@ -117,6 +118,9 @@ export const pl = {
     title: 'Ustawienia',
     appLanguage: 'Język aplikacji',
     appVersion: 'Wersja aplikacji',
+    howToUse: 'Jak używać aplikacji',
+    aboutSoils: 'Informacje o kategoriach gleb',
+    privacyPolicy: 'Polityka prywatności',
   },
   pointsList: {
     title: 'Lista dodanych punktów',

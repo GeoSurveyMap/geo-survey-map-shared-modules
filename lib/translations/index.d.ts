@@ -32,6 +32,7 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             pointStatus: {
+                status: string;
                 PENDING: string;
                 ACCEPTED: string;
                 REJECTED: string;
@@ -126,6 +127,9 @@ export declare const fallbacks: {
                 title: string;
                 appLanguage: string;
                 appVersion: string;
+                howToUse: string;
+                aboutSoils: string;
+                privacyPolicy: string;
             };
             pointsList: {
                 title: string;
@@ -220,6 +224,7 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             pointStatus: {
+                status: string;
                 PENDING: string;
                 ACCEPTED: string;
                 REJECTED: string;
@@ -314,6 +319,9 @@ export declare const fallbacks: {
                 title: string;
                 appLanguage: string;
                 appVersion: string;
+                howToUse: string;
+                aboutSoils: string;
+                privacyPolicy: string;
             };
             pointsList: {
                 title: string;

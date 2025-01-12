@@ -22,6 +22,7 @@ export const en = {
     [Category.BIODIVERSITY]: '',
   },
   pointStatus: {
+    status: 'Status',
     PENDING: 'Pending verification',
     ACCEPTED: 'Accepted',
     REJECTED: 'Rejected',
@@ -117,6 +118,9 @@ export const en = {
     title: 'Settings',
     appLanguage: 'App language',
     appVersion: 'App version',
+    howToUse: "How to use the app",
+    aboutSoils: 'About soil categories',
+    privacyPolicy: 'Privacy policy',
   },
   pointsList: {
     title: 'Added points',
