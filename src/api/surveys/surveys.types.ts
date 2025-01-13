@@ -3,29 +3,15 @@ import { Category } from '../../types';
 
 export type SurveyStatus = 'PENDING' | 'ACCEPTED' | 'REJECTED';
 
+export type CountryCode = 'PL' | 'DE' | 'BE' | 'SE' | 'AT' | 'IT' | 'ES' | 'IE' | 'SK' | 'NL' | 'RS' | 'LT' | 'TR' | 'GR' | 'GB' | 'HU';
+
 export interface Location {
   /** @format double */
   x: number;
   /** @format double */
   y: number;
   name: string;
-  countryCode:
-    | 'PL'
-    | 'DE'
-    | 'BE'
-    | 'SE'
-    | 'AT'
-    | 'IT'
-    | 'ES'
-    | 'IE'
-    | 'SK'
-    | 'NL'
-    | 'RS'
-    | 'LT'
-    | 'TR'
-    | 'GR'
-    | 'GB'
-    | 'HU';
+  countryCode: CountryCode;
 }
 
 export type LocationRequest = Omit<Location, 'name' | 'countryCode'>;
