@@ -1,6 +1,4 @@
-import { Category } from 'types';
-
-export const HELLO_WORLD = 'hello world';
+import { Category } from '../types';
 
 export const problemCausesForCategories: Record<Category, string[]> = {
   [Category.DRY_SOILS]: [
