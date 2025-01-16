@@ -1,4 +1,4 @@
-import { ApiResponseListSurvey, ApiResponseSurvey, BoundingBoxRequest, LocationRequest, RadiusRequest, SurveyRequest, UpdateSurveyStatusRequest, UploadFileReponse } from './surveys.types';
+import { ApiResponseListSurvey, ApiResponseSurvey, ApiSurveysReportReponse, BoundingBoxRequest, LocationRequest, RadiusRequest, SurveyRequest, UpdateSurveyStatusRequest, UploadFileReponse } from './surveys.types';
 export declare function createSurvey(data: SurveyRequest): Promise<import("axios").AxiosResponse<ApiResponseSurvey, any>>;
 export declare function postUploadFile(formData: FormData): Promise<import("axios").AxiosResponse<UploadFileReponse, any>>;
 export declare function getSurveyByLocation({ x, y }: LocationRequest): Promise<import("axios").AxiosResponse<ApiResponseSurvey, any>>;
@@ -7,3 +7,4 @@ export declare function getAllSurveys(): Promise<import("axios").AxiosResponse<A
 export declare function getSurveysWithinBoundingBox({ minX, maxX, minY, maxY, categories, }: BoundingBoxRequest): Promise<import("axios").AxiosResponse<ApiResponseListSurvey, any>>;
 export declare function getUsersSurveys(): Promise<import("axios").AxiosResponse<ApiResponseListSurvey, any>>;
 export declare function updateSurveyStatus(data: UpdateSurveyStatusRequest): Promise<import("axios").AxiosResponse<ApiResponseListSurvey, any>>;
+export declare function getSurveysReport(): Promise<import("axios").AxiosResponse<ApiSurveysReportReponse, any>>;

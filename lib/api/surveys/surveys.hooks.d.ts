@@ -7,3 +7,4 @@ export declare function useGetAllSurveys(): import("@tanstack/react-query").UseQ
 export declare function useGetSurveysWithinBoundingBox({ minX, maxX, minY, maxY, categories, }: BoundingBoxRequest): import("@tanstack/react-query").UseQueryResult<import("./surveys.types").Survey[] | undefined, Error>;
 export declare function useGetUsersSurveys(): import("@tanstack/react-query").UseQueryResult<import("./surveys.types").Survey[] | undefined, Error>;
 export declare function useUpdateSurveyStatus(): import("@tanstack/react-query").UseMutationResult<import("axios").AxiosResponse<import("./surveys.types").ApiResponseListSurvey, any>, Error, import("./surveys.types").UpdateSurveyStatusRequest, unknown>;
+export declare function useGetSurveysReport(): import("@tanstack/react-query").UseQueryResult<string, Error>;

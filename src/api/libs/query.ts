@@ -22,6 +22,7 @@ export const queryKeys = {
       maxY: number,
       categories?: Category[],
     ) => ['surveys', minX, maxX, minY, maxY, categories] as const,
+	report: ['report'] as const,
   },
   users: {
 	all: ['allUsers'] as const,

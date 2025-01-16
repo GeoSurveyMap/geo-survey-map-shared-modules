@@ -4,6 +4,7 @@ import {
   getAllSurveys,
   getAllSurveysWithinRadius,
   getSurveyByLocation,
+  getSurveysReport,
   getSurveysWithinBoundingBox,
   getUsersSurveys,
   postUploadFile,
@@ -92,3 +93,12 @@ export function useUpdateSurveyStatus() {
 	  },
 	});
 }
+
+// Custom hook for fetching all existing surveys
+export function useGetSurveysReport() {
+	return useQuery({
+	  queryKey: queryKeys.survey.report,
+	  queryFn: getSurveysReport,
+	  select: ({ data }) => data.data,
+	});
+  }
