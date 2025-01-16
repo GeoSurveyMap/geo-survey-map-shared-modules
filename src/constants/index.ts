@@ -87,17 +87,17 @@ export const categoryInformationPhoto: Record<Category, { uri: string | null; so
     uri: 'https://i0.wp.com/thomasdstone.blog/wp-content/uploads/2018/04/img_0733-1.jpg?w=430&ssl=1',
     source: 'Photo from Thomas Stone',
   },
-  [Category.EROSION]: {
+  [Category.SEALED_SOILS]: {
     uri: 'https://www.cipra.org/en/news/heatwave-aggravated-by-soil-sealing/ftw-simplelayout-textblock-1/@@images/5508fde4-580e-4600-9fbd-895dce3a1f88.jpeg',
     source: 'Photo from CIPRA',
   },
-  [Category.SEALED_SOILS]: {
+  [Category.EROSION]: {
     uri: 'https://infonet-biovision.org/sites/default/files/environmental_health/soil_management/1362_0.jpeg',
     source: 'Photo from The Soil Erosion Site',
   },
   [Category.DEGRADATION]: {
-    uri: 'https://www.thesolutionsjournal.com/wp-content/uploads/2017/08/soil-degradation.jpg',
-    source: 'Photo from The Solutions Journal',
+    uri: null,
+    source: '',
   },
   [Category.LOSS_OF_ORGANIC_MATTER]: {
     uri: null,
