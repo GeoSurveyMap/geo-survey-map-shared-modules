@@ -1,10 +1,10 @@
 import { useMutation, useQuery } from '@tanstack/react-query';
 import {
   createSurvey,
+  downloadSurveysReport,
   getAllSurveys,
   getAllSurveysWithinRadius,
   getSurveyByLocation,
-  getSurveysReport,
   getSurveysWithinBoundingBox,
   getUsersSurveys,
   postUploadFile,
@@ -95,10 +95,11 @@ export function useUpdateSurveyStatus() {
 }
 
 // Custom hook for getting the data report
-export function useGetSurveysReport() {
-	return useQuery({
-	  queryKey: queryKeys.survey.report,
-	  queryFn: getSurveysReport,
-	  select: ({ data }) => data.data,
+export function useDownloadSurveysReport() {
+	return useMutation({
+	  mutationFn: downloadSurveysReport,
+	  onError: () => {
+		console.error('Error downloading report');
+	  },
 	});
-  }
+}

@@ -90,6 +90,12 @@ export function updateSurveyStatus(data: UpdateSurveyStatusRequest) {
 	return axiosClient.put<ApiResponseListSurvey>(URLS.updateSurveyStatus(surveyId, status));
 }
 
-export function getSurveysReport() {
-	return axiosClient.get<ApiSurveysReportReponse>(URLS.SURVEY_REPORT);
+export function downloadSurveysReport(params) {
+	return axiosClient.get(URLS.SURVEY_REPORT, {
+	  params,
+	  responseType: 'blob',
+	  headers: {
+		Accept: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+	  },
+	});
 }
