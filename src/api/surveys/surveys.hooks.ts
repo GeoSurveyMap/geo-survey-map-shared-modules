@@ -94,7 +94,7 @@ export function useUpdateSurveyStatus() {
 	});
 }
 
-// Custom hook for fetching all existing surveys
+// Custom hook for getting the data report
 export function useGetSurveysReport() {
 	return useQuery({
 	  queryKey: queryKeys.survey.report,

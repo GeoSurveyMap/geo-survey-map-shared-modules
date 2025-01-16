@@ -91,5 +91,5 @@ export function updateSurveyStatus(data: UpdateSurveyStatusRequest) {
 }
 
 export function getSurveysReport() {
-	return axiosClient.put<ApiSurveysReportReponse>(URLS.SURVEY_REPORT);
+	return axiosClient.get<ApiSurveysReportReponse>(URLS.SURVEY_REPORT);
 }
