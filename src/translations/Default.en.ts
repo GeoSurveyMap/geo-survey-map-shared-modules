@@ -86,7 +86,7 @@ export const en = {
       },
     },
     solution: {
-      title: 'Problem solution',
+      title: 'Potencial problem cause',
     },
     successMessage: 'Success! The report has been sent for verification',
     errorMessage: 'Oops! Something went wrong. Try again',
@@ -96,7 +96,7 @@ export const en = {
     placeName: 'Place name',
     affectedArea: 'Problem radius',
     problemDescription: 'Problem description',
-    problemSolution: 'Problem solution',
+    problemSolution: 'Potencial problem cause',
     reportDate: 'Date of report',
     photo: 'Photo',
   },

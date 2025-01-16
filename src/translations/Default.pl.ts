@@ -86,7 +86,7 @@ export const pl = {
       },
     },
     solution: {
-      title: 'Rozwiązanie problemu',
+      title: 'Potencjalna przyczyna problemu',
     },
     successMessage: 'Sukces! Zgłoszenie zostało wysłane do weryfikacji',
     errorMessage: 'Ups! Coś poszło nie tak. Spróbuj ponownie',
@@ -96,7 +96,7 @@ export const pl = {
     placeName: 'Nazwa miejsca',
     affectedArea: 'Promień problemu',
     problemDescription: 'Opis problemu',
-    problemSolution: 'Rozwiązanie problemu',
+    problemSolution: 'Potencjalna przyczyna problemu',
     reportDate: 'Data zgłoszenia',
     photo: 'Zdjęcie',
   },
