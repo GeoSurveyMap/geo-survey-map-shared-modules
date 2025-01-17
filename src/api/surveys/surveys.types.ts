@@ -107,7 +107,3 @@ export interface UpdateSurveyStatusRequest {
   surveyId: number;
   status: SurveyStatus;
 }
-
-export interface ApiSurveysReportReponse {
-	data: string;
-}

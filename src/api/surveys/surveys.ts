@@ -1,7 +1,6 @@
 import {
   ApiResponseListSurvey,
   ApiResponseSurvey,
-  ApiSurveysReportReponse,
   BoundingBoxRequest,
   LocationRequest,
   RadiusRequest,

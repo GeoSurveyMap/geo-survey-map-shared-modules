@@ -26,6 +26,23 @@ export const sr = {
     BIODIVERSITY:
       "<b>Biodiversity</b> - The variability among living organisms from all sources, including terrestrial, marine, and other aquatic ecosystems as well as the ecological complexes of which they are a part. This includes diversity within species, between species, and of ecosystems.\n<b>Assessment of Biodiversity of Soil and the Local Environment</b>\n<b>Explanation</b>: Biodiversity in soil refers to the variety of organisms living in the soil, including bacteria, fungi, insects, and plants. High biodiversity is a sign of a healthy ecosystem, contributing to soil fertility and stability.\n<b>How would you rate the biodiversity of soil organisms in your area?</b>\nA. Low (Few different species)\nB. Moderate (Some variety of species)\nC. High (Many different species)\nD. Very high (Abundant variety of species)\nE. Not sure (Unsure about the variety of soil organisms)\n<b>What do you think is the primary factor affecting soil biodiversity in your area?</b>\nA. Agricultural practices (Use of pesticides, monoculture)\nB. Urbanization (Loss of natural habitats)\nC. Pollution (Contaminants affecting soil life)\nD. Climate change (Changes in temperature and precipitation)\nE. Deforestation (Loss of trees and vegetation)\nF. Natural soil conditions (Inherent soil properties)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Low</b>: If you observe few different species, biodiversity is likely low.\n- <b>Moderate</b>: Some variety of species indicates moderate biodiversity.\n- <b>High</b>: Many different species suggest high biodiversity.\n- <b>Very high</b>: An abundant variety of species indicates very high biodiversity.\n- <b>Not sure</b>: If you're unsure about the variety of soil organisms, this option allows you to express that uncertainty.\n- <b>Agricultural practices</b>: Consider the impact of farming methods, such as pesticide use and monoculture.\n- <b>Urbanization</b>: Reflect on the extent of urban development and habitat loss.\n- <b>Pollution</b>: Think about the presence of contaminants affecting soil life.\n- <b>Climate change</b>: Consider changes in temperature and precipitation patterns.\n- <b>Deforestation</b>: Reflect on the removal of trees and its impact on biodiversity.\n- <b>Natural soil conditions</b>: Think about the inherent properties of the soil that might affect biodiversity.",
   },
+  categoryInformationTooltip: {
+	DRY_SOILS:
+	  "<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid.",
+	WET_SOILS:
+	  '<b>Assessment of Soil Waterlogging</b> - Soil waterlogging occurs when excess water saturates the soil.',
+	EROSION:
+	  '<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes.',
+	SEALED_SOILS:
+	  '<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material.',
+	DEGRADATION:
+	  '<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing).',
+	LOSS_OF_ORGANIC_MATTER:
+	  '<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers.',
+	PH: "<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases.",
+	BIODIVERSITY:
+	  "<b>Biodiversity</b> - The variability among living organisms from all sources.",
+  },
   pointStatus: {
     status: 'Status',
     PENDING: 'Pending verification',

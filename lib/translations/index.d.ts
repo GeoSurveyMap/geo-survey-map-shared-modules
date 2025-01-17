@@ -31,6 +31,16 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            categoryInformationTooltip: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
             pointStatus: {
                 status: string;
                 PENDING: string;
@@ -214,6 +224,16 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             categoryInformation: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
+            categoryInformationTooltip: {
                 DRY_SOILS: string;
                 WET_SOILS: string;
                 EROSION: string;
@@ -415,6 +435,16 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            categoryInformationTooltip: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
             pointStatus: {
                 status: string;
                 PENDING: string;
@@ -598,6 +628,16 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             categoryInformation: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
+            categoryInformationTooltip: {
                 DRY_SOILS: string;
                 WET_SOILS: string;
                 EROSION: string;
@@ -799,6 +839,16 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            categoryInformationTooltip: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
             pointStatus: {
                 status: string;
                 PENDING: string;
@@ -982,6 +1032,16 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             categoryInformation: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
+            categoryInformationTooltip: {
                 DRY_SOILS: string;
                 WET_SOILS: string;
                 EROSION: string;
@@ -1183,6 +1243,16 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            categoryInformationTooltip: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
             pointStatus: {
                 status: string;
                 PENDING: string;
@@ -1366,6 +1436,16 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             categoryInformation: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
+            categoryInformationTooltip: {
                 DRY_SOILS: string;
                 WET_SOILS: string;
                 EROSION: string;
@@ -1567,6 +1647,16 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            categoryInformationTooltip: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
             pointStatus: {
                 status: string;
                 PENDING: string;
@@ -1750,6 +1840,16 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             categoryInformation: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
+            categoryInformationTooltip: {
                 DRY_SOILS: string;
                 WET_SOILS: string;
                 EROSION: string;
@@ -1951,6 +2051,16 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            categoryInformationTooltip: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
             pointStatus: {
                 status: string;
                 PENDING: string;
@@ -2134,6 +2244,16 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             categoryInformation: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
+            categoryInformationTooltip: {
                 DRY_SOILS: string;
                 WET_SOILS: string;
                 EROSION: string;
@@ -2335,6 +2455,16 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            categoryInformationTooltip: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
             pointStatus: {
                 status: string;
                 PENDING: string;
@@ -2518,6 +2648,16 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             categoryInformation: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
+            categoryInformationTooltip: {
                 DRY_SOILS: string;
                 WET_SOILS: string;
                 EROSION: string;
@@ -2719,6 +2859,16 @@ export declare const fallbacks: {
                 PH: string;
                 BIODIVERSITY: string;
             };
+            categoryInformationTooltip: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
             pointStatus: {
                 status: string;
                 PENDING: string;
@@ -2902,6 +3052,16 @@ export declare const fallbacks: {
                 BIODIVERSITY: string;
             };
             categoryInformation: {
+                DRY_SOILS: string;
+                WET_SOILS: string;
+                EROSION: string;
+                SEALED_SOILS: string;
+                DEGRADATION: string;
+                LOSS_OF_ORGANIC_MATTER: string;
+                PH: string;
+                BIODIVERSITY: string;
+            };
+            categoryInformationTooltip: {
                 DRY_SOILS: string;
                 WET_SOILS: string;
                 EROSION: string;
