@@ -13,6 +13,7 @@ const URLS = {
   USER: `/api/v1/user`,
   ALL: `/api/v1/user/filter`,
   DELETE_SELF: `/api/v1/user/self`,
+  GET_SELF: `/api/v1/user/self`,
   usersWithinCountry: (permissions: Permissions) => {
     const params = new URLSearchParams({ permissions: permissions.toString() });
     return `/api/v1/user/filter?${params.toString()}`;
@@ -32,11 +33,15 @@ export const postRegisterUser = (data: PostRegisterUserRequest) => {
 
 export const getAllUsers = () => {
 	return axiosClient.get<GetUsersResponse>(URLS.ALL);
-  };
+};
+
+export const getSelfUserData = () => {
+	return axiosClient.get<GetUsersResponse>(URLS.GET_SELF);
+};
 
 export const getUsersWithinCountry = (permissions: Permissions) => {
 	return axiosClient.get<GetUsersResponse>(URLS.usersWithinCountry(permissions));
-  };
+};
 
 export function setUserPermissions(data: UpdateUserPermissionsRequest) {
 	const { kindeId, permissions } = data;

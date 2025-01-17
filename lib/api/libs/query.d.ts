@@ -16,6 +16,7 @@ export declare const queryKeys: {
     };
     users: {
         all: readonly ["allUsers"];
+        self: readonly ["selfUser"];
         withinCountry: (permissions: Permissions) => readonly ["users", Permissions];
     };
 };

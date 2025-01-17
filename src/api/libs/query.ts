@@ -26,6 +26,7 @@ export const queryKeys = {
   },
   users: {
 	all: ['allUsers'] as const,
+	self: ['selfUser'] as const,
 	withinCountry: (permissions: Permissions) => ['users', permissions] as const,
   }
 };
