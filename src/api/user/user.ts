@@ -7,7 +7,6 @@ import {
 	UpdateUserPermissionsRequest,
 	UserStatus,
 	BanOrReactivateUserRequest,
-	GetSelfUserResponse,
 } from './user.types';
 
 const URLS = {
@@ -37,7 +36,7 @@ export const getAllUsers = () => {
 };
 
 export const getSelfUserData = () => {
-	return axiosClient.get<GetSelfUserResponse>(URLS.GET_SELF);
+	return axiosClient.get<GetUsersResponse>(URLS.GET_SELF);
 };
 
 export const getUsersWithinCountry = (permissions: Permissions) => {

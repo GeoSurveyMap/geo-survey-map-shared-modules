@@ -49,10 +49,6 @@ export type GetUsersResponse = {
   metadata: ApiResponseMetadata;
 };
 
-export type GetSelfUserResponse = {
-	data?: Omit<User, 'id'>;
-};
-
 export interface BanOrReactivateUserRequest {
   kindeId: string;
   status: UserStatus;
