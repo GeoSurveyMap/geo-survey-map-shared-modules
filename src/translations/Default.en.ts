@@ -2,14 +2,14 @@ import { Category } from '../types'
 
 export const en = {
 	category: {
-		DRY_SOILS: 'Dry soil',
-		WET_SOILS: 'Wet soil',
-		EROSION: 'Erosion',
-		SEALED_SOILS: 'Sealed soil',
-		DEGRADATION: 'Soil degradation',
-		LOSS_OF_ORGANIC_MATTER: 'Loss of organic matter',
-		PH: 'pH',
-		BIODIVERSITY: 'Biodiversity'
+		[Category.DRY_SOILS]: 'Dry soil',
+		[Category.WET_SOILS]: 'Wet soil',
+		[Category.EROSION]: 'Erosion',
+		[Category.SEALED_SOILS]: 'Sealed soil',
+		[Category.DEGRADATION]: 'Soil degradation',
+		[Category.LOSS_OF_ORGANIC_MATTER]: 'Loss of organic matter',
+		[Category.PH]: 'pH',
+		[Category.BIODIVERSITY]: 'Biodiversity'
 	},
 	categoryInformation: {
 		DRY_SOILS:
