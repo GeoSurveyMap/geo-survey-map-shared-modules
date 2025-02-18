@@ -1,291 +1,301 @@
 export const nl = {
-	category: {
-		DRY_SOILS: 'Droge bodem',
-		WET_SOILS: 'Natte bodem',
-		EROSION: 'Erosie',
-		SEALED_SOILS: 'Afgedekte bodem',
-		DEGRADATION: 'Bodemdegradatie',
-		LOSS_OF_ORGANIC_MATTER: 'Verlies van organische stof',
-		PH: 'pH',
-		BIODIVERSITY: 'Biodiversiteit'
-	},
-	categoryInformation: {
-		DRY_SOILS:
-			"<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid, typically losing its body of water as well as vegetation and wildlife either directly via climate change or indirectly via soil degradation resulting from poor management.\n<b>Assessment of Soil Dryness</b>\n<b>Explanation</b>: Soil dryness can result from various factors such as insufficient rainfall, high temperatures, or poor soil structure. Understanding the primary cause can help in addressing the issue effectively.\n<b>What do you think is the primary cause of soil dryness in your area?</b>\nA. Lack of rainfall (Periods of little or no rain)\nB. High temperatures (Hot weather causing evaporation)\nC. Poor soil structure (Soil that doesn't retain water well)\nD. Overuse of water resources (Excessive use of water for agriculture or other purposes)\nE. Deforestation (Removal of trees that help retain moisture)\nF. Climate change (Long-term changes in weather patterns)\nG. Overgrazing (Excessive grazing by livestock)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Lack of rainfall</b>: Consider if there have been prolonged dry periods.\n- <b>High temperatures</b>: Think about recent heatwaves or unusually hot weather.\n- <b>Poor soil structure</b>: Notice if the soil is sandy or has poor water retention.\n- <b>Overuse of water resources</b>: Reflect on local agricultural or industrial water usage.\n- <b>Deforestation</b>: Consider if there has been significant tree removal in the area.\n- <b>Climate change</b>: Think about long-term changes in weather patterns.\n- <b>Overgrazing</b>: Consider if livestock grazing is prevalent and intense.",
-		WET_SOILS:
-			'<b>Assessment of Soil Waterlogging</b>\n<b>Explanation</b>: Soil waterlogging occurs when excess water saturates the soil, often due to heavy rainfall, poor drainage, or high water tables. Identifying the cause can help in managing water levels.\n<b>What do you think is the primary cause of soil waterlogging in your area?</b>\nA. Heavy rainfall (Frequent or intense rain)\nB. Poor drainage systems (Inadequate drainage infrastructure)\nC. High water table (Groundwater level close to the surface)\nD. Over-irrigation (Excessive watering of crops or gardens)\nE. Soil compaction (Soil particles pressed together, reducing pore space)\nF. Urbanization (Increased impermeable surfaces like roads and buildings)\nG. Flooding (Overflow of water from rivers or lakes)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Heavy rainfall</b>: Consider if there have been frequent or intense rain events.\n- <b>Poor drainage systems</b>: Think about the effectiveness of local drainage infrastructure.\n- <b>High water table</b>: Notice if groundwater levels are close to the surface.\n- <b>Over-irrigation</b>: Reflect on local agricultural practices and water usage.\n- <b>Soil compaction</b>: Consider if the soil is hard and compacted.\n- <b>Urbanization</b>: Think about the extent of impermeable surfaces in the area.\n- <b>Flooding</b>: Consider if there have been recent floods.',
-		EROSION:
-			'<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes. The main causes of erosion include the actions of water (rills, inter-rill, gully, snowmelt and river and lake bank erosion), wind (desiccation and wind-blow), translocation (tillage, land levelling, harvesting of root crops, trampling and burrowing animals) and geological (internal subterranean erosion by groundwater, coastal erosion and landslides). Erosion can also be increased by poor land management such as overgrazing, deforestation or inappropriate use of mechanisation (e.g., ploughing down a hill slope).\n<b>Assessment of Soil Erosion</b>\n<b>Explanation</b>: Soil erosion is the removal of the topsoil layer by wind, water, or human activity. It can lead to loss of fertile land and other environmental issues.\n<b>How would you rate the intensity of soil erosion in your area?</b>\nA. Low (Minimal soil loss)\nB. Moderate (Noticeable soil loss)\nC. High (Severe soil loss)\nD. Very high (Extensive soil loss)\n<b>What forms of soil erosion are most common in your area?</b>\nA. Wind erosion (Soil blown away by wind)\nB. Water erosion (Soil washed away by rain or rivers)\nC. Human activity (e.g., construction, agriculture)\nD. Gully erosion (Formation of large channels or gullies)\nE. Sheet erosion (Thin layers of soil removed over a large area)\nF. Rill erosion (Small channels formed by running water)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Wind erosion</b>: Consider if there are strong winds and loose soil.\n- <b>Water erosion</b>: Think about heavy rains and water flow patterns.\n- <b>Human activity</b>: Reflect on construction, farming, or other human activities.\n- <b>Gully erosion</b>: Notice if there are large channels or gullies forming.\n- <b>Sheet erosion</b>: Consider if there are thin layers of soil being removed.\n- <b>Rill erosion</b>: Think about small channels formed by running water.',
-		SEALED_SOILS:
-			'<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material which may be very slowly permeable to water (e.g., asphalt or concrete). Soil sealing can cause rapid overland flow after precipitation where water cannot soak away leading to potential flooding. A soil is unable to function effectively when sealed.\n<b>Assessment of Soil Sealing</b>\n<b>Explanation</b>: Soil surface sealing occurs when the soil surface becomes impermeable, often due to urbanization or compaction. This can prevent water infiltration and affect soil health.\n<b>How would you describe the state of soil surface sealing in your area?</b>\nA. Minimal sealing (Most soil surfaces are permeable)\nB. Moderate sealing (Some areas are impermeable)\nC. Extensive sealing (Large areas are impermeable)\nD. Very extensive sealing (Most areas are impermeable)\n<b>What do you think is the primary cause of soil surface sealing in your area?</b>\nA. Urbanization (Construction of buildings and roads)\nB. Agricultural practices (Use of heavy machinery)\nC. Industrial activities (Factories and other industrial sites)\nD. Soil compaction (Soil particles pressed together, reducing pore space)\nE. Paving and concreting (Covering soil with impermeable materials)\nF. Natural processes (e.g., crust formation)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Urbanization</b>: Consider the extent of buildings and roads.\n- <b>Agricultural practices</b>: Think about the use of heavy machinery in farming.\n- <b>Industrial activities</b>: Reflect on the presence of factories and industrial sites.\n- <b>Soil compaction</b>: Notice if the soil is hard and compacted.\n- <b>Paving and concreting</b>: Consider the amount of paved or concreted areas.\n- <b>Natural processes</b>: Think about natural crust formation on the soil surface.',
-		DEGRADATION:
-			'<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing) that leads to deterioration of soil properties and functions or destruction of soil as a whole, e.g., compaction, erosion, salinisation.\n<b>Soil contamination</b> - The presence of a chemical or substance in the soil in a concentration that may be harmful to human health or the environment. Contamination may have a direct toxic effect on the plants, animals or humans living in, on, or from that soil, or have an indirect toxic effect due to accumulation in the whole trophic chain.\n<b>Salinization</b> - Accumulation of soluble salts (more soluble than gypsum) in the upper soil layers (saline soil = soil containing enough soluble salts to negatively affect most crop plants, commonly 4000 μS m-1).\n<b>Assessment of Soil Degradation</b>\n<b>Explanation</b>: Soil degradation refers to the decline in soil quality due to factors like erosion, contamination, or loss of nutrients. It can affect agricultural productivity and ecosystem health.\n<b>How would you rate the overall status of soil degradation in your area?</b>\nA. Minimal degradation (Soil quality is generally good)\nB. Moderate degradation (Some decline in soil quality)\nC. Severe degradation (Significant decline in soil quality)\nD. Very severe degradation (Extensive decline in soil quality)\n<b>What do you think is the primary cause of soil degradation in your area?</b>\nA. Erosion (Loss of topsoil)\nB. Contamination (e.g., chemicals, pollutants)\nC. Loss of nutrients (Depletion of essential soil nutrients)\nD. Overuse of soil (Intensive farming or other activities)\nE. Deforestation (Removal of trees that protect soil)\nF. Climate change (Long-term changes in weather patterns)\nG. Overgrazing (Excessive grazing by livestock)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Erosion</b>: Consider if there is significant soil loss.\n- <b>Contamination</b>: Think about the presence of chemicals or pollutants.\n- <b>Loss of nutrients</b>: Reflect on the fertility and nutrient content of the soil.\n- <b>Overuse of soil</b>: Consider intensive farming or other activities.\n- <b>Deforestation</b>: Think about the removal of trees and vegetation.\n- <b>Climate change</b>: Reflect on long-term changes in weather patterns.\n- <b>Overgrazing</b>: Consider if livestock grazing is prevalent and intense.',
-		LOSS_OF_ORGANIC_MATTER:
-			'<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers when the annual loss of organic matter (e.g., due to oxidation or erosion) is insufficiently compensated for by the annual gain of organic matter, resulting from crop residues, composts and manures.\n<b>Assessment of Loss of Soil Organic Matter</b>\n<b>Explanation</b>: Soil organic matter is crucial for soil fertility and structure. Loss of organic matter can result from poor land management practices or natural processes.\n<b>How would you rate the loss of soil organic matter in your area?</b>\nA. Low (Minimal loss)\nB. Moderate (Noticeable loss)\nC. High (Significant loss)\nD. Very high (Extensive loss)\n<b>What do you think is the primary cause of loss of soil organic matter in your area?</b>\nA. Intensive agriculture (Frequent cropping and tillage)\nB. Deforestation (Removal of trees and vegetation)\nC. Overgrazing (Excessive grazing by livestock)\nD. Soil erosion (Loss of topsoil containing organic matter)\nE. Climate change (Changes in temperature and precipitation)\nF. Poor land management (Inadequate soil conservation practices)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Intensive agriculture</b>: Consider frequent cropping and tillage practices.\n- <b>Deforestation</b>: Think about the removal of trees and vegetation.\n- <b>Overgrazing</b>: Reflect on the intensity of livestock grazing.\n- <b>Soil erosion</b>: Consider if there is significant soil loss.\n- <b>Climate change</b>: Think about changes in temperature and precipitation.\n- <b>Poor land management</b>: Reflect on soil conservation practices.',
-		PH: "<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases, caused by the removal of slightly alkaline ions with the crop, leaching and the application of acidifying types of N fertiliser. This process is accelerated or insufficiently compensated by natural soil components, including parent material.\n<b>Soil pH</b>\n<b>Assessment of Soil pH</b>\n<b>Explanation</b>: Soil pH is a measure of the acidity or alkalinity of the soil. It can significantly affect plant growth and soil health. Certain plants, known as indicator plants, can help determine the soil pH based on their presence and health.\n<b>How would you describe the pH level of your soil based on the plants growing in it?</b>\nA. Acidic (e.g., presence of blueberries, azaleas)\nB. Slightly acidic (e.g., presence of ferns, rhododendrons)\nC. Neutral (e.g., presence of clover, dandelions)\nD. Slightly alkaline (e.g., presence of lavender, yarrow)\nE. Alkaline (e.g., presence of sagebrush, saltbush)\nF. Not sure (Unsure about the types of plants or their indication)\n<b>Comments for Answers</b>:\n- <b>Acidic</b>: If you notice plants like blueberries or azaleas thriving, your soil is likely acidic.\n- <b>Slightly acidic</b>: Plants such as ferns and rhododendrons indicate slightly acidic soil.\n- <b>Neutral</b>: Clover and dandelions are common in neutral pH soils.\n- <b>Slightly alkaline</b>: Lavender and yarrow are indicators of slightly alkaline soil.\n- <b>Alkaline</b>: Sagebrush and saltbush thrive in alkaline conditions.\n- <b>Not sure</b>: If you're unsure about the plants or their indications, this option allows you to express that uncertainty.",
-		BIODIVERSITY:
-			"<b>Biodiversity</b> - The variability among living organisms from all sources, including terrestrial, marine, and other aquatic ecosystems as well as the ecological complexes of which they are a part. This includes diversity within species, between species, and of ecosystems.\n<b>Assessment of Biodiversity of Soil and the Local Environment</b>\n<b>Explanation</b>: Biodiversity in soil refers to the variety of organisms living in the soil, including bacteria, fungi, insects, and plants. High biodiversity is a sign of a healthy ecosystem, contributing to soil fertility and stability.\n<b>How would you rate the biodiversity of soil organisms in your area?</b>\nA. Low (Few different species)\nB. Moderate (Some variety of species)\nC. High (Many different species)\nD. Very high (Abundant variety of species)\nE. Not sure (Unsure about the variety of soil organisms)\n<b>What do you think is the primary factor affecting soil biodiversity in your area?</b>\nA. Agricultural practices (Use of pesticides, monoculture)\nB. Urbanization (Loss of natural habitats)\nC. Pollution (Contaminants affecting soil life)\nD. Climate change (Changes in temperature and precipitation)\nE. Deforestation (Loss of trees and vegetation)\nF. Natural soil conditions (Inherent soil properties)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Low</b>: If you observe few different species, biodiversity is likely low.\n- <b>Moderate</b>: Some variety of species indicates moderate biodiversity.\n- <b>High</b>: Many different species suggest high biodiversity.\n- <b>Very high</b>: An abundant variety of species indicates very high biodiversity.\n- <b>Not sure</b>: If you're unsure about the variety of soil organisms, this option allows you to express that uncertainty.\n- <b>Agricultural practices</b>: Consider the impact of farming methods, such as pesticide use and monoculture.\n- <b>Urbanization</b>: Reflect on the extent of urban development and habitat loss.\n- <b>Pollution</b>: Think about the presence of contaminants affecting soil life.\n- <b>Climate change</b>: Consider changes in temperature and precipitation patterns.\n- <b>Deforestation</b>: Reflect on the removal of trees and its impact on biodiversity.\n- <b>Natural soil conditions</b>: Think about the inherent properties of the soil that might affect biodiversity."
-	},
-	categoryInformationTooltip: {
-		DRY_SOILS: '<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid.',
-		WET_SOILS: '<b>Assessment of Soil Waterlogging</b> - Soil waterlogging occurs when excess water saturates the soil.',
-		EROSION: '<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes.',
-		SEALED_SOILS: '<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material.',
-		DEGRADATION:
-			'<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing).',
-		LOSS_OF_ORGANIC_MATTER: '<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers.',
-		PH: '<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases.',
-		BIODIVERSITY: '<b>Biodiversity</b> - The variability among living organisms from all sources.'
-	},
-	pointStatus: {
-		status: 'Status',
-		PENDING: 'Pending verification',
-		ACCEPTED: 'Accepted',
-		REJECTED: 'Rejected'
-	},
-	login: 'Inloggen',
-	logout: 'Uitloggen',
-	register: 'Registreren',
-	profile: 'Profiel',
-	filters: 'Filters',
-	other: 'Other',
-	filtersDescription: 'Selecteer de categorie�n van de punten die u op de kaart wilt zien',
-	close: 'Sluiten',
-	cancel: 'Annuleren',
-	back: 'Terug',
-	next: 'Volgende',
-	continue: 'Doorgaan',
-	skip: 'Overslaan',
-	addPoint: 'Punt toevoegen',
-	clear: 'Wissen',
-	remove: 'Verwijderen',
-	apply: 'Toepassen',
-	categories: 'Categorie�n',
-	pressToAddPoint: 'Houd deze knop ingedrukt om een rapport toe te voegen',
-	addPointHere: 'Punt toevoegen op mijn locatie',
-	seeMore: 'Meer weergeven',
-	notAuthenticatedModal: {
-		title: 'Alleen ingelogde gebruikers kunnen een rapport toevoegen',
-		message: 'Log in om door te gaan'
-	},
-	addPointForm: {
-		chooseCategory: {
-			title: 'Categorie kiezen',
-			description: 'Vul een korte vragenlijst in en voeg een punt toe op de kaart'
-		},
-		affectedArea: {
-			title: 'Getroffen gebied',
-			placeholder: 'Gebiedsstraal selecteren'
-		},
-		addPhoto: {
-			title: 'Foto toevoegen',
-			takePhoto: 'Foto nemen',
-			or: 'of',
-			chooseFromGallery: 'Kiezen uit galerij'
-		},
-		description: {
-			title: 'Beschrijf de plaats',
-			placeName: {
-				label: 'Plaatsnaam',
-				placeholder: 'bijvoorbeeld Ko?ciuszko St. Park'
-			},
-			problemDescription: {
-				label: 'Probleemomschrijving',
-				placeholder: ''
-			}
-		},
-		solution: {
-			title: 'Probleemoplossing'
-		},
-		successMessage: 'Succes! Het rapport is toegevoegd aan de kaart',
-		errorMessage: 'Oeps! Er is iets misgegaan. Probeer het opnieuw'
-	},
-	pointDetails: {
-		title: 'Puntdetails',
-		category: 'Categorie',
-		placeName: 'Plaatsnaam',
-		affectedArea: 'Probleemstraal',
-		problemDescription: 'Probleemomschrijving',
-		problemSolution: 'Probleemoplossing',
-		reportDate: 'Datum rapport',
-		photo: 'Foto'
-	},
-	userProfile: {
-		title: 'Gebruikersprofiel',
-		appLanguage: 'Taal van de app',
-		manageAccount: 'Account beheren',
-		logout: 'Uitloggen',
-		removeAccount: 'Account verwijderen',
-		pts: 'PTS',
-		deleteAccountPopup: {
-			button: 'Remove account',
-			cancel: 'Cancel',
-			firstConfirmation: {
-				title: 'Remove account',
-				description: 'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.'
-			},
-			secondConfirmation: {
-				title: 'Are you sure you want to remove your account?',
-				description: 'THIS ACTION CANNOT BE UNDONE.'
-			}
-		}
-	},
-	settings: {
-		title: 'Instellingen',
-		appLanguage: 'Taal van de app',
-		appVersion: 'Appversie',
-		howToUse: 'How to use the app',
-		aboutSoils: 'About soil categories',
-		privacyPolicy: 'Privacy policy'
-	},
-	pointsList: {
-		title: 'Toegevoegde punten',
-		noPoints: 'Er zijn geen punten toegevoegd.',
-		unauthorized: 'Log in om de toegevoegde punten te zien.'
-	},
-	noPermissions: {
-		library: {
-			title: "We hebben geen toegang tot uw foto's",
-			description: "Geef toegang tot uw foto's via de instellingen."
-		},
-		camera: {
-			title: 'We hebben geen toegang tot uw camera',
-			description: 'Geef toegang tot uw camera via de instellingen.'
-		},
-		cancel: 'Annuleren',
-		openSettings: 'Instellingen openen'
-	},
-	pointManagement: {
-		title: 'Points',
-		generateReport: 'Generate report',
-		pointsToApprove: 'Points to approve',
-		approvedPoints: 'Points',
-		pointId: 'Point ID',
-		pointName: 'Point name',
-		dateFrom: 'Date from',
-		dateTo: 'Date to',
-		pointType: 'Point type',
-		approve: 'Approve',
-		delete: 'Delete',
-		noData: 'No data to display',
-		download: 'Download'
-	},
-	userManagement: {
-		title: 'Users Management',
-		searchUser: 'Search user',
-		deleteUser: 'Delete user',
-		setPermissions: 'Set permissions',
-		confirmDeleteMessage: 'Are you sure you want to delete this user account along with all their entries?',
-		cancel: 'Cancel',
-		confirm: 'Delete account',
-		noUsers: 'No users to display'
-	},
-	onboarding: {
-		goToTheAppButton: 'Ga naar de app',
-		welcome: {
-			title: 'Welkom bij\\n GeoSurveyMap!',
-			description: 'Een tool om bodems te rapporteren die in ongezonde staat verkeren'
-		},
-		instruction: {
-			title: 'Hoe werkt onze tool?',
-			step1: {
-				title: 'Zoek een bodem die ongezond lijkt',
-				description: 'U kunt monsters van ons team gebruiken om te bepalen met welk bodemtype u te maken hebt.'
-			},
-			step2: {
-				title: 'Voeg het rapport toe op de locatie',
-				description: 'Neem in het rapport alle verzamelde informatie op die onderzoekers helpt bij het oplossen van het probleem.'
-			},
-			step3: {
-				title: 'Wacht op de bevestiging',
-				description: 'Elk rapport moet door ons team worden gecontroleerd om schadelijke inhoud te vermijden.'
-			}
-		},
-		aboutSoils: {
-			title: 'Over bodems',
-			description:
-				'Klik op de bodemcategorie waarover u informatie wilt bekijken. Deze optie is ook beschikbaar in de sectie Instellingen van de applicatie.'
-		}
-	},
-	problemCause: {
-		lackOfRainfall: 'Gebrek aan regenval',
-		highTemperatures: 'Hoge temperaturen',
-		poorSoilStructure: 'Slechte bodemstructuur',
-		overuseOfWaterResources: 'Overmatig gebruik van watervoorraden',
-		deforestation: 'Ontbossing',
-		climateChange: 'Klimaatverandering',
-		overgrazing: 'Overbegrazing',
-		other: 'Overig',
-		heavyRainfall: 'Zware regenval',
-		poorDrainageSystems: 'Slechte afvoersystemen',
-		highWaterTable: 'Hoge grondwaterspiegel',
-		overIrrigation: 'Overmatige irrigatie',
-		soilCompaction: 'Bodemverdichting',
-		urbanization: 'Verstedelijking',
-		flooding: 'Overstromingen',
-		windErosion: 'Winderosie',
-		waterErosion: 'Watererosie',
-		humanActivity: 'Menselijke activiteit',
-		gullyErosion: 'Sleuferosie',
-		sheetErosion: 'Oppervlakte-erosie',
-		rillErosion: 'Kleine geulerosie',
-		agriculturalPractices: 'Landbouwpraktijken',
-		industrialActivities: 'Industriële activiteiten',
-		pavingAndConcreting: 'Bestrating en beton',
-		naturalProcesses: 'Natuurlijke processen',
-		erosion: 'Erosie',
-		contamination: 'Verontreiniging',
-		lossOfNutrients: 'Verlies van voedingsstoffen',
-		overuseOfSoil: 'Overmatig gebruik van bodem',
-		intensiveAgriculture: 'Intensieve landbouw',
-		soilErosion: 'Bodemerosie',
-		poorLandManagement: 'Slechte landbeheer',
-		acidic: 'Zuur',
-		slightlyAcidic: 'Licht zuur',
-		neutral: 'Neutraal',
-		slightlyAlkaline: 'Licht alkalisch',
-		alkaline: 'Alkalisch',
-		notSure: 'Niet zeker',
-		pollution: 'Vervuiling',
-		naturalSoilConditions: 'Natuurlijke bodemomstandigheden'
-	},
-	codeRepository: 'Code-opslagplaats',
-	allRightsReserved: 'Alle rechten voorbehouden',
-	shapeTheFuture: 'Vorm de toekomst van bodemonderwijs.',
-	togetherWeMap:
-		'Samen kaarten we, verbinden we en onderwijzen we om bodemkennis te bevorderen, bewustzijn, betrokkenheid en duurzame praktijken te stimuleren.',
-	exploreTheMap: 'Verken de kaart',
-	learnMore: 'Meer informatie',
-	aboutTheProject: 'Over het project',
-	learnMoreAboutTheProject: 'Meer informatie over het project',
-	mappingSoilDegradation: 'Bodemafbraak in kaart brengen binnen handbereik',
-	mappingSoilDegradationDescription1:
-		'LOESS Soil Map is een platform dat de gemeenschap samenbrengt in de inspanning om bodems te beschermen. Door interactieve kaarten en geolocatiehulpmiddelen te gebruiken, kunnen gebruikers samenwerken om een database op te bouwen door informatie over bodemomstandigheden in hun lokale gebieden toe te voegen.',
-	mappingSoilDegradationDescription2:
-		'De verzamelde gegevens ondersteunen onderzoekers en beleidsmakers bij het nemen van geïnformeerde milieubeslissingen. Met een eenvoudige enquête en een intuïtieve interface kan iedereen bijdragen aan een beter begrip van bodemafbraakprocessen en effectief helpen bij het beschermen van bodems.',
-	sharedKnowledgeBase: 'Een gedeelde kennisbasis voor een betere toekomst',
-	sharedKnowledgeBaseDescription1:
-		'Het LOESS Soil Map-project, uitgevoerd in het kader van het internationale LOESS-onderzoeksprogramma, verzamelt gegevens over bodemerosie, pH en vocht, waardoor wereldwijde analyse mogelijk wordt. Hierdoor krijgen gebruikers toegang tot uitgebreide informatie die ze kunnen toepassen, variërend van wetenschappelijk onderzoek tot ecologische initiatieven.',
-	sharedKnowledgeBaseDescription2:
-		'Het opbouwen van een samenhangend data-ecosysteem is onze sleutel tot collectieve oplossingen. Door gemeenschapsbetrokkenheid en moderne technologieën wordt LOESS Soil Map een centraal punt voor informatie-uitwisseling, dat milieubeschermingsinspanningen ondersteunt en de belangen van toekomstige generaties veiligstelt.',
-	howToUseTheApp: 'Hoe de app te gebruiken',
-	watchVideoDescription: 'Bekijk de korte video over het gebruik van het crowdmapping-instrument',
-	appTutorial: 'App-tutorial',
-	dragMarkerMessage: 'Sleep de tijdelijke marker naar de gewenste locatie',
-	locationError: 'Kan uw locatie niet bepalen, probeer de pagina te vernieuwen.',
-	noPointsToApprove: 'Geen punten om goed te keuren',
-	noPointsFound: 'Geen punten gevonden',
-	dateRange: 'Datumbereik',
-	selectCategoryPlaceholder: 'Selecteer categorie',
-	getDataReport: 'Download gegevensrapport',
-	surveyStatusUpdated: 'De status van de enquête is bijgewerkt',
-	oopsSomethingWentWrong: 'Oeps! Er is iets misgegaan. Probeer het later opnieuw.',
-	downloadReportFailed: 'Het rapport downloaden is mislukt.',
-	save: 'Opslaan',
-	managePermissions: 'Beheer machtigingen',
-	banUserTooltip: 'Blokkeer gebruiker. Dit voorkomt dat ze punten aan de kaart toevoegen.',
-	usersCount: 'Aantal gebruikers:',
-	userPermissionsUpdated: 'De machtigingen van de gebruiker zijn bijgewerkt.',
-	userStatusUpdated: 'De status van de gebruiker is bijgewerkt.',
-	pickDate: 'Kies een datum'
-}
+  category: {
+    DRY_SOILS: 'Droge bodem',
+    WET_SOILS: 'Natte bodem',
+    EROSION: 'Erosie',
+    SEALED_SOILS: 'Afgedekte bodem',
+    DEGRADATION: 'Bodemdegradatie',
+    LOSS_OF_ORGANIC_MATTER: 'Verlies van organische stof',
+    PH: 'pH',
+    BIODIVERSITY: 'Biodiversiteit',
+  },
+  categoryInformation: {
+    DRY_SOILS:
+      '<b>Woestijnvorming</b> - Het proces waarbij relatief droog land steeds droger wordt en waterlichamen, vegetatie en dierenleven doorgaans verloren gaan. Dit wordt direct veroorzaakt door klimaatverandering of indirect door bodemdegradatie als gevolg van slecht beheer.\n<b>Beoordeling van de bodemdroogte</b>\n<b>Toelichting</b>: Bodemdroogte kan het gevolg zijn van verschillende factoren zoals onvoldoende neerslag, hoge temperaturen of een slechte bodemstructuur. Inzicht in de hoofdoorzaak kan helpen om het probleem effectief aan te pakken.\n<b>Wat is volgens u de hoofdoorzaak van de bodemdroogte in uw gebied?</b>\nA. Gebrek aan neerslag (perioden met weinig of geen regen)\nB. Hoge temperaturen (warm weer dat verdamping veroorzaakt)\nC. Slechte bodemstructuur (bodem die het water niet goed vasthoudt)\nD. Overmatig gebruik van waterbronnen (excessief watergebruik voor landbouw of andere doeleinden)\nE. Ontbossing (verwijdering van bomen die helpen vocht vast te houden)\nF. Klimaatverandering (veranderingen in weerpatronen op lange termijn)\nG. Overbegrazing (overmatige begrazing door vee)\nH. Anders (graag specificeren)\n<b>Opmerkingen bij de antwoorden</b>:\n- <b>Gebrek aan neerslag</b>: Bedenk of er langdurige droge perioden zijn geweest.\n- <b>Hoge temperaturen</b>: Kijk naar recente hittegolven of ongewoon warm weer.\n- <b>Slechte bodemstructuur</b>: Kijk of de bodem zanderig is of water slecht vasthoudt.\n- <b>Overmatig gebruik van waterbronnen</b>: Evalueer lokaal watergebruik in de landbouw of industrie.\n- <b>Ontbossing</b>: Bedenk of er in het gebied veel bomen zijn verwijderd.\n- <b>Klimaatverandering</b>: Kijk naar veranderingen in weerpatronen op lange termijn.\n- <b>Overbegrazing</b>: Bedenk of het gebied veel en intensief door vee wordt begraasd.',
+    WET_SOILS:
+      '<b>Beoordeling van bodemvernatting</b>\n<b>Toelichting</b>: Bodemvernatting treedt op wanneer de bodem verzadigd raakt door overtollig water, wat vaak het gevolg is van zware regenval, slechte ontwatering of een hoog grondwaterpeil. Het opsporen van de oorzaak draagt bij aan een beter waterstandbeheer.\n<b>Wat is volgens u de hoofdoorzaak van de bodemvernatting in uw gebied?</b>\nA. Zware regenval (frequente of hevige regen)\nB. Slechte ontwateringssystemen (ontoereikende ontwateringsinfrastructuur)\nC. Hoog grondwaterpeil (grondwaterstand dicht onder de oppervlakte)\nD. Overirrigatie (overmatig besproeien van gewassen of tuinen)\nE. Bodemverdichting (samengedrukte bodemdeeltjes, waardoor het poriënvolume afneemt)\nF. Verstedelijking (toename van ondoorlatende oppervlakken zoals wegen en gebouwen)\nG. Overstroming (uittredend water uit rivieren of meren)\nH. Anders (graag specificeren)\n<b>Opmerkingen bij de antwoorden</b>:\n- <b>Zware neerslag</b>: Bedenk of het veel of hevig heeft geregend.\n- <b>Slechte ontwateringssystemen</b>: Kijk naar de doeltreffendheid van de lokale ontwateringsinfrastructuur.\n- <b>Hoog grondwaterpeil</b>: Kijk of de grondwaterstanden dicht onder de oppervlakte liggen.\n- <b>Overirrigatie</b>: Evalueer lokale landbouwpraktijken en watergebruik.\n- <b>Bodemverdichting</b>: Bedenk of de bodem hard en verdicht is.\n- <b>Verstedelijking</b>: Kijk naar de hoeveelheid ondoorlatende oppervlakken in het gebied.\n- <b>Overstroming</b>: Bedenk of er onlangs overstromingen zijn geweest.',
+    EROSION:
+      '<b>Bodemerosie</b> - Erosie is het verdwijnen van land of grond door een of meer processen. De belangrijkste oorzaken van erosie zijn de inwerking van water (rillen, interrillen, geulen, smeltende sneeuw en erosie van meer- en rivieroevers), wind (uitdroging en weggeblazen zand), translocatie (grondbewerking, bodemegalisatie, oogst van wortelgewassen, vertrapping en gravende dieren) en geologie (inwendige ondergrondse erosie door grondwater, kusterosie en aardverschuivingen). Geërodeerde sedimenten kunnen over afstanden van slechts enkele millimeters of wel duizenden kilometers worden getransporteerd. Erosie kan ook toenemen door slecht landbeheer, zoals overbegrazing, ontbossing of onjuist gebruik van mechanisatie (bijvoorbeeld ploegen in de hellingsrichting).\n<b>Beoordeling van bodemerosie</b>\n<b>Toelichting</b>: Bodemerosie is het verdwijnen van de toplaag van de bodem door wind, water of menselijke activiteit. Dit kan leiden tot verlies van vruchtbare grond en andere milieuproblemen.\n<b>Hoe schat u de mate van bodemerosie in uw gebied in?</b>\nA. Laag (minimaal bodemverlies)\nB. Matig (merkbaar bodemverlies)\nC. Hoog (ernstig bodemverlies)\nD. Zeer hoog (grootschalig bodemverlies)\n<b>Welke vormen van bodemerosie komen in uw gebied het meest voor?</b>\nA. Winderosie (grond wordt weggeblazen door de wind)\nB. Watererosie (grond wordt weggespoeld door regen of rivieren)\nC. Erosie door menselijke activiteit (bijvoorbeeld bouw of landbouw)\nD. Geulerosie (vorming van grote kanalen of geulen)\nE. Oppervlakte-erosie (dunne lagen grond worden weggevoerd over een groot gebied)\nF. Rillerosie (stromend water vormt kleine kanaaltjes)\nG. Anders (graag specificeren)\n<b>Opmerkingen bij de antwoorden</b>:\n- <b>Winderosie</b>: Bedenk of er sprake is van sterke wind en losse grond.\n- <b>Watererosie</b>: Kijk naar zware regens en waterstroompatronen.\n- <b>Erosie door menselijke activiteit</b>: Evalueer bouw, landbouw of andere menselijke activiteiten.\n- <b>Geulerosie</b>: Kijk of er zich grote kanalen of geulen vormen.\n- <b>Oppervlakte-erosie</b>: Ga na of er dunne lagen grond worden weggevoerd.\n- <b>Rillerosie</b>: Kijk naar kleine kanaaltjes die door stromend water worden gevormd.',
+    SEALED_SOILS:
+      '<b>Bodemafdekking</b> - Het proces waarbij een bodem wordt bedekt met gebouwen of kunstmatige materialen die zeer langzaam water doorlaten (bijvoorbeeld asfalt of beton). Bodemafdekking kan na neerslag een snelle oppervlakkige afstroming veroorzaken omdat het water niet kan wegzakken, wat mogelijk tot overstromingen leidt. Een bodem kan niet goed functioneren wanneer deze is afgedekt.\n<b>Beoordeling van bodemafdekking</b>\n<b>Toelichting</b>: Bodemafdekking treedt op wanneer het bodemoppervlak ondoorlatend wordt, vaak door verstedelijking of verdichting. Dit kan de waterinfiltratie belemmeren en de gezondheid van de bodem aantasten.\n<b>Hoe zou u de mate van bodemafdekking in uw gebied beschrijven?</b>\nA. Minimale afdekking (meeste bodemoppervlakken zijn doorlatend)\nB. Matige afdekking (sommige oppervlakken zijn ondoorlatend)\nC. Grootschalige afdekking (grote oppervlakken zijn ondoorlatend)\nD. Zeer grootschalige afdekking (meeste oppervlakken zijn ondoorlatend)\n<b>Wat is volgens u de hoofdoorzaak van de bodemafdekking in uw gebied?</b>\nA. Verstedelijking (bouw van gebouwen en wegen)\nB. Landbouwpraktijken (gebruik van zware machines)\nC. Industriële activiteiten (fabrieken en andere industrieterreinen)\nD. Bodemverdichting (samengedrukte bodemdeeltjes, waardoor het poriënvolume afneemt)\nE. Bestrating en betonnering (bedekking van de bodem met ondoorlatende materialen)\nF. Natuurlijke processen (bijvoorbeeld korstvorming)\nG. Anders (graag specificeren)\n<b>Opmerkingen bij de antwoorden</b>:\n- <b>Verstedelijking</b>: Kijk naar de hoeveelheid gebouwen en wegen.\n- <b>Landbouwpraktijken</b>: Kijk naar het gebruik van zware machines in de landbouw.\n- <b>Industriële activiteiten</b>: Evalueer de aanwezigheid van fabrieken en industrieterreinen.\n- <b>Bodemverdichting</b>: Kijk of de bodem hard en verdicht is.\n- <b>Bestrating en betonnering</b>: Let op de hoeveelheid verharde of betonnen oppervlakken.\n- <b>Natuurlijke processen</b>: Kijk naar de natuurlijke korstvorming op het bodemoppervlak.',
+    DEGRADATION:
+      '<b>Bodemdegradatie</b> - Negatief proces dat vaak wordt versneld door menselijke activiteiten (slecht bodemgebruik en onjuiste teeltpraktijken, bodemverdichting) en leidt tot aantasting van de bodemeigenschappen en -functies of vernietiging van de volledige bodem, bijvoorbeeld door verdichting, erosie en verzilting.\n<b>Bodemverontreiniging</b> - De aanwezigheid van chemicaliën of stoffen in de bodem in een concentratie die schadelijk kan zijn voor de humane gezondheid of het milieu. Verontreiniging heeft mogelijk een rechtstreeks toxisch effect op de planten, dieren of mensen die in, op of van die bodem leven, of een indirect toxisch effect door ophoping in de hele trofische keten.\n<b>Verzilting</b> - Ophoping van oplosbare zouten (beter oplosbaar dan gips) in de bovenste bodemlagen (zoute bodem = bodem die genoeg oplosbare zouten bevat om de meeste gewassen negatief te beïnvloeden, gewoonlijk 4000 μS m-1).\n<b>Beoordeling van bodemdegradatie</b>\n<b>Toelichting</b>: Bodemdegradatie verwijst naar de afname van de bodemkwaliteit door factoren zoals erosie, verontreiniging of nutriëntenverlies. Dit kan de productiviteit van de landbouw en de gezondheid van het ecosysteem aantasten.\n<b>Hoe schat u de mate van bodemdegradatie in uw gebied in?</b>\nA. Minimale degradatie (bodemkwaliteit is over het algemeen goed)\nB. Matige degradatie (enige afname in bodemkwaliteit)\nC. Ernstige degradatie (aanzienlijke afname in bodemkwaliteit)\nD. Zeer ernstige degradatie (verregaande afname in bodemkwaliteit)\n<b>Wat is volgens u de hoofdoorzaak van de bodemdegradatie in uw gebied?</b>\nA. Erosie (verlies van toplaag)\nB. Verontreiniging (bijvoorbeeld chemicaliën, vervuilende stoffen)\nC. Nutriëntenverlies (uitputting van essentiële bodemnutriënten)\nD. Overmatig bodemgebruik (intensieve landbouw of andere activiteiten)\nE. Ontbossing (verwijdering van bomen die de bodem beschermen)\nF. Klimaatverandering (veranderingen in weerpatronen op lange termijn)\nG. Overbegrazing (overmatige begrazing door vee)\nH. Anders (graag specificeren)\n<b>Opmerkingen bij de antwoorden</b>:\n- <b>Erosie</b>: Bedenk of er sprake is van aanzienlijk bodemverlies.\n- <b>Verontreiniging</b>: Kijk naar de aanwezigheid van chemicaliën of vervuilende stoffen.\n- <b>Nutriëntenverlies</b>: Evalueer de vruchtbaarheid en het nutriëntengehalte van de bodem.\n- <b>Overmatig bodemgebruik</b>: Kijk naar intensieve landbouw of andere activiteiten.\n- <b>Ontbossing</b>: Kijk naar de verwijdering van bomen en vegetatie.\n- <b>Klimaatverandering</b>: Evalueer veranderingen in weerpatronen op lange termijn.\n- <b>Overbegrazing</b>: Bedenk of het gebied veel en intensief door vee wordt begraasd.',
+    LOSS_OF_ORGANIC_MATTER:
+      '<b>Verlies van organische stof in de bodem</b> - Afname van het organische stofgehalte in met name de toplaag wanneer het jaarlijkse verlies van organische stof (bijvoorbeeld door oxidatie of erosie) onvoldoende wordt gecompenseerd door de jaarlijkse aanwas van organische stof uit gewasresten, compost en bemesting.\n<b>Beoordeling van verlies van organische stof in de bodem</b>\n<b>Toelichting</b>: Organische stof is cruciaal voor de vruchtbaarheid en structuur van de bodem. Verlies van organisch materiaal kan het gevolg zijn van slecht landbeheer of natuurlijke processen.\n<b>Hoe beoordeelt u de mate van verlies van organische stof in de bodem binnen uw gebied?</b>\nA. Laag (minimaal verlies)\nB. Matig (merkbaar verlies)\nC. Hoog (aanzienlijk verlies)\nD. Zeer hoog (grootschalig verlies)\n<b>Wat is volgens u de hoofdoorzaak van het verlies van organische stof in de bodem binnen uw gebied?</b>\nA. Intensieve landbouw (frequente teelt en grondbewerking)\nB. Ontbossing (verwijdering van bomen en vegetatie)\nC. Overbegrazing (overmatige begrazing door vee)\nD. Bodemerosie (verlies van organische stof bevattende toplaag)\nE. Klimaatverandering (veranderingen in temperatuur en neerslag)\nF. Slecht landbeheer (ontoereikende bodembeschermingspraktijken)\nG. Anders (graag specificeren)\n<b>Opmerkingen bij de antwoorden</b>:\n- <b>Intensieve landbouw</b>: Let op frequente teelt- en grondbewerkingspraktijken.\n- <b>Ontbossing</b>: Kijk naar de verwijdering van bomen en vegetatie.\n- <b>Overbegrazing</b>: Evalueer de intensiteit van veebegrazing.\n- <b>Bodemerosie</b>: Bedenk of er sprake is van aanzienlijk bodemverlies.\n- <b>Klimaatverandering</b>: Kijk naar veranderingen in temperatuur en neerslag.\n- <b>Slecht landbeheer</b>: Evalueer bodembeschermingspraktijken.',
+    PH: "<b>Verzuring</b> - Het proces waarbij de concentratie waterstofionen in de bodem geleidelijk toeneemt door het verlies van licht alkalische ionen via de gewassen, uitspoeling en gebruik van verzurende typen N-meststoffen. Dit proces wordt versneld of onvoldoende gecompenseerd door natuurlijke bodembestanddelen, waaronder het moedermateriaal.\n<b>Bodem-pH</b>\n<b>Beoordeling van bodem-pH</b>\n<b>Toelichting</b>: De bodem-pH is een maat voor de zuurgraad of alkaliteit van de bodem. Deze kan een aanzienlijke invloed hebben op de groei van planten en de gezondheid van de bodem. De pH van de bodem kan worden vastgesteld aan de hand van de aanwezigheid en gezondheid van bepaalde planten, ook wel indicatorplanten genoemd.\n<b>Hoe zou u de pH-waarde van uw bodem beschrijven op basis van de planten die erop groeien?</b>\nA. Zuur (bijvoorbeeld aanwezigheid van bosbessen, azalea's)\nB. Licht zuur (bijvoorbeeld aanwezigheid van varens, rododendrons)\nC. Neutraal (bijvoorbeeld aanwezigheid van klaver, paardenbloemen)\nD. Licht alkalisch (bijvoorbeeld aanwezigheid van lavendel, duizendblad)\nE. Alkalisch (bijvoorbeeld aanwezigheid van grote alsem, zoutmelde)\nF. Weet niet zeker (onzeker over de plantensoorten of hun indicatiewaarde)\n<b>Opmerkingen bij de antwoorden</b>:\n- <b>Zuur</b>: Als u ziet dat planten zoals bosbessen of azalea's goed gedijen, is de bodem waarschijnlijk zuur.\n- <b>Licht zuur</b>: Planten zoals varens en rododendrons duiden op een licht zure bodem.\n- <b>Neutraal</b>: Klaver en paardenbloemen komen veel voor op bodems met een neutrale pH.\n- <b>Licht alkalisch</b>: Lavendel en duizendblad zijn indicatoren van een licht alkalische bodem.\n- <b>Alkalisch</b>: Grote alsem en zoutmelde gedijen goed in alkalische omstandigheden.\n- <b>Niet zeker</b>: Als u twijfelt over de planten of hun indicatiewaarde, kunt u met deze optie uw onzekerheid aangeven.",
+    BIODIVERSITY:
+      '<b>Biodiversiteit</b> - De variabiliteit tussen levende organismen van allerlei herkomst, met inbegrip van terrestrische, mariene en andere aquatische ecosystemen en de ecologische complexen waarvan ze deel uitmaken. Deze omvat de diversiteit binnen soorten, tussen soorten en van ecosystemen.\n<b>Beoordeling van biodiversiteit van bodem en omgeving</b>\n<b>Toelichting</b>: Biodiversiteit in de bodem verwijst naar de variatie aan organismen die in de bodem leven, waaronder bacteriën, schimmels, insecten en planten. Een hoge biodiversiteit is een teken van een gezond ecosysteem en draagt bij aan de vruchtbaarheid en stabiliteit van de bodem.\n<b>Hoe schat u de biodiversiteit van bodemorganismen in uw gebied in?</b>\nA. Laag (weinig verschillende soorten)\nB. Matig (enige variatie aan soorten)\nC. Hoog (veel verschillende soorten)\nD. Zeer hoog (overvloedige variatie aan soorten)\nE. Weet niet zeker (onzeker over de variatie aan bodemorganismen)\n<b>Wat is volgens u de belangrijkste factor die de bodembiodiversiteit in uw gebied aantast?</b>\nA. Landbouwpraktijken (gebruik van pesticiden, monocultuur)\nB. Verstedelijking (verlies van natuurlijke leefgebieden)\nC. Vervuiling (verontreinigende stoffen die het bodemleven aantasten)\nD. Klimaatverandering (veranderingen in temperatuur en neerslag)\nE. Ontbossing (verlies van bomen en vegetatie)\nF. Natuurlijke bodemgesteldheid (intrinsieke bodemeigenschappen)\nG. Anders (graag specificeren)\n<b>Opmerkingen bij de antwoorden</b>:\n- <b>Laag</b>: Als u weinig verschillende soorten waarneemt, is de biodiversiteit waarschijnlijk laag.\n- <b>Matig</b>: Enige variatie aan soorten wijst op een matige biodiversiteit.\n- <b>Hoog</b>: Veel verschillende soorten wijst op een hoge biodiversiteit.\n- <b>Zeer hoog</b>: Een overvloedige variatie aan soorten wijst op een zeer hoge biodiversiteit.\n- <b>Niet zeker</b>: Als u twijfelt over de variatie aan bodemorganismen, kunt u met deze optie uw onzekerheid aangeven.\n- <b>Landbouwpraktijken</b>: Let op de impact van landbouwmethoden, zoals het gebruik van pesticiden en monocultuur.\n- <b>Verstedelijking</b>: Evalueer de mate van stedelijke ontwikkeling en verlies van leefgebied.\n- <b>Vervuiling</b>: Kijk naar de aanwezigheid van vervuilende stoffen die het bodemleven aantasten.\n- <b>Klimaatverandering</b>: Let op veranderingen in temperatuur- en neerslagpatronen.\n- <b>Ontbossing</b>: Evalueer de verwijdering van bomen en de gevolgen daarvan voor de biodiversiteit.\n- <b>Natuurlijke bodemgesteldheid</b>: Kijk naar de intrinsieke eigenschappen van de bodem die van invloed zouden kunnen zijn op de biodiversiteit.',
+  },
+  categoryInformationTooltip: {
+    DRY_SOILS:
+      '<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid.',
+    WET_SOILS:
+      '<b>Assessment of Soil Waterlogging</b> - Soil waterlogging occurs when excess water saturates the soil.',
+    EROSION:
+      '<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes.',
+    SEALED_SOILS:
+      '<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material.',
+    DEGRADATION:
+      '<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing).',
+    LOSS_OF_ORGANIC_MATTER:
+      '<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers.',
+    PH: '<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases.',
+    BIODIVERSITY: '<b>Biodiversity</b> - The variability among living organisms from all sources.',
+  },
+  pointStatus: {
+    status: 'Status',
+    PENDING: 'Pending verification',
+    ACCEPTED: 'Accepted',
+    REJECTED: 'Rejected',
+  },
+  login: 'Inloggen',
+  logout: 'Uitloggen',
+  register: 'Registreren',
+  profile: 'Profiel',
+  filters: 'Filters',
+  other: 'Other',
+  filtersDescription: 'Selecteer de categorie�n van de punten die u op de kaart wilt zien',
+  close: 'Sluiten',
+  cancel: 'Annuleren',
+  back: 'Terug',
+  next: 'Volgende',
+  continue: 'Doorgaan',
+  skip: 'Overslaan',
+  addPoint: 'Punt toevoegen',
+  clear: 'Wissen',
+  remove: 'Verwijderen',
+  apply: 'Toepassen',
+  categories: 'Categorie�n',
+  pressToAddPoint: 'Houd deze knop ingedrukt om een rapport toe te voegen',
+  addPointHere: 'Punt toevoegen op mijn locatie',
+  seeMore: 'Meer weergeven',
+  notAuthenticatedModal: {
+    title: 'Alleen ingelogde gebruikers kunnen een rapport toevoegen',
+    message: 'Log in om door te gaan',
+  },
+  addPointForm: {
+    chooseCategory: {
+      title: 'Categorie kiezen',
+      description: 'Vul een korte vragenlijst in en voeg een punt toe op de kaart',
+    },
+    affectedArea: {
+      title: 'Getroffen gebied',
+      placeholder: 'Gebiedsstraal selecteren',
+    },
+    addPhoto: {
+      title: 'Foto toevoegen',
+      takePhoto: 'Foto nemen',
+      or: 'of',
+      chooseFromGallery: 'Kiezen uit galerij',
+    },
+    description: {
+      title: 'Beschrijf de plaats',
+      placeName: {
+        label: 'Plaatsnaam',
+        placeholder: 'bijvoorbeeld Ko?ciuszko St. Park',
+      },
+      problemDescription: {
+        label: 'Probleemomschrijving',
+        placeholder: '',
+      },
+    },
+    solution: {
+      title: 'Probleemoplossing',
+    },
+    successMessage: 'Succes! Het rapport is toegevoegd aan de kaart',
+    errorMessage: 'Oeps! Er is iets misgegaan. Probeer het opnieuw',
+  },
+  pointDetails: {
+    title: 'Puntdetails',
+    category: 'Categorie',
+    placeName: 'Plaatsnaam',
+    affectedArea: 'Probleemstraal',
+    problemDescription: 'Probleemomschrijving',
+    problemSolution: 'Probleemoplossing',
+    reportDate: 'Datum rapport',
+    photo: 'Foto',
+  },
+  userProfile: {
+    title: 'Gebruikersprofiel',
+    appLanguage: 'Taal van de app',
+    manageAccount: 'Account beheren',
+    logout: 'Uitloggen',
+    removeAccount: 'Account verwijderen',
+    pts: 'PTS',
+    deleteAccountPopup: {
+      button: 'Remove account',
+      cancel: 'Cancel',
+      firstConfirmation: {
+        title: 'Remove account',
+        description:
+          'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.',
+      },
+      secondConfirmation: {
+        title: 'Are you sure you want to remove your account?',
+        description: 'THIS ACTION CANNOT BE UNDONE.',
+      },
+    },
+  },
+  settings: {
+    title: 'Instellingen',
+    appLanguage: 'Taal van de app',
+    appVersion: 'Appversie',
+    howToUse: 'How to use the app',
+    aboutSoils: 'About soil categories',
+    privacyPolicy: 'Privacy policy',
+  },
+  pointsList: {
+    title: 'Toegevoegde punten',
+    noPoints: 'Er zijn geen punten toegevoegd.',
+    unauthorized: 'Log in om de toegevoegde punten te zien.',
+  },
+  noPermissions: {
+    library: {
+      title: "We hebben geen toegang tot uw foto's",
+      description: "Geef toegang tot uw foto's via de instellingen.",
+    },
+    camera: {
+      title: 'We hebben geen toegang tot uw camera',
+      description: 'Geef toegang tot uw camera via de instellingen.',
+    },
+    cancel: 'Annuleren',
+    openSettings: 'Instellingen openen',
+  },
+  pointManagement: {
+    title: 'Points',
+    generateReport: 'Generate report',
+    pointsToApprove: 'Points to approve',
+    approvedPoints: 'Points',
+    pointId: 'Point ID',
+    pointName: 'Point name',
+    dateFrom: 'Date from',
+    dateTo: 'Date to',
+    pointType: 'Point type',
+    approve: 'Approve',
+    delete: 'Delete',
+    noData: 'No data to display',
+    download: 'Download',
+  },
+  userManagement: {
+    title: 'Users Management',
+    searchUser: 'Search user',
+    deleteUser: 'Delete user',
+    setPermissions: 'Set permissions',
+    confirmDeleteMessage:
+      'Are you sure you want to delete this user account along with all their entries?',
+    cancel: 'Cancel',
+    confirm: 'Delete account',
+    noUsers: 'No users to display',
+  },
+  onboarding: {
+    goToTheAppButton: 'Ga naar de app',
+    welcome: {
+      title: 'Welkom bij\\n GeoSurveyMap!',
+      description: 'Een tool om bodems te rapporteren die in ongezonde staat verkeren',
+    },
+    instruction: {
+      title: 'Hoe werkt onze tool?',
+      step1: {
+        title: 'Zoek een bodem die ongezond lijkt',
+        description:
+          'U kunt monsters van ons team gebruiken om te bepalen met welk bodemtype u te maken hebt.',
+      },
+      step2: {
+        title: 'Voeg het rapport toe op de locatie',
+        description:
+          'Neem in het rapport alle verzamelde informatie op die onderzoekers helpt bij het oplossen van het probleem.',
+      },
+      step3: {
+        title: 'Wacht op de bevestiging',
+        description:
+          'Elk rapport moet door ons team worden gecontroleerd om schadelijke inhoud te vermijden.',
+      },
+    },
+    aboutSoils: {
+      title: 'Over bodems',
+      description:
+        'Klik op de bodemcategorie waarover u informatie wilt bekijken. Deze optie is ook beschikbaar in de sectie Instellingen van de applicatie.',
+    },
+  },
+  problemCause: {
+    lackOfRainfall: 'Gebrek aan regenval',
+    highTemperatures: 'Hoge temperaturen',
+    poorSoilStructure: 'Slechte bodemstructuur',
+    overuseOfWaterResources: 'Overmatig gebruik van watervoorraden',
+    deforestation: 'Ontbossing',
+    climateChange: 'Klimaatverandering',
+    overgrazing: 'Overbegrazing',
+    other: 'Overig',
+    heavyRainfall: 'Zware regenval',
+    poorDrainageSystems: 'Slechte afvoersystemen',
+    highWaterTable: 'Hoge grondwaterspiegel',
+    overIrrigation: 'Overmatige irrigatie',
+    soilCompaction: 'Bodemverdichting',
+    urbanization: 'Verstedelijking',
+    flooding: 'Overstromingen',
+    windErosion: 'Winderosie',
+    waterErosion: 'Watererosie',
+    humanActivity: 'Menselijke activiteit',
+    gullyErosion: 'Sleuferosie',
+    sheetErosion: 'Oppervlakte-erosie',
+    rillErosion: 'Kleine geulerosie',
+    agriculturalPractices: 'Landbouwpraktijken',
+    industrialActivities: 'Industriële activiteiten',
+    pavingAndConcreting: 'Bestrating en beton',
+    naturalProcesses: 'Natuurlijke processen',
+    erosion: 'Erosie',
+    contamination: 'Verontreiniging',
+    lossOfNutrients: 'Verlies van voedingsstoffen',
+    overuseOfSoil: 'Overmatig gebruik van bodem',
+    intensiveAgriculture: 'Intensieve landbouw',
+    soilErosion: 'Bodemerosie',
+    poorLandManagement: 'Slechte landbeheer',
+    acidic: 'Zuur',
+    slightlyAcidic: 'Licht zuur',
+    neutral: 'Neutraal',
+    slightlyAlkaline: 'Licht alkalisch',
+    alkaline: 'Alkalisch',
+    notSure: 'Niet zeker',
+    pollution: 'Vervuiling',
+    naturalSoilConditions: 'Natuurlijke bodemomstandigheden',
+  },
+  codeRepository: 'Code-opslagplaats',
+  allRightsReserved: 'Alle rechten voorbehouden',
+  shapeTheFuture: 'Vorm de toekomst van bodemonderwijs.',
+  togetherWeMap:
+    'Samen kaarten we, verbinden we en onderwijzen we om bodemkennis te bevorderen, bewustzijn, betrokkenheid en duurzame praktijken te stimuleren.',
+  exploreTheMap: 'Verken de kaart',
+  learnMore: 'Meer informatie',
+  aboutTheProject: 'Over het project',
+  learnMoreAboutTheProject: 'Meer informatie over het project',
+  mappingSoilDegradation: 'Bodemafbraak in kaart brengen binnen handbereik',
+  mappingSoilDegradationDescription1:
+    'LOESS Soil Map is een platform dat de gemeenschap samenbrengt in de inspanning om bodems te beschermen. Door interactieve kaarten en geolocatiehulpmiddelen te gebruiken, kunnen gebruikers samenwerken om een database op te bouwen door informatie over bodemomstandigheden in hun lokale gebieden toe te voegen.',
+  mappingSoilDegradationDescription2:
+    'De verzamelde gegevens ondersteunen onderzoekers en beleidsmakers bij het nemen van geïnformeerde milieubeslissingen. Met een eenvoudige enquête en een intuïtieve interface kan iedereen bijdragen aan een beter begrip van bodemafbraakprocessen en effectief helpen bij het beschermen van bodems.',
+  sharedKnowledgeBase: 'Een gedeelde kennisbasis voor een betere toekomst',
+  sharedKnowledgeBaseDescription1:
+    'Het LOESS Soil Map-project, uitgevoerd in het kader van het internationale LOESS-onderzoeksprogramma, verzamelt gegevens over bodemerosie, pH en vocht, waardoor wereldwijde analyse mogelijk wordt. Hierdoor krijgen gebruikers toegang tot uitgebreide informatie die ze kunnen toepassen, variërend van wetenschappelijk onderzoek tot ecologische initiatieven.',
+  sharedKnowledgeBaseDescription2:
+    'Het opbouwen van een samenhangend data-ecosysteem is onze sleutel tot collectieve oplossingen. Door gemeenschapsbetrokkenheid en moderne technologieën wordt LOESS Soil Map een centraal punt voor informatie-uitwisseling, dat milieubeschermingsinspanningen ondersteunt en de belangen van toekomstige generaties veiligstelt.',
+  howToUseTheApp: 'Hoe de app te gebruiken',
+  watchVideoDescription: 'Bekijk de korte video over het gebruik van het crowdmapping-instrument',
+  appTutorial: 'App-tutorial',
+  dragMarkerMessage: 'Sleep de tijdelijke marker naar de gewenste locatie',
+  locationError: 'Kan uw locatie niet bepalen, probeer de pagina te vernieuwen.',
+  noPointsToApprove: 'Geen punten om goed te keuren',
+  noPointsFound: 'Geen punten gevonden',
+  dateRange: 'Datumbereik',
+  selectCategoryPlaceholder: 'Selecteer categorie',
+  getDataReport: 'Download gegevensrapport',
+  surveyStatusUpdated: 'De status van de enquête is bijgewerkt',
+  oopsSomethingWentWrong: 'Oeps! Er is iets misgegaan. Probeer het later opnieuw.',
+  downloadReportFailed: 'Het rapport downloaden is mislukt.',
+  save: 'Opslaan',
+  managePermissions: 'Beheer machtigingen',
+  banUserTooltip: 'Blokkeer gebruiker. Dit voorkomt dat ze punten aan de kaart toevoegen.',
+  usersCount: 'Aantal gebruikers:',
+  userPermissionsUpdated: 'De machtigingen van de gebruiker zijn bijgewerkt.',
+  userStatusUpdated: 'De status van de gebruiker is bijgewerkt.',
+  pickDate: 'Kies een datum',
+};
