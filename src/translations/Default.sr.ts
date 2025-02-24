@@ -1,13 +1,13 @@
 export const sr = {
 	category: {
-		DRY_SOILS: 'isušeno zemljište',
-		WET_SOILS: 'vlažno zemljište',
-		EROSION: 'erozija',
-		SEALED_SOILS: 'betonirano zemljište',
-		DEGRADATION: 'degradacija zemljišta',
-		LOSS_OF_ORGANIC_MATTER: 'gubitak organske materije',
-		PH: 'pH vrednost',
-		BIODIVERSITY: 'biodiverzitet'
+		DRY_SOILS: 'Trajno isušeno zemljište',
+		WET_SOILS: 'Vlažno zemljište',
+		EROSION: 'Erozija',
+		SEALED_SOILS: 'Zauzeto',
+		DEGRADATION: 'Degradirano zemljište',
+		LOSS_OF_ORGANIC_MATTER: 'Gubitak organske materije',
+		PH: 'Zakišeljavanje zemljišta',
+		BIODIVERSITY: 'Gubitak biodiverziteta'
 	},
 	categoryInformation: {
 		DRY_SOILS:
@@ -24,18 +24,21 @@ export const sr = {
 			'<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers when the annual loss of organic matter (e.g., due to oxidation or erosion) is insufficiently compensated for by the annual gain of organic matter, resulting from crop residues, composts and manures.\n<b>Assessment of Loss of Soil Organic Matter</b>\n<b>Explanation</b>: Soil organic matter is crucial for soil fertility and structure. Loss of organic matter can result from poor land management practices or natural processes.\n<b>How would you rate the loss of soil organic matter in your area?</b>\nA. Low (Minimal loss)\nB. Moderate (Noticeable loss)\nC. High (Significant loss)\nD. Very high (Extensive loss)\n<b>What do you think is the primary cause of loss of soil organic matter in your area?</b>\nA. Intensive agriculture (Frequent cropping and tillage)\nB. Deforestation (Removal of trees and vegetation)\nC. Overgrazing (Excessive grazing by livestock)\nD. Soil erosion (Loss of topsoil containing organic matter)\nE. Climate change (Changes in temperature and precipitation)\nF. Poor land management (Inadequate soil conservation practices)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Intensive agriculture</b>: Consider frequent cropping and tillage practices.\n- <b>Deforestation</b>: Think about the removal of trees and vegetation.\n- <b>Overgrazing</b>: Reflect on the intensity of livestock grazing.\n- <b>Soil erosion</b>: Consider if there is significant soil loss.\n- <b>Climate change</b>: Think about changes in temperature and precipitation.\n- <b>Poor land management</b>: Reflect on soil conservation practices.',
 		PH: "<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases, caused by the removal of slightly alkaline ions with the crop, leaching and the application of acidifying types of N fertiliser. This process is accelerated or insufficiently compensated by natural soil components, including parent material.\n<b>Soil pH</b>\n<b>Assessment of Soil pH</b>\n<b>Explanation</b>: Soil pH is a measure of the acidity or alkalinity of the soil. It can significantly affect plant growth and soil health. Certain plants, known as indicator plants, can help determine the soil pH based on their presence and health.\n<b>How would you describe the pH level of your soil based on the plants growing in it?</b>\nA. Acidic (e.g., presence of blueberries, azaleas)\nB. Slightly acidic (e.g., presence of ferns, rhododendrons)\nC. Neutral (e.g., presence of clover, dandelions)\nD. Slightly alkaline (e.g., presence of lavender, yarrow)\nE. Alkaline (e.g., presence of sagebrush, saltbush)\nF. Not sure (Unsure about the types of plants or their indication)\n<b>Comments for Answers</b>:\n- <b>Acidic</b>: If you notice plants like blueberries or azaleas thriving, your soil is likely acidic.\n- <b>Slightly acidic</b>: Plants such as ferns and rhododendrons indicate slightly acidic soil.\n- <b>Neutral</b>: Clover and dandelions are common in neutral pH soils.\n- <b>Slightly alkaline</b>: Lavender and yarrow are indicators of slightly alkaline soil.\n- <b>Alkaline</b>: Sagebrush and saltbush thrive in alkaline conditions.\n- <b>Not sure</b>: If you're unsure about the plants or their indications, this option allows you to express that uncertainty.",
 		BIODIVERSITY:
-			"<b>Biodiversity</b> - The variability among living organisms from all sources, including terrestrial, marine, and other aquatic ecosystems as well as the ecological complexes of which they are a part. This includes diversity within species, between species, and of ecosystems.\n<b>Assessment of Biodiversity of Soil and the Local Environment</b>\n<b>Explanation</b>: Biodiversity in soil refers to the variety of organisms living in the soil, including bacteria, fungi, insects, and plants. High biodiversity is a sign of a healthy ecosystem, contributing to soil fertility and stability.\n<b>How would you rate the biodiversity of soil organisms in your area?</b>\nA. Low (Few different species)\nB. Moderate (Some variety of species)\nC. High (Many different species)\nD. Very high (Abundant variety of species)\nE. Not sure (Unsure about the variety of soil organisms)\n<b>What do you think is the primary factor affecting soil biodiversity in your area?</b>\nA. Agricultural practices (Use of pesticides, monoculture)\nB. Urbanization (Loss of natural habitats)\nC. Pollution (Contaminants affecting soil life)\nD. Climate change (Changes in temperature and precipitation)\nE. Deforestation (Loss of trees and vegetation)\nF. Natural soil conditions (Inherent soil properties)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Low</b>: If you observe few different species, biodiversity is likely low.\n- <b>Moderate</b>: Some variety of species indicates moderate biodiversity.\n- <b>High</b>: Many different species suggest high biodiversity.\n- <b>Very high</b>: An abundant variety of species indicates very high biodiversity.\n- <b>Not sure</b>: If you're unsure about the variety of soil organisms, this option allows you to express that uncertainty.\n- <b>Agricultural practices</b>: Consider the impact of farming methods, such as pesticide use and monoculture.\n- <b>Urbanization</b>: Reflect on the extent of urban development and habitat loss.\n- <b>Pollution</b>: Think about the presence of contaminants affecting soil life.\n- <b>Climate change</b>: Consider changes in temperature and precipitation patterns.\n- <b>Deforestation</b>: Reflect on the removal of trees and its impact on biodiversity.\n- <b>Natural soil conditions</b>: Think about the inherent properties of the soil that might affect biodiversity."
+			"<b>Gubitak biodiverziteta</b> - The variability among living organisms from all sources, including terrestrial, marine, and other aquatic ecosystems as well as the ecological complexes of which they are a part. This includes diversity within species, between species, and of ecosystems.\n<b>Assessment of Biodiversity of Soil and the Local Environment</b>\n<b>Explanation</b>: Biodiversity in soil refers to the variety of organisms living in the soil, including bacteria, fungi, insects, and plants. High biodiversity is a sign of a healthy ecosystem, contributing to soil fertility and stability.\n<b>How would you rate the biodiversity of soil organisms in your area?</b>\nA. Low (Few different species)\nB. Moderate (Some variety of species)\nC. High (Many different species)\nD. Very high (Abundant variety of species)\nE. Not sure (Unsure about the variety of soil organisms)\n<b>What do you think is the primary factor affecting soil biodiversity in your area?</b>\nA. Agricultural practices (Use of pesticides, monoculture)\nB. Urbanization (Loss of natural habitats)\nC. Pollution (Contaminants affecting soil life)\nD. Climate change (Changes in temperature and precipitation)\nE. Deforestation (Loss of trees and vegetation)\nF. Natural soil conditions (Inherent soil properties)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Low</b>: If you observe few different species, biodiversity is likely low.\n- <b>Moderate</b>: Some variety of species indicates moderate biodiversity.\n- <b>High</b>: Many different species suggest high biodiversity.\n- <b>Very high</b>: An abundant variety of species indicates very high biodiversity.\n- <b>Not sure</b>: If you're unsure about the variety of soil organisms, this option allows you to express that uncertainty.\n- <b>Agricultural practices</b>: Consider the impact of farming methods, such as pesticide use and monoculture.\n- <b>Urbanization</b>: Reflect on the extent of urban development and habitat loss.\n- <b>Pollution</b>: Think about the presence of contaminants affecting soil life.\n- <b>Climate change</b>: Consider changes in temperature and precipitation patterns.\n- <b>Deforestation</b>: Reflect on the removal of trees and its impact on biodiversity.\n- <b>Natural soil conditions</b>: Think about the inherent properties of the soil that might affect biodiversity."
 	},
 	categoryInformationTooltip: {
-		DRY_SOILS: '<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid.',
-		WET_SOILS: '<b>Assessment of Soil Waterlogging</b> - Soil waterlogging occurs when excess water saturates the soil.',
-		EROSION: '<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes.',
-		SEALED_SOILS: '<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material.',
+		DRY_SOILS: '<b>Dezertifikacija</b> - Proces u kome relativno suva zemljišta postaju još suvlja.',
+		WET_SOILS: '<b>Vlažno zemljište</b> - Procena prekomerne vlažnosti zemljišta – Trajno zasićenje zemljišta viškom vode',
+		EROSION:
+			'<b>Erodirano zemljište</b> - Proces gubitka površinskih slojeva zemljišta delovanjem jednog ili više procesa (vetra, vode, ljudskih aktivnosti…)',
+		SEALED_SOILS:
+			'<b>Zauzeto, betonirano zemljište</b> - Zauzimanje zemljišta – Proces zauzimanje/prekrivanja zemljišta zgradama ili različitim veštačkim materijalima.',
 		DEGRADATION:
-			'<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing).',
-		LOSS_OF_ORGANIC_MATTER: '<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers.',
-		PH: '<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases.',
-		BIODIVERSITY: '<b>Biodiversity</b> - The variability among living organisms from all sources.'
+			'<b>Degradirano zemljište</b> - Degradacija zemljišta – Negativan proces koji često ubrzavaju ljudske aktivnosti (nepravilna upotreba zemljišta i prakse obrade, zbijanje zemljišta).',
+		LOSS_OF_ORGANIC_MATTER: '<b>Gubitak organske materije</b> - Gubitak organske materije, humusa, što utiče na plodnost i strukturu zemljišta',
+		PH: '<b>Zakišeljavanje zemljišta</b> - Proces u kojem koncentracija jona vodonika u zemljištu postepeno raste, a vrednost pH se smanjuje ka < 5',
+		BIODIVERSITY:
+			'<b>Gubitak biodiverziteta</b> - Proces smanjenja raznovrsnosti i brojnosti živih organizama, što dovodi do degradacije ekosistema.'
 	},
 	pointStatus: {
 		status: 'Status',
@@ -259,7 +262,7 @@ export const sr = {
 	learnMoreAboutTheProject: 'Saznajte više o projektu',
 	mappingSoilDegradation: 'Mapiranje degradacije tla na dohvat ruke',
 	mappingSoilDegradationDescription1:
-		'LOESS Soil Map je platforma koja okuplja zajednicu u naporima za zaštitu tla. Korišćenjem interaktivnih mapa i alata za geolokaciju, korisnici mogu zajednički izgraditi bazu podataka dodavanjem informacija o stanju tla u svojim lokalnim područjima.',
+		'LOESS Soil Map je platforma koja okuplja zajednicu u nastojanju da se zaštiti tlo. Korišćenjem interaktivnih mapa i alata za geolokaciju, korisnici mogu zajednički izgraditi bazu podataka dodavanjem informacija o stanju tla u svojim lokalnim područjima.',
 	mappingSoilDegradationDescription2:
 		'Prikupljeni podaci podržavaju istraživače i donosioce odluka u donošenju informisanih odluka o životnoj sredini. Uz jednostavan obrazac ankete i intuitivno sučelje, svako može doprineti dubljem razumevanju procesa degradacije tla i efikasno pomoći u zaštiti tla.',
 	sharedKnowledgeBase: 'Zajednička baza znanja za bolju budućnost',
