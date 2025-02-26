@@ -1,293 +1,300 @@
 export const sr = {
-	category: {
-		DRY_SOILS: 'Trajno isušeno zemljište',
-		WET_SOILS: 'Vlažno zemljište',
-		EROSION: 'Erozija',
-		SEALED_SOILS: 'Zauzeto',
-		DEGRADATION: 'Degradirano zemljište',
-		LOSS_OF_ORGANIC_MATTER: 'Gubitak organske materije',
-		PH: 'Zakišeljavanje zemljišta',
-		BIODIVERSITY: 'Gubitak biodiverziteta'
-	},
-	categoryInformation: {
-		DRY_SOILS:
-			"<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid, typically losing its body of water as well as vegetation and wildlife either directly via climate change or indirectly via soil degradation resulting from poor management.\n<b>Assessment of Soil Dryness</b>\n<b>Explanation</b>: Soil dryness can result from various factors such as insufficient rainfall, high temperatures, or poor soil structure. Understanding the primary cause can help in addressing the issue effectively.\n<b>What do you think is the primary cause of soil dryness in your area?</b>\nA. Lack of rainfall (Periods of little or no rain)\nB. High temperatures (Hot weather causing evaporation)\nC. Poor soil structure (Soil that doesn't retain water well)\nD. Overuse of water resources (Excessive use of water for agriculture or other purposes)\nE. Deforestation (Removal of trees that help retain moisture)\nF. Climate change (Long-term changes in weather patterns)\nG. Overgrazing (Excessive grazing by livestock)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Lack of rainfall</b>: Consider if there have been prolonged dry periods.\n- <b>High temperatures</b>: Think about recent heatwaves or unusually hot weather.\n- <b>Poor soil structure</b>: Notice if the soil is sandy or has poor water retention.\n- <b>Overuse of water resources</b>: Reflect on local agricultural or industrial water usage.\n- <b>Deforestation</b>: Consider if there has been significant tree removal in the area.\n- <b>Climate change</b>: Think about long-term changes in weather patterns.\n- <b>Overgrazing</b>: Consider if livestock grazing is prevalent and intense.",
-		WET_SOILS:
-			'<b>Assessment of Soil Waterlogging</b>\n<b>Explanation</b>: Soil waterlogging occurs when excess water saturates the soil, often due to heavy rainfall, poor drainage, or high water tables. Identifying the cause can help in managing water levels.\n<b>What do you think is the primary cause of soil waterlogging in your area?</b>\nA. Heavy rainfall (Frequent or intense rain)\nB. Poor drainage systems (Inadequate drainage infrastructure)\nC. High water table (Groundwater level close to the surface)\nD. Over-irrigation (Excessive watering of crops or gardens)\nE. Soil compaction (Soil particles pressed together, reducing pore space)\nF. Urbanization (Increased impermeable surfaces like roads and buildings)\nG. Flooding (Overflow of water from rivers or lakes)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Heavy rainfall</b>: Consider if there have been frequent or intense rain events.\n- <b>Poor drainage systems</b>: Think about the effectiveness of local drainage infrastructure.\n- <b>High water table</b>: Notice if groundwater levels are close to the surface.\n- <b>Over-irrigation</b>: Reflect on local agricultural practices and water usage.\n- <b>Soil compaction</b>: Consider if the soil is hard and compacted.\n- <b>Urbanization</b>: Think about the extent of impermeable surfaces in the area.\n- <b>Flooding</b>: Consider if there have been recent floods.',
-		EROSION:
-			'<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes. The main causes of erosion include the actions of water (rills, inter-rill, gully, snowmelt and river and lake bank erosion), wind (desiccation and wind-blow), translocation (tillage, land levelling, harvesting of root crops, trampling and burrowing animals) and geological (internal subterranean erosion by groundwater, coastal erosion and landslides). Erosion can also be increased by poor land management such as overgrazing, deforestation or inappropriate use of mechanisation (e.g., ploughing down a hill slope).\n<b>Assessment of Soil Erosion</b>\n<b>Explanation</b>: Soil erosion is the removal of the topsoil layer by wind, water, or human activity. It can lead to loss of fertile land and other environmental issues.\n<b>How would you rate the intensity of soil erosion in your area?</b>\nA. Low (Minimal soil loss)\nB. Moderate (Noticeable soil loss)\nC. High (Severe soil loss)\nD. Very high (Extensive soil loss)\n<b>What forms of soil erosion are most common in your area?</b>\nA. Wind erosion (Soil blown away by wind)\nB. Water erosion (Soil washed away by rain or rivers)\nC. Human activity (e.g., construction, agriculture)\nD. Gully erosion (Formation of large channels or gullies)\nE. Sheet erosion (Thin layers of soil removed over a large area)\nF. Rill erosion (Small channels formed by running water)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Wind erosion</b>: Consider if there are strong winds and loose soil.\n- <b>Water erosion</b>: Think about heavy rains and water flow patterns.\n- <b>Human activity</b>: Reflect on construction, farming, or other human activities.\n- <b>Gully erosion</b>: Notice if there are large channels or gullies forming.\n- <b>Sheet erosion</b>: Consider if there are thin layers of soil being removed.\n- <b>Rill erosion</b>: Think about small channels formed by running water.',
-		SEALED_SOILS:
-			'<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material which may be very slowly permeable to water (e.g., asphalt or concrete). Soil sealing can cause rapid overland flow after precipitation where water cannot soak away leading to potential flooding. A soil is unable to function effectively when sealed.\n<b>Assessment of Soil Sealing</b>\n<b>Explanation</b>: Soil surface sealing occurs when the soil surface becomes impermeable, often due to urbanization or compaction. This can prevent water infiltration and affect soil health.\n<b>How would you describe the state of soil surface sealing in your area?</b>\nA. Minimal sealing (Most soil surfaces are permeable)\nB. Moderate sealing (Some areas are impermeable)\nC. Extensive sealing (Large areas are impermeable)\nD. Very extensive sealing (Most areas are impermeable)\n<b>What do you think is the primary cause of soil surface sealing in your area?</b>\nA. Urbanization (Construction of buildings and roads)\nB. Agricultural practices (Use of heavy machinery)\nC. Industrial activities (Factories and other industrial sites)\nD. Soil compaction (Soil particles pressed together, reducing pore space)\nE. Paving and concreting (Covering soil with impermeable materials)\nF. Natural processes (e.g., crust formation)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Urbanization</b>: Consider the extent of buildings and roads.\n- <b>Agricultural practices</b>: Think about the use of heavy machinery in farming.\n- <b>Industrial activities</b>: Reflect on the presence of factories and industrial sites.\n- <b>Soil compaction</b>: Notice if the soil is hard and compacted.\n- <b>Paving and concreting</b>: Consider the amount of paved or concreted areas.\n- <b>Natural processes</b>: Think about natural crust formation on the soil surface.',
-		DEGRADATION:
-			'<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing) that leads to deterioration of soil properties and functions or destruction of soil as a whole, e.g., compaction, erosion, salinisation.\n<b>Soil contamination</b> - The presence of a chemical or substance in the soil in a concentration that may be harmful to human health or the environment. Contamination may have a direct toxic effect on the plants, animals or humans living in, on, or from that soil, or have an indirect toxic effect due to accumulation in the whole trophic chain.\n<b>Salinization</b> - Accumulation of soluble salts (more soluble than gypsum) in the upper soil layers (saline soil = soil containing enough soluble salts to negatively affect most crop plants, commonly 4000 μS m-1).\n<b>Assessment of Soil Degradation</b>\n<b>Explanation</b>: Soil degradation refers to the decline in soil quality due to factors like erosion, contamination, or loss of nutrients. It can affect agricultural productivity and ecosystem health.\n<b>How would you rate the overall status of soil degradation in your area?</b>\nA. Minimal degradation (Soil quality is generally good)\nB. Moderate degradation (Some decline in soil quality)\nC. Severe degradation (Significant decline in soil quality)\nD. Very severe degradation (Extensive decline in soil quality)\n<b>What do you think is the primary cause of soil degradation in your area?</b>\nA. Erosion (Loss of topsoil)\nB. Contamination (e.g., chemicals, pollutants)\nC. Loss of nutrients (Depletion of essential soil nutrients)\nD. Overuse of soil (Intensive farming or other activities)\nE. Deforestation (Removal of trees that protect soil)\nF. Climate change (Long-term changes in weather patterns)\nG. Overgrazing (Excessive grazing by livestock)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Erosion</b>: Consider if there is significant soil loss.\n- <b>Contamination</b>: Think about the presence of chemicals or pollutants.\n- <b>Loss of nutrients</b>: Reflect on the fertility and nutrient content of the soil.\n- <b>Overuse of soil</b>: Consider intensive farming or other activities.\n- <b>Deforestation</b>: Think about the removal of trees and vegetation.\n- <b>Climate change</b>: Reflect on long-term changes in weather patterns.\n- <b>Overgrazing</b>: Consider if livestock grazing is prevalent and intense.',
-		LOSS_OF_ORGANIC_MATTER:
-			'<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers when the annual loss of organic matter (e.g., due to oxidation or erosion) is insufficiently compensated for by the annual gain of organic matter, resulting from crop residues, composts and manures.\n<b>Assessment of Loss of Soil Organic Matter</b>\n<b>Explanation</b>: Soil organic matter is crucial for soil fertility and structure. Loss of organic matter can result from poor land management practices or natural processes.\n<b>How would you rate the loss of soil organic matter in your area?</b>\nA. Low (Minimal loss)\nB. Moderate (Noticeable loss)\nC. High (Significant loss)\nD. Very high (Extensive loss)\n<b>What do you think is the primary cause of loss of soil organic matter in your area?</b>\nA. Intensive agriculture (Frequent cropping and tillage)\nB. Deforestation (Removal of trees and vegetation)\nC. Overgrazing (Excessive grazing by livestock)\nD. Soil erosion (Loss of topsoil containing organic matter)\nE. Climate change (Changes in temperature and precipitation)\nF. Poor land management (Inadequate soil conservation practices)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Intensive agriculture</b>: Consider frequent cropping and tillage practices.\n- <b>Deforestation</b>: Think about the removal of trees and vegetation.\n- <b>Overgrazing</b>: Reflect on the intensity of livestock grazing.\n- <b>Soil erosion</b>: Consider if there is significant soil loss.\n- <b>Climate change</b>: Think about changes in temperature and precipitation.\n- <b>Poor land management</b>: Reflect on soil conservation practices.',
-		PH: "<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases, caused by the removal of slightly alkaline ions with the crop, leaching and the application of acidifying types of N fertiliser. This process is accelerated or insufficiently compensated by natural soil components, including parent material.\n<b>Soil pH</b>\n<b>Assessment of Soil pH</b>\n<b>Explanation</b>: Soil pH is a measure of the acidity or alkalinity of the soil. It can significantly affect plant growth and soil health. Certain plants, known as indicator plants, can help determine the soil pH based on their presence and health.\n<b>How would you describe the pH level of your soil based on the plants growing in it?</b>\nA. Acidic (e.g., presence of blueberries, azaleas)\nB. Slightly acidic (e.g., presence of ferns, rhododendrons)\nC. Neutral (e.g., presence of clover, dandelions)\nD. Slightly alkaline (e.g., presence of lavender, yarrow)\nE. Alkaline (e.g., presence of sagebrush, saltbush)\nF. Not sure (Unsure about the types of plants or their indication)\n<b>Comments for Answers</b>:\n- <b>Acidic</b>: If you notice plants like blueberries or azaleas thriving, your soil is likely acidic.\n- <b>Slightly acidic</b>: Plants such as ferns and rhododendrons indicate slightly acidic soil.\n- <b>Neutral</b>: Clover and dandelions are common in neutral pH soils.\n- <b>Slightly alkaline</b>: Lavender and yarrow are indicators of slightly alkaline soil.\n- <b>Alkaline</b>: Sagebrush and saltbush thrive in alkaline conditions.\n- <b>Not sure</b>: If you're unsure about the plants or their indications, this option allows you to express that uncertainty.",
-		BIODIVERSITY:
-			"<b>Gubitak biodiverziteta</b> - The variability among living organisms from all sources, including terrestrial, marine, and other aquatic ecosystems as well as the ecological complexes of which they are a part. This includes diversity within species, between species, and of ecosystems.\n<b>Assessment of Biodiversity of Soil and the Local Environment</b>\n<b>Explanation</b>: Biodiversity in soil refers to the variety of organisms living in the soil, including bacteria, fungi, insects, and plants. High biodiversity is a sign of a healthy ecosystem, contributing to soil fertility and stability.\n<b>How would you rate the biodiversity of soil organisms in your area?</b>\nA. Low (Few different species)\nB. Moderate (Some variety of species)\nC. High (Many different species)\nD. Very high (Abundant variety of species)\nE. Not sure (Unsure about the variety of soil organisms)\n<b>What do you think is the primary factor affecting soil biodiversity in your area?</b>\nA. Agricultural practices (Use of pesticides, monoculture)\nB. Urbanization (Loss of natural habitats)\nC. Pollution (Contaminants affecting soil life)\nD. Climate change (Changes in temperature and precipitation)\nE. Deforestation (Loss of trees and vegetation)\nF. Natural soil conditions (Inherent soil properties)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Low</b>: If you observe few different species, biodiversity is likely low.\n- <b>Moderate</b>: Some variety of species indicates moderate biodiversity.\n- <b>High</b>: Many different species suggest high biodiversity.\n- <b>Very high</b>: An abundant variety of species indicates very high biodiversity.\n- <b>Not sure</b>: If you're unsure about the variety of soil organisms, this option allows you to express that uncertainty.\n- <b>Agricultural practices</b>: Consider the impact of farming methods, such as pesticide use and monoculture.\n- <b>Urbanization</b>: Reflect on the extent of urban development and habitat loss.\n- <b>Pollution</b>: Think about the presence of contaminants affecting soil life.\n- <b>Climate change</b>: Consider changes in temperature and precipitation patterns.\n- <b>Deforestation</b>: Reflect on the removal of trees and its impact on biodiversity.\n- <b>Natural soil conditions</b>: Think about the inherent properties of the soil that might affect biodiversity."
-	},
-	categoryInformationTooltip: {
-		DRY_SOILS: '<b>Dezertifikacija</b> - Proces u kome relativno suva zemljišta postaju još suvlja.',
-		WET_SOILS: '<b>Vlažno zemljište</b> - Procena prekomerne vlažnosti zemljišta – Trajno zasićenje zemljišta viškom vode',
-		EROSION:
-			'<b>Erodirano zemljište</b> - Proces gubitka površinskih slojeva zemljišta delovanjem jednog ili više procesa (vetra, vode, ljudskih aktivnosti…)',
-		SEALED_SOILS:
-			'<b>Zauzeto, betonirano zemljište</b> - Zauzimanje zemljišta – Proces zauzimanje/prekrivanja zemljišta zgradama ili različitim veštačkim materijalima.',
-		DEGRADATION:
-			'<b>Degradirano zemljište</b> - Degradacija zemljišta – Negativan proces koji često ubrzavaju ljudske aktivnosti (nepravilna upotreba zemljišta i prakse obrade, zbijanje zemljišta).',
-		LOSS_OF_ORGANIC_MATTER: '<b>Gubitak organske materije</b> - Gubitak organske materije, humusa, što utiče na plodnost i strukturu zemljišta',
-		PH: '<b>Zakišeljavanje zemljišta</b> - Proces u kojem koncentracija jona vodonika u zemljištu postepeno raste, a vrednost pH se smanjuje ka < 5',
-		BIODIVERSITY:
-			'<b>Gubitak biodiverziteta</b> - Proces smanjenja raznovrsnosti i brojnosti živih organizama, što dovodi do degradacije ekosistema.'
-	},
-	pointStatus: {
-		status: 'Status',
-		PENDING: 'Pending verification',
-		ACCEPTED: 'Accepted',
-		REJECTED: 'Rejected'
-	},
-	login: 'Prijavi se',
-	logout: 'Odjavi se',
-	register: 'Registruj se',
-	profile: 'Profil',
-	filters: 'Filteri',
-	other: 'Other',
-	filtersDescription: 'Izaberi kategorije koje želiš da vidiš na mapi',
-	close: 'Zatvori',
-	cancel: 'Odustani',
-	back: 'Vrati se na prethodno',
-	next: 'Pređi na sledeće',
-	continue: 'Nastavi',
-	skip: 'Preskoči',
-	addPoint: 'Dodaj tačku',
-	clear: 'Obriši',
-	remove: 'Odstrani',
-	apply: 'Primeni',
-	categories: 'Kategorije',
-	pressToAddPoint: 'Pritisni i zadrži da dodaš prijavu',
-	addPointHere: 'Dodaj tačku na mojoj lokaciji',
-	seeMore: 'Vidi još',
-	notAuthenticatedModal: {
-		title: 'Samo prijavljeni korisnici mogu dodati prijavu',
-		message: 'Prijavi se da nastaviš'
-	},
-	addPointForm: {
-		chooseCategory: {
-			title: 'Izaberi kategoriju',
-			description: 'Popuni kratki upitnik i dodaj tačku na mapi'
-		},
-		affectedArea: {
-			title: 'Pogođeno područje',
-			placeholder: 'Izaberi opseg područja'
-		},
-		addPhoto: {
-			title: 'Dodaj fotografiju',
-			takePhoto: 'Fotografiši',
-			or: 'ili',
-			chooseFromGallery: 'Izaberi fotografiju iz albuma'
-		},
-		description: {
-			title: 'Opiši mesto',
-			placeName: {
-				label: 'Naziv mesta',
-				placeholder: 'Na primer: Studentski Trg, 1'
-			},
-			problemDescription: {
-				label: 'Opis problema',
-				placeholder: ''
-			}
-		},
-		solution: {
-			title: 'Rešenje problema'
-		},
-		successMessage: 'Bravo! Ova prijava je uspešno dodata na mapu.',
-		errorMessage: 'Ups! Došlo je do greške. Pokušaj ponovo.'
-	},
-	pointDetails: {
-		title: 'Detalji tačke',
-		category: 'Kategorija',
-		placeName: 'Naziv mesta',
-		affectedArea: 'Područje problema',
-		problemDescription: 'Opis problema',
-		problemSolution: 'Rešenje problema',
-		reportDate: 'Datum prijave',
-		photo: 'Fotografija'
-	},
-	userProfile: {
-		title: 'Profil korisnika',
-		appLanguage: 'Jezik aplikacije',
-		manageAccount: 'Upravljaj nalogom',
-		logout: 'Odjavi se',
-		removeAccount: 'Ukloni nalog',
-		pts: 'PTS',
-		deleteAccountPopup: {
-			button: 'Remove account',
-			cancel: 'Cancel',
-			firstConfirmation: {
-				title: 'Remove account',
-				description: 'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.'
-			},
-			secondConfirmation: {
-				title: 'Are you sure you want to remove your account?',
-				description: 'THIS ACTION CANNOT BE UNDONE.'
-			}
-		}
-	},
-	settings: {
-		title: 'Podešavanja',
-		appLanguage: 'Jezik aplikacije',
-		appVersion: 'Verzija aplikacije',
-		howToUse: 'How to use the app',
-		aboutSoils: 'About soil categories',
-		privacyPolicy: 'Privacy policy'
-	},
-	pointsList: {
-		title: 'Dodate tačke',
-		noPoints: 'Nema dodatih tački.',
-		unauthorized: 'Ne možemo pristupiti tvojim fotografijama.'
-	},
-	noPermissions: {
-		library: {
-			title: '',
-			description: 'Molim te, dozvoli pristup fotografijama u podešavanjima.'
-		},
-		camera: {
-			title: 'Ne možemo da pristupimo tvojoj kameri.',
-			description: 'Molim te, dozvoli pristup kameri u podešavanjima.'
-		},
-		cancel: 'Otkaži',
-		openSettings: 'Otvori podešavanja'
-	},
-	pointManagement: {
-		title: 'Points',
-		generateReport: 'Generate report',
-		pointsToApprove: 'Points to approve',
-		approvedPoints: 'Points',
-		pointId: 'Point ID',
-		pointName: 'Point name',
-		dateFrom: 'Date from',
-		dateTo: 'Date to',
-		pointType: 'Point type',
-		approve: 'Approve',
-		delete: 'Delete',
-		noData: 'No data to display',
-		download: 'Download'
-	},
-	userManagement: {
-		title: 'Users Management',
-		searchUser: 'Search user',
-		deleteUser: 'Delete user',
-		setPermissions: 'Set permissions',
-		confirmDeleteMessage: 'Are you sure you want to delete this user account along with all their entries?',
-		cancel: 'Cancel',
-		confirm: 'Delete account',
-		noUsers: 'No users to display'
-	},
-	onboarding: {
-		goToTheAppButton: 'Idi na aplikaciju',
-		welcome: {
-			title: 'Dobro došli na GeoSurveyMap!',
-			description: 'Aplikacija za mapiranje stanja zemljišta'
-		},
-		instruction: {
-			title: 'Kako se koristi ova aplikacija?',
-			step1: {
-				title: 'Pronađi zemljište koje deluje ugroženo.',
-				description: 'Možeš koristiti naše primere da proveriš koji tip zemljišta je u pitanju.'
-			},
-			step2: {
-				title: 'Dodaj prijavu na odabranoj lokaciji.',
-				description:
-					'Za bolji kvalitet prijave, postaraj se da navedeš sve informacije koje imaš. To će istraživačima pomoći u pokušaju da reše problem.'
-			},
-			step3: {
-				title: 'Sačekaj potvrdu.',
-				description: 'Naš tim mora da verifikuje svaku prijavu da bi se izbegao štetan sadržaj.'
-			}
-		},
-		aboutSoils: {
-			title: 'O zemljištu',
-			description: 'Klikni na kategoriju zemljišta za više informacija. Ove informacije su takođe dostupne u odeljku podešavanja aplikacije.'
-		}
-	},
-	problemCause: {
-		lackOfRainfall: 'Nedostatak padavina',
-		highTemperatures: 'Visoke temperature',
-		poorSoilStructure: 'Loša struktura tla',
-		overuseOfWaterResources: 'Prekomerno korišćenje vodnih resursa',
-		deforestation: 'Krčenje šuma',
-		climateChange: 'Klimatske promene',
-		overgrazing: 'Prekomerna ispaša',
-		other: 'Drugo',
-		heavyRainfall: 'Jake padavine',
-		poorDrainageSystems: 'Loši sistemi za odvodnjavanje',
-		highWaterTable: 'Visok nivo podzemnih voda',
-		overIrrigation: 'Prekomerno navodnjavanje',
-		soilCompaction: 'Zbijanje tla',
-		urbanization: 'Urbanizacija',
-		flooding: 'Poplave',
-		windErosion: 'Erozija vetrom',
-		waterErosion: 'Erozija vodom',
-		humanActivity: 'Ljudska aktivnost',
-		gullyErosion: 'Erozija jaruga',
-		sheetErosion: 'Površinska erozija',
-		rillErosion: 'Brazdasta erozija',
-		agriculturalPractices: 'Poljoprivredne prakse',
-		industrialActivities: 'Industrijske aktivnosti',
-		pavingAndConcreting: 'Asfaltiranje i betoniranje',
-		naturalProcesses: 'Prirodni procesi',
-		erosion: 'Erozija',
-		contamination: 'Kontaminacija',
-		lossOfNutrients: 'Gubitak hranljivih materija',
-		overuseOfSoil: 'Prekomerno korišćenje tla',
-		intensiveAgriculture: 'Intenzivna poljoprivreda',
-		soilErosion: 'Erozija tla',
-		poorLandManagement: 'Loše upravljanje zemljištem',
-		acidic: 'Kiselo',
-		slightlyAcidic: 'Blago kiselo',
-		neutral: 'Neutralno',
-		slightlyAlkaline: 'Blago alkalno',
-		alkaline: 'Alkalno',
-		notSure: 'Nisam siguran',
-		pollution: 'Zagađenje',
-		naturalSoilConditions: 'Prirodni uslovi tla'
-	},
-	codeRepository: 'Repozitorijum koda',
-	allRightsReserved: 'Sva prava zadržana',
-	shapeTheFuture: 'Oblikujte budućnost edukacije o tlu.',
-	togetherWeMap: 'Zajedno mapiramo, povezujemo i edukujemo kako bismo podstakli svest o tlu, angažovanje i održive prakse.',
-	exploreTheMap: 'Istražite mapu',
-	learnMore: 'Saznajte više',
-	aboutTheProject: 'O projektu',
-	learnMoreAboutTheProject: 'Saznajte više o projektu',
-	mappingSoilDegradation: 'Mapiranje degradacije tla na dohvat ruke',
-	mappingSoilDegradationDescription1:
-		'LOESS Soil Map je platforma koja okuplja zajednicu u nastojanju da se zaštiti tlo. Korišćenjem interaktivnih mapa i alata za geolokaciju, korisnici mogu zajednički izgraditi bazu podataka dodavanjem informacija o stanju tla u svojim lokalnim područjima.',
-	mappingSoilDegradationDescription2:
-		'Prikupljeni podaci podržavaju istraživače i donosioce odluka u donošenju informisanih odluka o životnoj sredini. Uz jednostavan obrazac ankete i intuitivno sučelje, svako može doprineti dubljem razumevanju procesa degradacije tla i efikasno pomoći u zaštiti tla.',
-	sharedKnowledgeBase: 'Zajednička baza znanja za bolju budućnost',
-	sharedKnowledgeBaseDescription1:
-		'Projekat LOESS Soil Map, sproveden u okviru međunarodnog istraživačkog programa LOESS, prikuplja podatke o eroziji tla, pH vrednosti i vlažnosti, omogućavajući globalnu analizu. Kao rezultat, korisnici dobijaju pristup sveobuhvatnim informacijama koje mogu primeniti - od naučnih istraživanja do ekoloških inicijativa.',
-	sharedKnowledgeBaseDescription2:
-		'Stvaranje kohezivnog ekosistema podataka je naš ključ za zajednička rešenja. Kroz uključivanje zajednice i moderne tehnologije, LOESS Soil Map postaje centralno mesto za razmenu informacija, podržava napore u zaštiti životne sredine i osigurava interese budućih generacija.',
-	howToUseTheApp: 'Kako koristiti aplikaciju',
-	watchVideoDescription: 'Pogledajte kratki video o tome kako koristiti alat za mapiranje',
-	appTutorial: 'Vodič za aplikaciju',
-	dragMarkerMessage: 'Povucite privremeni marker na željenu lokaciju',
-	locationError: 'Nije moguće odrediti vašu lokaciju, pokušajte osvežiti stranicu.',
-	noPointsToApprove: 'Nema tačaka za odobrenje',
-	noPointsFound: 'Nema pronađenih tačaka',
-	dateRange: 'Raspon datuma',
-	selectCategoryPlaceholder: 'Izaberite kategoriju',
-	getDataReport: 'Preuzmite izveštaj podataka',
-	surveyStatusUpdated: 'Status ankete je ažuriran',
-	oopsSomethingWentWrong: 'Ups! Nešto je pošlo po zlu. Pokušajte ponovo kasnije.',
-	downloadReportFailed: 'Preuzimanje izveštaja nije uspelo.',
-	save: 'Sačuvaj',
-	managePermissions: 'Upravljajte dozvolama',
-	banUserTooltip: 'Blokirajte korisnika. Ovo će im onemogućiti dodavanje tačaka na mapu.',
-	usersCount: 'Broj korisnika:',
-	userPermissionsUpdated: 'Dozvole korisnika su ažurirane.',
-	userStatusUpdated: 'Status korisnika je ažuriran.',
-	pickDate: 'Izaberite datum'
-}
+  category: {
+    DRY_SOILS: 'Trajno isušeno zemljište',
+    WET_SOILS: 'Vlažno zemljište',
+    EROSION: 'Erozija',
+    SEALED_SOILS: 'Zauzeto',
+    DEGRADATION: 'Degradirano zemljište',
+    LOSS_OF_ORGANIC_MATTER: 'Gubitak organske materije',
+    PH: 'Zakišeljavanje zemljišta',
+    BIODIVERSITY: 'Gubitak biodiverziteta',
+  },
+  categoryInformation: {
+    DRY_SOILS:
+      '<b>Dezertifikacija</b> – Proces tokom kojeg relativno suvo zemljište postaje sve isušenije, najčešće jer gubi izvor vode iz kog se navodnjava, kao i vegetaciju i divlje životinje, bilo direktno usled klimatskih promena ili indirektno kroz degradaciju zemljišta koje je rezultat neadekvatnog korišćenja tog zemljišta.\n<b>Procena isušenosti zemljišta</b>\n<b>Objašnjenje</b>: Suvo tlo može biti rezultat različitih faktora kao što su nedovoljna količina padavina, visoka temperatura ili loša struktura tla. Razumevanje primarnog uzroka može da pomogne u efikasnom rešavanju ovog problema.\n<b>Šta mislite da je primarni uzrok isušenosti tla u vašem okruženju?</b>\nA. Nedostatak padavina (periodi sa malo ili bez kiše)\nB. Visoka temperatura (pretoplo vreme koje izaziva isparavanje)\nC. Loša struktura zemljišta (tlo koje ne zadržava dobro vodu)\nD. Prekomerna upotreba vodnih resursa (prekomerno korišćenje vode za navodnjavanje u poljoprivredi ili u druge svrhe)\nE. Krčenje šuma (uklanjanje drveća koje pomaže u zadržavanju vlage)\nF. Klimatske promene (dugoročne promene vremenskih obrazaca)\nG. Prekomerna ispaša (prekomerna ispaša stoke)\nH. Drugo (navedite)\n<b>Komentari za odgovore</b>:\n- <b>Nedostatak padavina</b>: Razmotrite da li je bilo dužih sušnih perioda.\n- <b>Visoka temperatura</b>: Razmislite da li su uzrok nedavni toplotni talasi ili neobično toplo vreme.\n- <b>Loša struktura zemljišta</b>: Obratite pažnju na to da li je zemljište peskovito ili slabo zadržava vodu.\n- <b>Prekomerna upotreba vodnih resursa</b>: Uzmite u obzir upotrebu vode u lokalnoj poljoprivredi ili industriji.\n- <b>Krčenje šuma</b>: Razmotrite da li je u datom području bilo značajne seče drveća.\n- <b>Klimatske promene</b>: Razmislite da li je bilo dugoročnih promena u vremenskim obrazcima.\n- <b>Prekomerna ispaša</b>: Razmislite da li u datom području preovlađuje intenzivna ispaša stoke.',
+    WET_SOILS:
+      '<b>Procena „natapanja“ zemljišta</b>\n<b>Objašnjenje</b>: Do preplavljenosti tla dolazi kada je tlo prezasićeno vodom, često usled obilnih padavina, loše drenaže ili visokog nivoa vode. Identifikovanje uzroka može da pomogne u upravljanju nivoom vode.\n<b>Šta mislite da je primarni uzrok prekomernog „natapanja“ tla u vašem okruženju?</b>\nA. Obilne padavine (česta ili intenzivna kiša)\nB. Loši sistemi za odvodnjavanje (neadekvatna infrastruktura za odvodnjavanje)\nC. Visok nivo vode (nivo podzemnih voda blizu površine)\nD. Prekomerno navodnjavanje (prekomerno zalivanje useva ili bašta)\nE. Sabijanje tla (čestice tla su sabijene, što smanjuje poroznost tla)\nF. Urbanizacija (veći broj nepropusnih površina kao što su putevi i zgrade)\nG. Poplave (prelivanje vode iz reka ili jezera)\nH. Drugo (navedite)\n<b>Komentari za odgovore</b>:\n- <b>Obilne padavine</b>: Razmotrite da li je bilo čestih ili intenzivnih padavina.\n- <b>Loši sistemi za odvodnjavanje</b>: Razmislite o efikasnosti lokalne infrastrukture za odvodnjavanje.\n- <b>Visok nivo vode</b>: Obratite pažnju da li je nivo podzemnih voda blizu površine zemlje.\n- <b>Prekomerno navodnjavanje</b>: Razmislite o lokalnim poljoprivrednim praksama i upotrebi vode.\n- <b>Sabijanje tla</b>: Razmotrite da li je tlo tvrdo i sabijeno.\n- <b>Urbanizacija</b>: Razmislite o opsegu nepropusnih površina u oblasti.\n- <b>Poplave</b>: Prisetite se da li je nedavno bilo poplava.',
+    EROSION:
+      '<b>Erozija zemljišta</b> – Erozija predstavlja ispiranje i odnošenje najsitnijih i najplodnijih čestica iz rastresite podloge, i to kroz jedan ili više procesa. Glavni uzroci erozije uključuju dejstvo vode (brazde, međubrazde, jaruga, topljenje snega i erozija obala reka i jezera), vetra (isušivanje tla i udari vetra), premeštanje tla (obrada zemljišta, nivelisanje zemljišta, žetva useva, gaženje i kopanje životinja) i geološke uzroke (podzemne i nadzemne vode). Erodirani sedimenti se mogu preneti od samo nekoliko milimetara pa do hiljadama kilometara. Erozija se takođe može uvećati neadekvatnim korišćenjem zemljišta, na primer prekomernom ispašom, krčenjem šuma ili neodgovarajućom upotrebom mehanizacije (oranje niz padinu brda).\n<b>Procena erozije zemljišta</b>\n<b>Objašnjenje</b>: Erozija zemljišta je uklanjanje gornjeg sloja tla usled naleta vetra, vode ili ljudske aktivnosti. To može dovesti do nestanka plodnog zemljišta i drugih ekoloških problema.\n<b>Kako biste ocenili intenzitet erozije zemljišta u vašem okruženju?</b>\nA. Nizak (minimalni gubitak tla)\nB. Umeren (primetan gubitak zemljišta)\nC. Visok (ozbiljan gubitak tla)\nD. Veoma visok (veliki gubitak tla)\n<b>Koji su oblici erozije zemljišta najčešći u vašem okruženju?</b>\nA. Erozija vetrom (tlo odneseno vetrom)\nB. Vodena erozija (tlo isprano kišom ili rekama)\nC. Ljudska aktivnost (građevinarstvo, poljoprivreda)\nD. Erozija jaruga (formiranje velikih kanala ili jaruga)\nE. Erozija ploča (tanki slojevi zemlje uklonjeni na velikoj površini)\nF. Brazde (mali kanali formirani tekućom vodom)\nG. Ostalo (navedite)\n<b>Komentari za odgovore</b>:\n- <b>Erozija vetrom</b>: Razmotrite da li postoje jaki vetrovi i rastresito zemljište.\n- <b>Vodena erozija</b>: Razmislite o jakim kišama i obrascima toka vode.\n- <b>Ljudska aktivnost</b>: Uzmite u obzir građevinarstvo, poljoprivredo ili druge ljudske aktivnosti.\n- <b>Erozija jaruga</b>: Obratite pažnju da li se formiraju veliki kanali ili jaruge.\n- <b>Erozija ploča</b>: Razmotrite da li postoje tanki slojevi zemlje koji nestaju.\n- <b>Brazde</b>: Razmislite o malim kanalima formiranim tekućom vodom.',
+    SEALED_SOILS:
+      '<b>Zaptivanje tla</b> – Proces pokrivanja tla izgradnjom objekata ili veštačkim materijalima koji su sporopropusni za vodu (asfalt ili beton, „betoniranje“). Zaptivanje tla može prouzrokovati problem jer nakon padavina voda ne može da se upije, što može dovesti do poplava. Tlo ne može efikasno da funkcioniše kada je zaptiveno.\n<b>Procena zaptivanja tla</b>\n<b>Objašnjenje</b>: Zaptivanje površine tla nastaje kada površina tla postane nepropusna, često usled urbanizacije ili sabijanja tla. Ovo može sprečiti infiltraciju vode i uticati na zdravlje zemljišta.\n<b>Kako biste ocenili nivo zaptivenosti tla u vašem okruženju?</b>\nA. Minimalno zaptivanje (većina površina je propusna)\nB. Umereno zaptivanje (neke površine su nepropusne)\nC. Ekstenzivno zaptivanje (velike površine su nepropusne)\nD. Veoma opsežno zaptivanje (većina površina je nepropusna)\n<b>Šta mislite da je primarni uzrok zaptivanja tla u vašem okruženju?</b>\nA. Urbanizacija (izgradnja zgrada i puteva)\nB. Poljoprivredne prakse (upotreba teške mašinerije)\nC. Industrijske aktivnosti (fabrike i druge industrijske lokacije)\nD. Sabijanje tla (čestice tla stisnute zajedno smanjuju poroznost tla)\nE. Popločavanje i betoniranje (pokrivanje tla nepropusnim materijalima)\nF. Prirodni procesi (npr. formiranje kore)\nG. Ostalo (navedite)\n<b>Komentari za odgovore</b>:\n- <b>Urbanizacija</b>: Uzmite u obzir veličinu zgrada i puteva.\n- <b>Poljoprivredne prakse</b>: Razmislite o upotrebi teške mašinerije u poljoprivredi.\n- <b>Industrijske aktivnosti</b>: Uzmite u obzir postojanje fabrika i industrijskih lokacija.\n- <b>Sabijanje tla</b>: Obratite pažnju na to da li je tlo tvrdo i sabijeno.\n- <b>Popločavanje i betoniranje</b>: Obratite pažnju na to koliko je popločanih ili betoniranih površina.\n- <b>Prirodni procesi</b>: Razmislite o prirodnom formiranju kore na površini tla.',
+    DEGRADATION:
+      '<b>Degradacija zemljišta</b> – Negativan proces često ubrzan ljudskim aktivnostima (nepravilna upotreba zemljišta i prakse kultivacije, sabijanje zemljišta) koji dovodi do pogoršanja svojstava i funkcija zemljišta ili uništavanja zemljišta u celini, na primer, sabijanje, erozija, salinizacija.\n<b>Kontaminacija zemljišta</b> – Prisustvo hemikalija ili supstanci u zemljištu u koncentraciji koja može biti štetna po ljudsko zdravlje ili životnu sredinu. Kontaminacija može imati direktan toksični efekat na biljke, životinje ili ljude koji žive na tom području (u, na ili iz tog zemljišta), ili imati indirektan toksičan efekat usled akumulacije u celom lancu ishrane.\n<b>Salinizacija</b> – Akumulacija rastvorljivih soli (rastvorljivije od gipsa) u gornjim slojevima zemljišta (slano zemljište = zemljište koje sadrži dovoljno rastvorljivih soli da negativno utiče na većinu biljnih useva, obično 4000 μS m-1).\n<b>Procena degradacije zemljišta</b>\n<b>Objašnjenje</b>: Degradacija zemljišta se odnosi na pad kvaliteta zemljišta usled faktora kao što su erozija, kontaminacija ili gubitak hranljivih materija. To može uticati na poljoprivrednu produktivnost i zdravlje ekosistema.\n<b>Kako biste ocenili opšti status degradacije zemljišta u vašem okruženju?</b>\nA. Minimalna degradacija (kvalitet zemljišta je generalno dobar)\nB. Umerena degradacija (izvestan pad kvaliteta zemljišta)\nC. Teška degradacija (značajan pad kvaliteta zemljišta)\nD. Veoma teška degradacija (veliki pad kvaliteta zemljišta)\n<b>Šta mislite da je primarni uzrok degradacije zemljišta u vašem okruženju?</b>\nA. Erozija (gubitak gornjeg sloja zemlje)\nB. Kontaminacija (npr. hemikalije, zagađivači)\nC. Gubitak hranljivih materija (smanjenje esencijalnih hranljivih materija u zemljištu)\nD. Prekomerno korišćenje zemljišta (intenzivna poljoprivreda ili druge aktivnosti)\nE. Krčenje šuma (uklanjanje drveća koje štiti zemljište)\nF. Klimatske promene (dugoročne promene vremenskih obrazaca)\nG. Prekomerna ispaša (prekomerna ispaša stoke)\nH. Drugo (navedite)\n<b>Komentari za odgovore</b>:\n- <b>Erozija</b>: Razmotrite da li postoji značajan gubitak tla.\n- <b>Kontaminacija</b>: Razmislite o prisustvu hemikalija ili zagađivača.\n- <b>Gubitak hranljivih materija</b>: Koliko je zemljište plodno i koji je sadržaj hranljivih materija u zemljištu.\n- <b>Prekomerno korišćenje zemljišta</b>: Koliko je intenzivna poljoprivreda ili druge aktivnosti.\n- <b>Krčenje šuma</b>: Razmislite o uklanjanju drveća i vegetacije.\n- <b>Klimatske promene</b>: Da li ima dugoročnih promena vremenskih obrazaca.\n- <b>Prekomerna ispaša</b>: Razmislite da li preovlađuje ispaša stoke i koliko je intenzivna.',
+    LOSS_OF_ORGANIC_MATTER:
+      '<b>Gubitak organske materije u zemljištu</b> – Smanjenje sadržaja organske materije, posebno u gornjem sloju zemljišta. Ovo se dešava kada je gubitak organske materije (na primer, usled oksidacije ili erozije) tokom godine nedovoljno nadoknađen organskim materijalom od ostatka useva, komposta i stajnjaka.\n<b>Procena gubitka organske materije u zemljištu</b>\n<b>Objašnjenje</b>: Organska materija u zemljištu je ključna za njegovu plodnost i strukturu. Gubitak organske materije može biti rezultat loše prakse upravljanja zemljištem ili prirodnih procesa.\n<b>Kako biste ocenili gubitak organske materije u tlu u vašem okruženju?</b>\nA. Nizak (minimalni gubitak)\nB. Umeren (primetan gubitak)\nC. Visok (značajan gubitak)\nD. Veoma visok (veliki gubitak)\n<b>Šta mislite da je primarni uzrok gubitka organske materije u zemljištu u vašem okruženju?</b>\nA. Intenzivna poljoprivreda (česte setve i obrada zemljišta)\nB. Krčenje šuma (uklanjanje drveća i vegetacije)\nC. Prekomerna ispaša (prekomerna ispaša stoke)\nD. Erozija zemljišta (gubitak površinskog sloja zemlje koji sadrži organsku materiju)\nE. Klimatske promene (promene temperature i količine padavina)\nF. Loše upravljanje zemljištem (neadekvatne prakse očuvanja zemljišta)\nG. Drugo (navedite)\n<b>Komentari za odgovore</b>:\n- <b>Intenzivna poljoprivreda</b>: Razmotrite česte prakse setve i obrade zemljišta.\n- <b>Krčenje šuma</b>: Razmislite o uklanjanju drveća i vegetacije.\n- <b>Prekomerna ispaša</b>: Razmislite o intenzitetu ispaše stoke.\n- <b>Erozija zemljišta</b>: Razmotrite da li postoji značajan gubitak zemljišta.\n- <b>Klimatske promene</b>: Razmislite o promenama temperature i količine padavina.\n- <b>Loše upravljanje zemljištem</b>: Razmislite o praksi očuvanja zemljišta.',
+    PH: '<b>Acidifikacija</b> – Proces kojim se koncentracija vodoničnih jona u zemljištu postepeno povećava, uzrokovan uklanjanjem blago alkalnih jona sa usevom, ispiranjem i primenom zakiseljavajućih vrsta N (azotnih) đubriva. Ovaj proces je ubrzan ili nedovoljno nadoknađen prirodnim komponentama zemljišta, uključujući i matični materijal.\n<b>Procena pH vrednosti zemljišta</b>\n<b>Objašnjenje</b>: pH zemljišta je mera kiselosti zemljišta i može značajno uticati na rast biljaka i zdravlje zemljišta. Određene biljke, poznate kao biljke indikatori, mogu pomoći u određivanju pH zemljišta na osnovu njihovog prisustva i stanja u kom se nalaze.\n<b>Kako biste opisali pH nivo zemljišta u vašem okruženju na osnovu biljaka koje na njemu rastu?</b>\nA. Kiselo (npr. prisustvo borovnica, azaleja)\nB. Blago kiselo (npr. prisustvo paprati, rododendrona)\nC. Neutralno (npr. prisustvo deteline, maslačaka)\nD. Blago alkalna (npr. prisustvo lavande, hajdučke trave)\nE. Alkalna (npr. prisustvo komoljike, slanog grma)\nF. Nisam siguran (nisam siguran koje su vrste biljaka prisutne ili koje su njihove indikacije)\n<b>Komentari za odgovore</b>:\n- <b>Kiselo</b>: Ako primetite da biljke poput borovnice ili azaleje uspevaju, vaše zemljište je verovatno kiselo.\n- <b>Slabo kiselo</b>: Biljke kao što su paprati i rododendroni ukazuju na blago kiselo zemljište.\n- <b>Neutralno</b>: Detelina i maslačak su uobičajeni na zemljištima sa neutralnim pH vrednostima.\n- <b>Slabo alkalna</b>: Lavanda i hajdučka trava su indikatori blago alkalne zemlje.\n- <b>Alkalna</b>: Komoljika, slani grm uspevaju u alkalnim uslovima.\n- <b>Nisam siguran</b>: Ako niste sigurni u vezi sa biljkama ili njihovim indikacijama, ova opcija vam omogućava da izrazite tu nesigurnost.',
+    BIODIVERSITY:
+      '<b>Biodiverzitet</b> – Varijabilnost među živim organizmima iz kopnenih, morskih i drugih vodenih ekosistema, kao i ekoloških kompleksa čiji su deo. Ovo uključuje raznolikost unutar vrsta, između vrsta i ekosistema.\n<b>Procena biodiverziteta zemljišta i lokalne sredine</b>\n<b>Objašnjenje</b>: Biodiverzitet u zemljištu se odnosi na raznovrsnost organizama koji žive u zemljištu, uključujući bakterije, gljive, insekte i biljke. Visok biodiverzitet je znak zdravog ekosistema, jer doprinosi plodnosti i stabilnosti zemljišta.\n<b>Kako biste ocenili biodiverzitet zemljišta u vašem okruženju?</b>\nA. Nizak (nekoliko različitih vrsta)\nB. Umeren (neke vrste vrsta)\nC. Visok (mnogo različitih vrsta)\nD. Veoma visok (obilna raznolikost vrsta)\nE. Nisam siguran (nisam siguran u raznolikost organizama u zemljištu)\n<b>Šta mislite da je primarni faktor koji utiče na biodiverzitet zemljišta u vašem okruženju?</b>\nA. Poljoprivredne prakse (upotreba pesticida, monokultura)\nB. Urbanizacija (gubitak prirodnih staništa)\nC. Zagađenje (zagađivači koji utiču na život u zemljištu)\nD. Klimatske promene (promene temperature i količine padavina)\nE. Krčenje šuma (gubitak drveća i vegetacije)\nF. Prirodni uslovi zemljišta (početna svojstva zemljišta)\nG. Drugo (navedite)\n<b>Komentari za odgovore</b>:\n- <b>Nizak</b>: Ako uočavate nekoliko različitih vrsta, biodiverzitet je verovatno nizak.\n- <b>Umeren</b>: Veća raznolikost vrsta ukazuje na umeren biodiverzitet.\n- <b>Visok</b>: Mnogo različitih vrsta sugeriše visok biodiverzitet.\n- <b>Veoma visok</b>: Obimna raznolikost vrsta ukazuje na veoma visok biodiverzitet.\n- <b>Nisam siguran</b>: Ako niste sigurni u raznolikost biodiverziteta, ova opcija vam omogućava da izrazite tu nesigurnost.\n- <b>Poljoprivredne prakse</b>: Razmotrite uticaj poljoprivrednih metoda, kao što su upotreba pesticida i monokultura.\n- <b>Urbanizacija</b>: Razmislite o opsegu urbanog razvoja i gubitka staništa.\n- <b>Zagađenje</b>: Razmislite o prisustvu zagađivača koji utiču na život u zemljištu.\n- <b>Klimatske promene</b>: Razmotrite promene u temperaturi i količini padavina.\n- <b>Krčenje šuma</b>: Uzmite u obzir uklanjanje drveća i njegov uticaj na biodiverzitet.\n- <b>Prirodne osobine zemljišta</b>: Razmislite o svojstvima zemljišta koja mogu uticati na biodiverzitet.',
+  },
+  categoryInformationTooltip: {
+    DRY_SOILS:
+      '<b>Dezertifikacija</b> - Proces u kome relativno suva zemljišta postaju još suvlja.',
+    WET_SOILS:
+      '<b>Vlažno zemljište</b> - Procena prekomerne vlažnosti zemljišta – Trajno zasićenje zemljišta viškom vode',
+    EROSION:
+      '<b>Erodirano zemljište</b> - Proces gubitka površinskih slojeva zemljišta delovanjem jednog ili više procesa (vetra, vode, ljudskih aktivnosti…)',
+    SEALED_SOILS:
+      '<b>Zauzeto, betonirano zemljište</b> - Zauzimanje zemljišta – Proces zauzimanje/prekrivanja zemljišta zgradama ili različitim veštačkim materijalima.',
+    DEGRADATION:
+      '<b>Degradirano zemljište</b> - Degradacija zemljišta – Negativan proces koji često ubrzavaju ljudske aktivnosti (nepravilna upotreba zemljišta i prakse obrade, zbijanje zemljišta).',
+    LOSS_OF_ORGANIC_MATTER:
+      '<b>Gubitak organske materije</b> - Gubitak organske materije, humusa, što utiče na plodnost i strukturu zemljišta',
+    PH: '<b>Zakišeljavanje zemljišta</b> - Proces u kojem koncentracija jona vodonika u zemljištu postepeno raste, a vrednost pH se smanjuje ka < 5',
+    BIODIVERSITY:
+      '<b>Gubitak biodiverziteta</b> - Proces smanjenja raznovrsnosti i brojnosti živih organizama, što dovodi do degradacije ekosistema.',
+  },
+  pointStatus: {
+    status: 'Status',
+    PENDING: 'Pending verification',
+    ACCEPTED: 'Accepted',
+    REJECTED: 'Rejected',
+  },
+  login: 'Prijavi se',
+  logout: 'Odjavi se',
+  register: 'Registruj se',
+  profile: 'Profil',
+  filters: 'Filteri',
+  other: 'Other',
+  filtersDescription: 'Izaberi kategorije koje želiš da vidiš na mapi',
+  close: 'Zatvori',
+  cancel: 'Odustani',
+  back: 'Vrati se na prethodno',
+  next: 'Pređi na sledeće',
+  continue: 'Nastavi',
+  skip: 'Preskoči',
+  addPoint: 'Dodaj tačku',
+  clear: 'Obriši',
+  remove: 'Odstrani',
+  apply: 'Primeni',
+  categories: 'Kategorije',
+  pressToAddPoint: 'Pritisni i zadrži da dodaš prijavu',
+  addPointHere: 'Dodaj tačku na mojoj lokaciji',
+  seeMore: 'Vidi još',
+  notAuthenticatedModal: {
+    title: 'Samo prijavljeni korisnici mogu dodati prijavu',
+    message: 'Prijavi se da nastaviš',
+  },
+  addPointForm: {
+    chooseCategory: {
+      title: 'Izaberi kategoriju',
+      description: 'Popuni kratki upitnik i dodaj tačku na mapi',
+    },
+    affectedArea: {
+      title: 'Pogođeno područje',
+      placeholder: 'Izaberi opseg područja',
+    },
+    addPhoto: {
+      title: 'Dodaj fotografiju',
+      takePhoto: 'Fotografiši',
+      or: 'ili',
+      chooseFromGallery: 'Izaberi fotografiju iz albuma',
+    },
+    description: {
+      title: 'Opiši mesto',
+      placeName: {
+        label: 'Naziv mesta',
+        placeholder: 'Na primer: Studentski Trg, 1',
+      },
+      problemDescription: {
+        label: 'Opis problema',
+        placeholder: '',
+      },
+    },
+    solution: {
+      title: 'Rešenje problema',
+    },
+    successMessage: 'Bravo! Ova prijava je uspešno dodata na mapu.',
+    errorMessage: 'Ups! Došlo je do greške. Pokušaj ponovo.',
+  },
+  pointDetails: {
+    title: 'Detalji tačke',
+    category: 'Kategorija',
+    placeName: 'Naziv mesta',
+    affectedArea: 'Područje problema',
+    problemDescription: 'Opis problema',
+    problemSolution: 'Rešenje problema',
+    reportDate: 'Datum prijave',
+    photo: 'Fotografija',
+  },
+  userProfile: {
+    title: 'Profil korisnika',
+    appLanguage: 'Jezik aplikacije',
+    manageAccount: 'Upravljaj nalogom',
+    logout: 'Odjavi se',
+    removeAccount: 'Ukloni nalog',
+    pts: 'PTS',
+    deleteAccountPopup: {
+      button: 'Remove account',
+      cancel: 'Cancel',
+      firstConfirmation: {
+        title: 'Remove account',
+        description:
+          'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.',
+      },
+      secondConfirmation: {
+        title: 'Are you sure you want to remove your account?',
+        description: 'THIS ACTION CANNOT BE UNDONE.',
+      },
+    },
+  },
+  settings: {
+    title: 'Podešavanja',
+    appLanguage: 'Jezik aplikacije',
+    appVersion: 'Verzija aplikacije',
+    howToUse: 'How to use the app',
+    aboutSoils: 'About soil categories',
+    privacyPolicy: 'Privacy policy',
+  },
+  pointsList: {
+    title: 'Dodate tačke',
+    noPoints: 'Nema dodatih tački.',
+    unauthorized: 'Ne možemo pristupiti tvojim fotografijama.',
+  },
+  noPermissions: {
+    library: {
+      title: '',
+      description: 'Molim te, dozvoli pristup fotografijama u podešavanjima.',
+    },
+    camera: {
+      title: 'Ne možemo da pristupimo tvojoj kameri.',
+      description: 'Molim te, dozvoli pristup kameri u podešavanjima.',
+    },
+    cancel: 'Otkaži',
+    openSettings: 'Otvori podešavanja',
+  },
+  pointManagement: {
+    title: 'Points',
+    generateReport: 'Generate report',
+    pointsToApprove: 'Points to approve',
+    approvedPoints: 'Points',
+    pointId: 'Point ID',
+    pointName: 'Point name',
+    dateFrom: 'Date from',
+    dateTo: 'Date to',
+    pointType: 'Point type',
+    approve: 'Approve',
+    delete: 'Delete',
+    noData: 'No data to display',
+    download: 'Download',
+  },
+  userManagement: {
+    title: 'Users Management',
+    searchUser: 'Search user',
+    deleteUser: 'Delete user',
+    setPermissions: 'Set permissions',
+    confirmDeleteMessage:
+      'Are you sure you want to delete this user account along with all their entries?',
+    cancel: 'Cancel',
+    confirm: 'Delete account',
+    noUsers: 'No users to display',
+  },
+  onboarding: {
+    goToTheAppButton: 'Idi na aplikaciju',
+    welcome: {
+      title: 'Dobro došli na GeoSurveyMap!',
+      description: 'Aplikacija za mapiranje stanja zemljišta',
+    },
+    instruction: {
+      title: 'Kako se koristi ova aplikacija?',
+      step1: {
+        title: 'Pronađi zemljište koje deluje ugroženo.',
+        description: 'Možeš koristiti naše primere da proveriš koji tip zemljišta je u pitanju.',
+      },
+      step2: {
+        title: 'Dodaj prijavu na odabranoj lokaciji.',
+        description:
+          'Za bolji kvalitet prijave, postaraj se da navedeš sve informacije koje imaš. To će istraživačima pomoći u pokušaju da reše problem.',
+      },
+      step3: {
+        title: 'Sačekaj potvrdu.',
+        description: 'Naš tim mora da verifikuje svaku prijavu da bi se izbegao štetan sadržaj.',
+      },
+    },
+    aboutSoils: {
+      title: 'O zemljištu',
+      description:
+        'Klikni na kategoriju zemljišta za više informacija. Ove informacije su takođe dostupne u odeljku podešavanja aplikacije.',
+    },
+  },
+  problemCause: {
+    lackOfRainfall: 'Nedostatak padavina',
+    highTemperatures: 'Visoke temperature',
+    poorSoilStructure: 'Loša struktura tla',
+    overuseOfWaterResources: 'Prekomerno korišćenje vodnih resursa',
+    deforestation: 'Krčenje šuma',
+    climateChange: 'Klimatske promene',
+    overgrazing: 'Prekomerna ispaša',
+    other: 'Drugo',
+    heavyRainfall: 'Jake padavine',
+    poorDrainageSystems: 'Loši sistemi za odvodnjavanje',
+    highWaterTable: 'Visok nivo podzemnih voda',
+    overIrrigation: 'Prekomerno navodnjavanje',
+    soilCompaction: 'Zbijanje tla',
+    urbanization: 'Urbanizacija',
+    flooding: 'Poplave',
+    windErosion: 'Erozija vetrom',
+    waterErosion: 'Erozija vodom',
+    humanActivity: 'Ljudska aktivnost',
+    gullyErosion: 'Erozija jaruga',
+    sheetErosion: 'Površinska erozija',
+    rillErosion: 'Brazdasta erozija',
+    agriculturalPractices: 'Poljoprivredne prakse',
+    industrialActivities: 'Industrijske aktivnosti',
+    pavingAndConcreting: 'Asfaltiranje i betoniranje',
+    naturalProcesses: 'Prirodni procesi',
+    erosion: 'Erozija',
+    contamination: 'Kontaminacija',
+    lossOfNutrients: 'Gubitak hranljivih materija',
+    overuseOfSoil: 'Prekomerno korišćenje tla',
+    intensiveAgriculture: 'Intenzivna poljoprivreda',
+    soilErosion: 'Erozija tla',
+    poorLandManagement: 'Loše upravljanje zemljištem',
+    acidic: 'Kiselo',
+    slightlyAcidic: 'Blago kiselo',
+    neutral: 'Neutralno',
+    slightlyAlkaline: 'Blago alkalno',
+    alkaline: 'Alkalno',
+    notSure: 'Nisam siguran',
+    pollution: 'Zagađenje',
+    naturalSoilConditions: 'Prirodni uslovi tla',
+  },
+  codeRepository: 'Repozitorijum koda',
+  allRightsReserved: 'Sva prava zadržana',
+  shapeTheFuture: 'Oblikujte budućnost edukacije o tlu.',
+  togetherWeMap:
+    'Zajedno mapiramo, povezujemo i edukujemo kako bismo podstakli svest o tlu, angažovanje i održive prakse.',
+  exploreTheMap: 'Istražite mapu',
+  learnMore: 'Saznajte više',
+  aboutTheProject: 'O projektu',
+  learnMoreAboutTheProject: 'Saznajte više o projektu',
+  mappingSoilDegradation: 'Mapiranje degradacije tla na dohvat ruke',
+  mappingSoilDegradationDescription1:
+    'LOESS Soil Map je platforma koja okuplja zajednicu u nastojanju da se zaštiti tlo. Korišćenjem interaktivnih mapa i alata za geolokaciju, korisnici mogu zajednički izgraditi bazu podataka dodavanjem informacija o stanju tla u svojim lokalnim područjima.',
+  mappingSoilDegradationDescription2:
+    'Prikupljeni podaci podržavaju istraživače i donosioce odluka u donošenju informisanih odluka o životnoj sredini. Uz jednostavan obrazac ankete i intuitivno sučelje, svako može doprineti dubljem razumevanju procesa degradacije tla i efikasno pomoći u zaštiti tla.',
+  sharedKnowledgeBase: 'Zajednička baza znanja za bolju budućnost',
+  sharedKnowledgeBaseDescription1:
+    'Projekat LOESS Soil Map, sproveden u okviru međunarodnog istraživačkog programa LOESS, prikuplja podatke o eroziji tla, pH vrednosti i vlažnosti, omogućavajući globalnu analizu. Kao rezultat, korisnici dobijaju pristup sveobuhvatnim informacijama koje mogu primeniti - od naučnih istraživanja do ekoloških inicijativa.',
+  sharedKnowledgeBaseDescription2:
+    'Stvaranje kohezivnog ekosistema podataka je naš ključ za zajednička rešenja. Kroz uključivanje zajednice i moderne tehnologije, LOESS Soil Map postaje centralno mesto za razmenu informacija, podržava napore u zaštiti životne sredine i osigurava interese budućih generacija.',
+  howToUseTheApp: 'Kako koristiti aplikaciju',
+  watchVideoDescription: 'Pogledajte kratki video o tome kako koristiti alat za mapiranje',
+  appTutorial: 'Vodič za aplikaciju',
+  dragMarkerMessage: 'Povucite privremeni marker na željenu lokaciju',
+  locationError: 'Nije moguće odrediti vašu lokaciju, pokušajte osvežiti stranicu.',
+  noPointsToApprove: 'Nema tačaka za odobrenje',
+  noPointsFound: 'Nema pronađenih tačaka',
+  dateRange: 'Raspon datuma',
+  selectCategoryPlaceholder: 'Izaberite kategoriju',
+  getDataReport: 'Preuzmite izveštaj podataka',
+  surveyStatusUpdated: 'Status ankete je ažuriran',
+  oopsSomethingWentWrong: 'Ups! Nešto je pošlo po zlu. Pokušajte ponovo kasnije.',
+  downloadReportFailed: 'Preuzimanje izveštaja nije uspelo.',
+  save: 'Sačuvaj',
+  managePermissions: 'Upravljajte dozvolama',
+  banUserTooltip: 'Blokirajte korisnika. Ovo će im onemogućiti dodavanje tačaka na mapu.',
+  usersCount: 'Broj korisnika:',
+  userPermissionsUpdated: 'Dozvole korisnika su ažurirane.',
+  userStatusUpdated: 'Status korisnika je ažuriran.',
+  pickDate: 'Izaberite datum',
+};

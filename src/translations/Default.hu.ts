@@ -1,291 +1,302 @@
 export const hu = {
-	category: {
-		DRY_SOILS: 'Száraz talaj',
-		WET_SOILS: 'Vizes vagy nyirkos talaj',
-		EROSION: 'Erózió',
-		SEALED_SOILS: 'Talajtömörödés',
-		DEGRADATION: 'Talajpusztulás',
-		LOSS_OF_ORGANIC_MATTER: 'Szervesanyag-veszteség',
-		PH: 'pH',
-		BIODIVERSITY: 'Biodiverzitás'
-	},
-	categoryInformation: {
-		DRY_SOILS:
-			"<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid, typically losing its body of water as well as vegetation and wildlife either directly via climate change or indirectly via soil degradation resulting from poor management.\n<b>Assessment of Soil Dryness</b>\n<b>Explanation</b>: Soil dryness can result from various factors such as insufficient rainfall, high temperatures, or poor soil structure. Understanding the primary cause can help in addressing the issue effectively.\n<b>What do you think is the primary cause of soil dryness in your area?</b>\nA. Lack of rainfall (Periods of little or no rain)\nB. High temperatures (Hot weather causing evaporation)\nC. Poor soil structure (Soil that doesn't retain water well)\nD. Overuse of water resources (Excessive use of water for agriculture or other purposes)\nE. Deforestation (Removal of trees that help retain moisture)\nF. Climate change (Long-term changes in weather patterns)\nG. Overgrazing (Excessive grazing by livestock)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Lack of rainfall</b>: Consider if there have been prolonged dry periods.\n- <b>High temperatures</b>: Think about recent heatwaves or unusually hot weather.\n- <b>Poor soil structure</b>: Notice if the soil is sandy or has poor water retention.\n- <b>Overuse of water resources</b>: Reflect on local agricultural or industrial water usage.\n- <b>Deforestation</b>: Consider if there has been significant tree removal in the area.\n- <b>Climate change</b>: Think about long-term changes in weather patterns.\n- <b>Overgrazing</b>: Consider if livestock grazing is prevalent and intense.",
-		WET_SOILS:
-			'<b>Assessment of Soil Waterlogging</b>\n<b>Explanation</b>: Soil waterlogging occurs when excess water saturates the soil, often due to heavy rainfall, poor drainage, or high water tables. Identifying the cause can help in managing water levels.\n<b>What do you think is the primary cause of soil waterlogging in your area?</b>\nA. Heavy rainfall (Frequent or intense rain)\nB. Poor drainage systems (Inadequate drainage infrastructure)\nC. High water table (Groundwater level close to the surface)\nD. Over-irrigation (Excessive watering of crops or gardens)\nE. Soil compaction (Soil particles pressed together, reducing pore space)\nF. Urbanization (Increased impermeable surfaces like roads and buildings)\nG. Flooding (Overflow of water from rivers or lakes)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Heavy rainfall</b>: Consider if there have been frequent or intense rain events.\n- <b>Poor drainage systems</b>: Think about the effectiveness of local drainage infrastructure.\n- <b>High water table</b>: Notice if groundwater levels are close to the surface.\n- <b>Over-irrigation</b>: Reflect on local agricultural practices and water usage.\n- <b>Soil compaction</b>: Consider if the soil is hard and compacted.\n- <b>Urbanization</b>: Think about the extent of impermeable surfaces in the area.\n- <b>Flooding</b>: Consider if there have been recent floods.',
-		EROSION:
-			'<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes. The main causes of erosion include the actions of water (rills, inter-rill, gully, snowmelt and river and lake bank erosion), wind (desiccation and wind-blow), translocation (tillage, land levelling, harvesting of root crops, trampling and burrowing animals) and geological (internal subterranean erosion by groundwater, coastal erosion and landslides). Erosion can also be increased by poor land management such as overgrazing, deforestation or inappropriate use of mechanisation (e.g., ploughing down a hill slope).\n<b>Assessment of Soil Erosion</b>\n<b>Explanation</b>: Soil erosion is the removal of the topsoil layer by wind, water, or human activity. It can lead to loss of fertile land and other environmental issues.\n<b>How would you rate the intensity of soil erosion in your area?</b>\nA. Low (Minimal soil loss)\nB. Moderate (Noticeable soil loss)\nC. High (Severe soil loss)\nD. Very high (Extensive soil loss)\n<b>What forms of soil erosion are most common in your area?</b>\nA. Wind erosion (Soil blown away by wind)\nB. Water erosion (Soil washed away by rain or rivers)\nC. Human activity (e.g., construction, agriculture)\nD. Gully erosion (Formation of large channels or gullies)\nE. Sheet erosion (Thin layers of soil removed over a large area)\nF. Rill erosion (Small channels formed by running water)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Wind erosion</b>: Consider if there are strong winds and loose soil.\n- <b>Water erosion</b>: Think about heavy rains and water flow patterns.\n- <b>Human activity</b>: Reflect on construction, farming, or other human activities.\n- <b>Gully erosion</b>: Notice if there are large channels or gullies forming.\n- <b>Sheet erosion</b>: Consider if there are thin layers of soil being removed.\n- <b>Rill erosion</b>: Think about small channels formed by running water.',
-		SEALED_SOILS:
-			'<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material which may be very slowly permeable to water (e.g., asphalt or concrete). Soil sealing can cause rapid overland flow after precipitation where water cannot soak away leading to potential flooding. A soil is unable to function effectively when sealed.\n<b>Assessment of Soil Sealing</b>\n<b>Explanation</b>: Soil surface sealing occurs when the soil surface becomes impermeable, often due to urbanization or compaction. This can prevent water infiltration and affect soil health.\n<b>How would you describe the state of soil surface sealing in your area?</b>\nA. Minimal sealing (Most soil surfaces are permeable)\nB. Moderate sealing (Some areas are impermeable)\nC. Extensive sealing (Large areas are impermeable)\nD. Very extensive sealing (Most areas are impermeable)\n<b>What do you think is the primary cause of soil surface sealing in your area?</b>\nA. Urbanization (Construction of buildings and roads)\nB. Agricultural practices (Use of heavy machinery)\nC. Industrial activities (Factories and other industrial sites)\nD. Soil compaction (Soil particles pressed together, reducing pore space)\nE. Paving and concreting (Covering soil with impermeable materials)\nF. Natural processes (e.g., crust formation)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Urbanization</b>: Consider the extent of buildings and roads.\n- <b>Agricultural practices</b>: Think about the use of heavy machinery in farming.\n- <b>Industrial activities</b>: Reflect on the presence of factories and industrial sites.\n- <b>Soil compaction</b>: Notice if the soil is hard and compacted.\n- <b>Paving and concreting</b>: Consider the amount of paved or concreted areas.\n- <b>Natural processes</b>: Think about natural crust formation on the soil surface.',
-		DEGRADATION:
-			'<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing) that leads to deterioration of soil properties and functions or destruction of soil as a whole, e.g., compaction, erosion, salinisation.\n<b>Soil contamination</b> - The presence of a chemical or substance in the soil in a concentration that may be harmful to human health or the environment. Contamination may have a direct toxic effect on the plants, animals or humans living in, on, or from that soil, or have an indirect toxic effect due to accumulation in the whole trophic chain.\n<b>Salinization</b> - Accumulation of soluble salts (more soluble than gypsum) in the upper soil layers (saline soil = soil containing enough soluble salts to negatively affect most crop plants, commonly 4000 μS m-1).\n<b>Assessment of Soil Degradation</b>\n<b>Explanation</b>: Soil degradation refers to the decline in soil quality due to factors like erosion, contamination, or loss of nutrients. It can affect agricultural productivity and ecosystem health.\n<b>How would you rate the overall status of soil degradation in your area?</b>\nA. Minimal degradation (Soil quality is generally good)\nB. Moderate degradation (Some decline in soil quality)\nC. Severe degradation (Significant decline in soil quality)\nD. Very severe degradation (Extensive decline in soil quality)\n<b>What do you think is the primary cause of soil degradation in your area?</b>\nA. Erosion (Loss of topsoil)\nB. Contamination (e.g., chemicals, pollutants)\nC. Loss of nutrients (Depletion of essential soil nutrients)\nD. Overuse of soil (Intensive farming or other activities)\nE. Deforestation (Removal of trees that protect soil)\nF. Climate change (Long-term changes in weather patterns)\nG. Overgrazing (Excessive grazing by livestock)\nH. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Erosion</b>: Consider if there is significant soil loss.\n- <b>Contamination</b>: Think about the presence of chemicals or pollutants.\n- <b>Loss of nutrients</b>: Reflect on the fertility and nutrient content of the soil.\n- <b>Overuse of soil</b>: Consider intensive farming or other activities.\n- <b>Deforestation</b>: Think about the removal of trees and vegetation.\n- <b>Climate change</b>: Reflect on long-term changes in weather patterns.\n- <b>Overgrazing</b>: Consider if livestock grazing is prevalent and intense.',
-		LOSS_OF_ORGANIC_MATTER:
-			'<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers when the annual loss of organic matter (e.g., due to oxidation or erosion) is insufficiently compensated for by the annual gain of organic matter, resulting from crop residues, composts and manures.\n<b>Assessment of Loss of Soil Organic Matter</b>\n<b>Explanation</b>: Soil organic matter is crucial for soil fertility and structure. Loss of organic matter can result from poor land management practices or natural processes.\n<b>How would you rate the loss of soil organic matter in your area?</b>\nA. Low (Minimal loss)\nB. Moderate (Noticeable loss)\nC. High (Significant loss)\nD. Very high (Extensive loss)\n<b>What do you think is the primary cause of loss of soil organic matter in your area?</b>\nA. Intensive agriculture (Frequent cropping and tillage)\nB. Deforestation (Removal of trees and vegetation)\nC. Overgrazing (Excessive grazing by livestock)\nD. Soil erosion (Loss of topsoil containing organic matter)\nE. Climate change (Changes in temperature and precipitation)\nF. Poor land management (Inadequate soil conservation practices)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Intensive agriculture</b>: Consider frequent cropping and tillage practices.\n- <b>Deforestation</b>: Think about the removal of trees and vegetation.\n- <b>Overgrazing</b>: Reflect on the intensity of livestock grazing.\n- <b>Soil erosion</b>: Consider if there is significant soil loss.\n- <b>Climate change</b>: Think about changes in temperature and precipitation.\n- <b>Poor land management</b>: Reflect on soil conservation practices.',
-		PH: "<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases, caused by the removal of slightly alkaline ions with the crop, leaching and the application of acidifying types of N fertiliser. This process is accelerated or insufficiently compensated by natural soil components, including parent material.\n<b>Soil pH</b>\n<b>Assessment of Soil pH</b>\n<b>Explanation</b>: Soil pH is a measure of the acidity or alkalinity of the soil. It can significantly affect plant growth and soil health. Certain plants, known as indicator plants, can help determine the soil pH based on their presence and health.\n<b>How would you describe the pH level of your soil based on the plants growing in it?</b>\nA. Acidic (e.g., presence of blueberries, azaleas)\nB. Slightly acidic (e.g., presence of ferns, rhododendrons)\nC. Neutral (e.g., presence of clover, dandelions)\nD. Slightly alkaline (e.g., presence of lavender, yarrow)\nE. Alkaline (e.g., presence of sagebrush, saltbush)\nF. Not sure (Unsure about the types of plants or their indication)\n<b>Comments for Answers</b>:\n- <b>Acidic</b>: If you notice plants like blueberries or azaleas thriving, your soil is likely acidic.\n- <b>Slightly acidic</b>: Plants such as ferns and rhododendrons indicate slightly acidic soil.\n- <b>Neutral</b>: Clover and dandelions are common in neutral pH soils.\n- <b>Slightly alkaline</b>: Lavender and yarrow are indicators of slightly alkaline soil.\n- <b>Alkaline</b>: Sagebrush and saltbush thrive in alkaline conditions.\n- <b>Not sure</b>: If you're unsure about the plants or their indications, this option allows you to express that uncertainty.",
-		BIODIVERSITY:
-			"<b>Biodiversity</b> - The variability among living organisms from all sources, including terrestrial, marine, and other aquatic ecosystems as well as the ecological complexes of which they are a part. This includes diversity within species, between species, and of ecosystems.\n<b>Assessment of Biodiversity of Soil and the Local Environment</b>\n<b>Explanation</b>: Biodiversity in soil refers to the variety of organisms living in the soil, including bacteria, fungi, insects, and plants. High biodiversity is a sign of a healthy ecosystem, contributing to soil fertility and stability.\n<b>How would you rate the biodiversity of soil organisms in your area?</b>\nA. Low (Few different species)\nB. Moderate (Some variety of species)\nC. High (Many different species)\nD. Very high (Abundant variety of species)\nE. Not sure (Unsure about the variety of soil organisms)\n<b>What do you think is the primary factor affecting soil biodiversity in your area?</b>\nA. Agricultural practices (Use of pesticides, monoculture)\nB. Urbanization (Loss of natural habitats)\nC. Pollution (Contaminants affecting soil life)\nD. Climate change (Changes in temperature and precipitation)\nE. Deforestation (Loss of trees and vegetation)\nF. Natural soil conditions (Inherent soil properties)\nG. Other (please specify)\n<b>Comments for Answers</b>:\n- <b>Low</b>: If you observe few different species, biodiversity is likely low.\n- <b>Moderate</b>: Some variety of species indicates moderate biodiversity.\n- <b>High</b>: Many different species suggest high biodiversity.\n- <b>Very high</b>: An abundant variety of species indicates very high biodiversity.\n- <b>Not sure</b>: If you're unsure about the variety of soil organisms, this option allows you to express that uncertainty.\n- <b>Agricultural practices</b>: Consider the impact of farming methods, such as pesticide use and monoculture.\n- <b>Urbanization</b>: Reflect on the extent of urban development and habitat loss.\n- <b>Pollution</b>: Think about the presence of contaminants affecting soil life.\n- <b>Climate change</b>: Consider changes in temperature and precipitation patterns.\n- <b>Deforestation</b>: Reflect on the removal of trees and its impact on biodiversity.\n- <b>Natural soil conditions</b>: Think about the inherent properties of the soil that might affect biodiversity."
-	},
-	categoryInformationTooltip: {
-		DRY_SOILS: '<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid.',
-		WET_SOILS: '<b>Assessment of Soil Waterlogging</b> - Soil waterlogging occurs when excess water saturates the soil.',
-		EROSION: '<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes.',
-		SEALED_SOILS: '<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material.',
-		DEGRADATION:
-			'<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing).',
-		LOSS_OF_ORGANIC_MATTER: '<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers.',
-		PH: '<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases.',
-		BIODIVERSITY: '<b>Biodiversity</b> - The variability among living organisms from all sources.'
-	},
-	pointStatus: {
-		status: 'Status',
-		PENDING: 'Pending verification',
-		ACCEPTED: 'Accepted',
-		REJECTED: 'Rejected'
-	},
-	login: 'Belépés',
-	logout: 'Kilépés',
-	register: 'Regisztráció',
-	profile: 'Profil',
-	filters: 'Szűrők',
-	other: 'Other',
-	filtersDescription: 'Válassza ki a térképen megjeleníteni kívánt helyek kategóriáit.',
-	close: 'Bezár',
-	cancel: 'Mégse',
-	back: 'Vissza',
-	next: 'Következő',
-	continue: 'Tovább',
-	skip: 'Ugrás',
-	addPoint: 'Hely hozzáadása',
-	clear: 'Töröl',
-	remove: 'Visszavon',
-	apply: 'Alkalmaz',
-	categories: 'Kategóriák',
-	pressToAddPoint: 'Nyomja meg és tartsa lenyomva jelentés hozzáadásához',
-	addPointHere: 'Hely hozzáadása ezen a területen',
-	seeMore: 'Mutass többet',
-	notAuthenticatedModal: {
-		title: 'Csak bejelentkezett felhasználók adhatnak hozzá jelentést',
-		message: 'Bejelentkezés a folytatáshoz'
-	},
-	addPointForm: {
-		chooseCategory: {
-			title: 'Kategória kiválasztása',
-			description: 'Töltsön ki egy rövid kérdőívet és adjon hozzá egy helyet a térképen.'
-		},
-		affectedArea: {
-			title: 'Érintett terület',
-			placeholder: 'Terület kiterjedésének kijelölése'
-		},
-		addPhoto: {
-			title: 'Kép hozzáadása',
-			takePhoto: 'Kép készítése',
-			or: 'vagy',
-			chooseFromGallery: 'Kép kiválasztása'
-		},
-		description: {
-			title: 'Hely leírása',
-			placeName: {
-				label: 'Hely neve',
-				placeholder: 'pl. Gesztenyés-kert'
-			},
-			problemDescription: {
-				label: 'Probléma leírása',
-				placeholder: ''
-			}
-		},
-		solution: {
-			title: 'Promléma megoldása'
-		},
-		successMessage: 'A jelentés sikeresen hozzáadva a térképhez',
-		errorMessage: 'Hoppá! Valami elromlott. Próbálja újra.'
-	},
-	pointDetails: {
-		title: 'Pont részletei',
-		category: 'Kategória',
-		placeName: 'Hely neve',
-		affectedArea: 'Probléma kiterjedése',
-		problemDescription: 'Probléma leírása',
-		problemSolution: 'Probléma megoldása',
-		reportDate: 'Jelentés dátuma',
-		photo: 'Fénykép'
-	},
-	userProfile: {
-		title: 'Felhasználói profil',
-		appLanguage: 'Applikáció nyelve',
-		manageAccount: 'Fiók kezelése',
-		logout: 'Kijelentkezés',
-		removeAccount: 'Fiók törlése',
-		pts: 'PTS',
-		deleteAccountPopup: {
-			button: 'Remove account',
-			cancel: 'Cancel',
-			firstConfirmation: {
-				title: 'Remove account',
-				description: 'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.'
-			},
-			secondConfirmation: {
-				title: 'Are you sure you want to remove your account?',
-				description: 'THIS ACTION CANNOT BE UNDONE.'
-			}
-		}
-	},
-	settings: {
-		title: 'Beállítások',
-		appLanguage: 'Applikáció nyelve',
-		appVersion: 'Applikáció verzió',
-		howToUse: 'How to use the app',
-		aboutSoils: 'About soil categories',
-		privacyPolicy: 'Privacy policy'
-	},
-	pointsList: {
-		title: 'Hozzáadott helyek',
-		noPoints: 'Még nincs hozzáadott hely.',
-		unauthorized: 'Jelentkezzen be a hozzáadott helyek megtekintéséhez.'
-	},
-	noPermissions: {
-		library: {
-			title: 'Nem férünk hozzá a fényképeihez',
-			description: 'Kérjük, engedélyezze a fényképekhez való hozzáférést a beállításokban.'
-		},
-		camera: {
-			title: 'Nem férünk hozzá a kamerájához',
-			description: 'Kérjük, engedélyezze a kamerához való hozzáférést a beállítások között.'
-		},
-		cancel: 'Mégse',
-		openSettings: 'Beállítások megnyitása'
-	},
-	pointManagement: {
-		title: 'Points',
-		generateReport: 'Generate report',
-		pointsToApprove: 'Points to approve',
-		approvedPoints: 'Points',
-		pointId: 'Point ID',
-		pointName: 'Point name',
-		dateFrom: 'Date from',
-		dateTo: 'Date to',
-		pointType: 'Point type',
-		approve: 'Approve',
-		delete: 'Delete',
-		noData: 'No data to display',
-		download: 'Download'
-	},
-	userManagement: {
-		title: 'Users Management',
-		searchUser: 'Search user',
-		deleteUser: 'Delete user',
-		setPermissions: 'Set permissions',
-		confirmDeleteMessage: 'Are you sure you want to delete this user account along with all their entries?',
-		cancel: 'Cancel',
-		confirm: 'Delete account',
-		noUsers: 'No users to display'
-	},
-	onboarding: {
-		goToTheAppButton: 'Applikáció megnyitása',
-		welcome: {
-			title: 'Üdv a GeoSurveyMap-en!',
-			description: 'Az egészségtelen állapotú talajok jelentésére szolgáló eszköz'
-		},
-		instruction: {
-			title: 'Hogyan használja eszközünket?',
-			step1: {
-				title: 'Egészségtelennek tűnő talaj keresése',
-				description: 'A csapatunk által biztosított minták segítségével megnézheti, hogy milyen típusú talajjal van dolga.'
-			},
-			step2: {
-				title: 'Jelentés hozzáadása az azonosított helyhez',
-				description:
-					'Az összes olyan információt adja meg, amelyet a jelentés minősége miatt gyűjtött, és amely segít a probléma megoldására törekvő kutatóknak.'
-			},
-			step3: {
-				title: 'Várjon a visszaigazolásra',
-				description: 'Csapatunknak minden jelentést ellenőriznie kell, hogy elkerüljük a káros tartalmakat.'
-			}
-		},
-		aboutSoils: {
-			title: 'A talajokról',
-			description: 'Kattintson a talajkategóriára, ha információt szeretne kapni róla. Ez az alkalmazás beállítások részében is elérhető.'
-		}
-	},
-	problemCause: {
-		lackOfRainfall: 'Csapadékhiány',
-		highTemperatures: 'Magas hőmérséklet',
-		poorSoilStructure: 'Gyenge talajszerkezet',
-		overuseOfWaterResources: 'Vízkészletek túlhasználata',
-		deforestation: 'Erdőirtás',
-		climateChange: 'Klímaváltozás',
-		overgrazing: 'Túllegeltetés',
-		other: 'Egyéb',
-		heavyRainfall: 'Heves esőzés',
-		poorDrainageSystems: 'Gyenge vízelvezetési rendszerek',
-		highWaterTable: 'Magas talajvízszint',
-		overIrrigation: 'Túlöntözés',
-		soilCompaction: 'Talajtömörödés',
-		urbanization: 'Urbanizáció',
-		flooding: 'Áradás',
-		windErosion: 'Szélerózió',
-		waterErosion: 'Vízerózió',
-		humanActivity: 'Emberi tevékenység',
-		gullyErosion: 'Völgyerózió',
-		sheetErosion: 'Lemezes erózió',
-		rillErosion: 'Barázdás erózió',
-		agriculturalPractices: 'Mezőgazdasági gyakorlatok',
-		industrialActivities: 'Ipari tevékenységek',
-		pavingAndConcreting: 'Burkolás és betonozás',
-		naturalProcesses: 'Természetes folyamatok',
-		erosion: 'Erózió',
-		contamination: 'Szennyezés',
-		lossOfNutrients: 'Tápanyagveszteség',
-		overuseOfSoil: 'Talaj túlhasználata',
-		intensiveAgriculture: 'Intenzív mezőgazdaság',
-		soilErosion: 'Talajerózió',
-		poorLandManagement: 'Rossz földgazdálkodás',
-		acidic: 'Savas',
-		slightlyAcidic: 'Enyhén savas',
-		neutral: 'Semleges',
-		slightlyAlkaline: 'Enyhén lúgos',
-		alkaline: 'Lúgos',
-		notSure: 'Nem biztos',
-		pollution: 'Szennyezés',
-		naturalSoilConditions: 'Természetes talajviszonyok'
-	},
-	codeRepository: 'Kódtár',
-	allRightsReserved: 'Minden jog fenntartva',
-	shapeTheFuture: 'Formáljuk a talajok oktatásának jövőjét.',
-	togetherWeMap:
-		'Együtt térképezünk, kapcsolódunk és tanítunk a talajok megértéséért, elősegítve a tudatosságot, az elköteleződést és a fenntartható gyakorlatokat.',
-	exploreTheMap: 'Térkép felfedezése',
-	learnMore: 'Tudjon meg többet',
-	aboutTheProject: 'A projektről',
-	learnMoreAboutTheProject: 'Tudjon meg többet a projektről',
-	mappingSoilDegradation: 'Talajromlás feltérképezése kézközelben',
-	mappingSoilDegradationDescription1:
-		'A LOESS Soil Map egy olyan platform, amely összefogja a közösséget a talajok védelméért. Az interaktív térképek és helymeghatározó eszközök révén a felhasználók közösen hozhatnak létre adatbázist a helyi talajállapotokról.',
-	mappingSoilDegradationDescription2:
-		'A begyűjtött adatok segítik a kutatókat és döntéshozókat, hogy megalapozott környezeti döntéseket hozzanak. Az egyszerű kérdőívek és intuitív felület segítségével bárki hozzájárulhat a talajromlási folyamatok mélyebb megértéséhez és a talajvédelemhez.',
-	sharedKnowledgeBase: 'Közös tudásbázis egy jobb jövőért',
-	sharedKnowledgeBaseDescription1:
-		'A nemzetközi LOESS kutatási program keretében végzett LOESS Soil Map projekt összegyűjti a talajerózióról, pH-ról és nedvességről szóló adatokat, lehetővé téve a globális elemzést.',
-	sharedKnowledgeBaseDescription2:
-		'Egy egységes adatokon alapuló ökoszisztéma megteremtése kulcsfontosságú a közös megoldásokhoz. A közösségi részvétel és a modern technológiák révén a LOESS Soil Map központi információcsere-platformmá válik.',
-	howToUseTheApp: 'Az alkalmazás használata',
-	watchVideoDescription: 'Nézze meg a rövid videót az eszköz használatáról',
-	appTutorial: 'Alkalmazás útmutató',
-	dragMarkerMessage: 'Húzza az ideiglenes jelölőt a kívánt helyre',
-	locationError: 'Nem sikerült meghatározni a helyzetét. Frissítse az oldalt.',
-	noPointsToApprove: 'Nincs jóváhagyandó pont',
-	noPointsFound: 'Nem található pont',
-	dateRange: 'Időtartam',
-	selectCategoryPlaceholder: 'Válasszon kategóriát',
-	getDataReport: 'Adatjelentés letöltése',
-	surveyStatusUpdated: 'A felmérés állapota frissítve lett',
-	oopsSomethingWentWrong: 'Hoppá! Valami hiba történt. Próbálja újra később.',
-	downloadReportFailed: 'Nem sikerült letölteni a jelentést.',
-	save: 'Mentés',
-	managePermissions: 'Engedélyek kezelése',
-	banUserTooltip: 'Felhasználó tiltása. Ez megakadályozza őket, hogy pontokat adjanak hozzá a térképhez.',
-	usersCount: 'Felhasználók száma:',
-	userPermissionsUpdated: 'A felhasználói engedélyek frissítve lettek.',
-	userStatusUpdated: 'A felhasználó státusza frissítve lett.',
-	pickDate: 'Válasszon dátumot'
-}
+  category: {
+    DRY_SOILS: 'Száraz talaj',
+    WET_SOILS: 'Vizes vagy nyirkos talaj',
+    EROSION: 'Erózió',
+    SEALED_SOILS: 'Talajtömörödés',
+    DEGRADATION: 'Talajpusztulás',
+    LOSS_OF_ORGANIC_MATTER: 'Szervesanyag-veszteség',
+    PH: 'pH',
+    BIODIVERSITY: 'Biodiverzitás',
+  },
+  categoryInformation: {
+    DRY_SOILS:
+      '<b>Sivatagosodás</b> - Az a folyamat, amelynek során a viszonylag száraz területek egyre szárazabbá válnak, és jellemzően elveszítik víztartalmukat, valamint növényzetüket és élővilágukat, vagy közvetlenül az éghajlatváltozás, vagy közvetve a rossz gazdálkodásból eredő talajromlás révén.\n<b>A talajszárazság értékelése</b>\n<b>Magyarázat</b>: A talajszárazság különböző tényezők, például az elégtelen csapadékmennyiség, a magas hőmérséklet vagy a rossz talajszerkezet következménye lehet. Az elsődleges ok megértése segíthet a probléma hatékony kezelésében.\n<b>Ön szerint mi a talajszárazság elsődleges oka az Ön területén?</b>\nA. Csapadékhiány (csapadékszegény vagy csapadékmentes időszakok)\nB. Magas hőmérséklet (párolgást okozó meleg időjárás)\nC. Rossz talajszerkezet (a talaj nem tartja meg jól a vizet)\nD. A vízkészletek túlhasználata (túlzott mezőgazdasági vagy egyéb célú vízhasználat)\nE. Erdőirtás (A nedvesség megtartását segítő fák eltávolítása)\nF. Éghajlatváltozás (az időjárási minták hosszú távú változásai)\nG. Túllegeltetés (az állatállomány túlzott legeltetése)\nH. Egyéb (kérjük, adja meg)\n<b>Comments for Answers</b>:\n- <b>Csapadékhiány</b>: Megfontolandó, ha hosszabb száraz időszakok voltak.\n- <b>Magas hőmérséklet</b>: Gondoljon a közelmúltbeli hőhullámokra vagy szokatlanul meleg időjárásra.\n- <b>Rossz talajszerkezet</b>: Nézze meg, hogy a talaj homokos vagy rossz vízmegtartó képességű-e.\n- <b>A vízkészletek túlzott felhasználása</b>: A helyi mezőgazdasági vagy ipari vízhasználat figyelembevétele.\n- <b>Erdőirtás</b>: Megfontolandó, hogy a területen történt-e jelentős fakivágás.\n- <b>Éghajlatváltozás</b>: Gondoljon az időjárási mintázatok hosszú távú változásaira.\n- <b>Túllegeltetés</b>: Fontolja meg, hogy az állatállomány legeltetése elterjedt és intenzív-e.',
+    WET_SOILS:
+      '<b>A talaj vizesedésének értékelése</b>\n<b>Magyarázat</b>: A talaj vizesedése akkor következik be, ha a talaj túlzottan telítődik vízzel, ami gyakran a heves esőzések, a rossz vízelvezetés vagy a magas talajvízszint miatt következik be. Az okok azonosítása segíthet a vízszintek kezelésében.\n<b>Ön szerint mi az elsődleges oka a talaj vízhiányának az Ön területén?</b>\nA. Erős esőzés (gyakori vagy intenzív esőzés)\nB. Rossz vízelvezető rendszerek (nem megfelelő vízelvezető infrastruktúra)\nC. Magas talajvízszint (a felszínhez közeli talajvízszint)\nD. Túlöntözés (a növények vagy kertek túlzott öntözése)\nE. Talajtömörödés (A talajrészecskék összepréselődnek, csökkentve a pórustérséget)\nF. Urbanizáció (Megnövekedett vízáteresztő felületek, például utak és épületek)\nG. Árvíz (folyók vagy tavak vízének kiáradása)\nH. Egyéb (kérjük, adja meg)\n<b>Comments for Answers</b>:\n- <b>Heves esőzések</b>: Figyelembe kell venni, ha gyakori vagy intenzív esőzések voltak.\n- <b>Rossz vízelvezető rendszerek</b>: Gondoljon a helyi vízelvezető infrastruktúra hatékonyságára.\n- <b>Magas talajvízszint</b>: Vegye észre, ha a talajvízszint közel van a felszínhez.\n- <b>Túlöntözés</b>: A helyi mezőgazdasági gyakorlat és vízhasználat átgondolása.\n- <b>Talajtömörödés</b>: A talaj kemény és tömörített.\n- <b>Urbanizáció</b>: Gondoljon a területen található vízáteresztő felületek kiterjedésére.\n- <b>Árvíz</b>: Mérlegelje, hogy voltak-e árvizek a közelmúltban.',
+    EROSION:
+      '<b>Talajerózió</b> - Az erózió a föld vagy a talaj eltávolítása egy vagy több folyamat révén. Az erózió fő okai közé tartozik a víz (patakok, patakok közötti, vízmosások, hóolvadás, folyók és tavak partjának eróziója), a szél (kiszáradás és szélroham), az áthelyeződés (talajművelés, talajegyengetés, gyökérnövények betakarítása, taposás és a földbe ásó állatok) és a geológiai (talajvíz okozta belső, föld alatti erózió, part menti erózió és földcsuszamlások). Az erodált üledék szállítása lehet csupán néhány milliméteres, de akár több ezer kilométeres is. Az eróziót fokozhatja a rossz földgazdálkodás is, mint például a túllegeltetés, az erdőirtás vagy a gépesítés nem megfelelő használata (pl. a hegyoldal felszántása).\n<b>A talajerózió értékelése</b>\n<b>Magyarázat</b>: A talajerózió a felső talajréteg szél, víz vagy emberi tevékenység általi eltávolítása. Termőföldek elvesztéséhez és más környezeti problémákhoz vezethet.\n<b>Hogyan értékelné a talajerózió intenzitását az Ön területén?</b>\nA. Alacsony (minimális talajveszteség)\nB. Mérsékelt (észrevehető talajveszteség)\nC. Magas (súlyos talajveszteség)\nD. Nagyon magas (kiterjedt talajveszteség)\n<b>A talajerózió mely formái a leggyakoribbak az Ön területén?</b>\nA. Szélerózió (A szél által elfújt talaj)\nB. Vízerózió (az eső vagy a folyók által kimosott talaj)\nC. Emberi tevékenység (pl. építkezés, mezőgazdaság)\nD. Öblös erózió (nagy csatornák vagy vízmosások kialakulása)\nE. Takaró erózió (nagy területen eltávolított vékony talajrétegek)\nF. Folyóerózió (folyóvíz által kialakított kis csatornák)\nG. Egyéb (kérjük, adja meg)\n<b>Comments for Answers</b>:\n- <b>Szélerózió</b>: Erős szél és laza talaj esetén.\n- <b>Vízerózió</b>: Gondoljon a heves esőzésekre és a vízáramlási mintákra.\n- <b>Emberi tevékenység</b>: Gondoljon építkezésre, mezőgazdaságra vagy más emberi tevékenységekre.\n- <b>Gully erózió</b>: Vegye észre ha nagy csatornák vagy vízmosások alakulnak ki.\n- <b>Lapos erózió</b>: Gondoljon vékony talajrétegek eltávolítására.\n- <b>Folyóvízi erózió</b>: Gondoljunk a folyóvíz által kialakított kis csatornákra.',
+    SEALED_SOILS:
+      '<b>Talajtömörödés</b> - A talaj épületekkel vagy olyan mesterséges anyagokkal való borításának folyamata, amelyek nagyon lassan eresztik át a vizet (pl. aszfalt vagy beton). A talaj lezárása gyors szárazföldi áramlást okozhat csapadék után, ahol a víz nem tud elszivárogni, ami potenciális árvízhez vezethet. A talaj nem képes hatékonyan működni, ha le van zárva.\n<b>A talajtömörödés értékelése</b>\n<b>Magyarázat</b>: A talajfelszín lezárása akkor következik be, amikor a talajfelszín vízhatlanná válik, gyakran az urbanizáció vagy a tömörödés miatt. Ez megakadályozhatja a víz beszivárgását és hatással lehet a talaj egészségére.\n<b>Hogyan jellemezné a talajfelszín lezárásának állapotát az Ön területén?</b>\nA. Minimális tömörödés (a legtöbb talajfelület vízáteresztő)\nB. Mérsékelt tömörödés (egyes területek vízhatlanok)\nC. Kiterjedt tömörödés (nagy területek vízhatlanok)\nD. Nagyon kiterjedt tömörödés (a legtöbb terület vízzáró)\n<b>Ön szerint mi az elsődleges oka a talajfelszín lezáródásának az Ön területén?</b>\nA. Urbanizáció (épületek és utak építése)\nB. Mezőgazdasági gyakorlat (nehézgépek használata)\nC. Ipari tevékenységek (gyárak és egyéb ipari létesítmények)\nD. Talajtömörödés (A talajrészecskék összepréselődnek, csökkentve a pórustérséget)\nE. Burkolás és betonozás (a talaj vízzáró anyagokkal való lefedése)\nF. Természetes folyamatok (pl. kéregképződés)\nG. Egyéb (kérjük, adja meg)\n<b>Comments for Answers</b>:\n- <b>Urbanizáció</b>: Vegyük figyelembe az épületek és utak kiterjedését.\n- <b>Mezőgazdasági gyakorlatok</b>: Gondoljon a nehézgépek használatára a mezőgazdaságban.\n- <b>Ipari tevékenységek</b>: Gondoljon a gyárak és ipari létesítmények jelenlétére.\n- <b>Talajtömörödés</b>: Vegye észre ha a talaj kemény és tömörített.\n- <b>Burkolás és betonozás</b>: Vegye figyelembe a burkolt vagy betonozott területek mennyiségét.\n- <b>Természetes folyamatok</b>: Gondoljunk a talajfelszínen történő természetes kéregképződésre.',
+    DEGRADATION:
+      '<b>Talajdegradáció</b> - negatív folyamat, amelyet gyakran az emberi tevékenység gyorsít fel (helytelen talajhasználat és talajművelési gyakorlat, talajtömörödés), és amely a talaj tulajdonságainak és funkcióinak romlásához vagy a talaj egészének pusztulásához vezet, pl. tömörödés, erózió, szikesedés.\n<b>Talajszennyezés</b> - Valamely vegyi anyag vagy anyag jelenléte a talajban olyan koncentrációban, amely káros lehet az emberi egészségre vagy a környezetre. A szennyezés közvetlen mérgező hatással lehet az adott talajban, talajon vagy talajból élő növényekre, állatokra vagy emberekre, vagy közvetett mérgező hatással lehet a teljes táplálékláncban történő felhalmozódás miatt.\n<b>Szikesedés</b> - oldható sók (a gipsznél jobban oldódó) felhalmozódása a talaj felső rétegeiben (sós talaj = olyan talaj, amely elegendő oldható sót tartalmaz ahhoz, hogy a legtöbb kultúrnövényt negatívan befolyásolja, általában 4000 μS m-1).\n<b>A talajromlás értékelése</b>\n<b>Magyarázat</b>: A talajromlás a talaj minőségének olyan tényezők miatti romlását jelenti, mint az erózió, a szennyeződés vagy a tápanyagveszteség. Ez hatással lehet a mezőgazdasági termelékenységre és az ökoszisztéma egészségére.\n<b>Hogyan értékelné a talajromlás általános állapotát az Ön területén?</b>\nA. Minimális degradáció (a talaj minősége általában jó)\nB. Mérsékelt degradáció (a talajminőség némi romlása)\nC. Súlyos degradáció (a talajminőség jelentős romlása)\nD. Nagyon súlyos degradáció (a talajminőség nagyon jelentős romlása)\n<b>Ön szerint mi a talajromlás elsődleges oka az Ön területén?</b>\nA. Erózió (a felső talaj elvesztése)\nB. Szennyeződés (vegyi anyagok, szennyező anyagok jelenléte)\nC. Tápanyagveszteség (a talaj alapvető tápanyagainak kimerülése)\nD. A talaj túlzott igénybevétele (intenzív gazdálkodás vagy más tevékenységek)\nE. Erdőirtás (a talajt védő fák eltávolítása)\nF. Éghajlatváltozás (az időjárási minták hosszú távú változásai)\nG. Túllegeltetés (az állatállomány túlzott legeltetése)\nH. Egyéb (kérjük, adja meg)\n<b>Comments for Answers</b>:\n- <b>Erózió</b>: Jelentős talajveszteség.\n- <b>Szennyeződés</b>: Gondoljon a vegyi anyagok vagy szennyező anyagok jelenlétére.\n- <b>Tápanyagok elvesztése</b>: A talaj termékenységére és tápanyagtartalmára való visszahatás.\n- <b>A talaj túlzott használata</b>: Fontolja meg az intenzív gazdálkodást vagy más tevékenységeket.\n- <b>Erdőirtás</b>: Gondoljon a fák és a növényzet eltávolítására.\n- <b>Éghajlatváltozás</b>: Gondolkodjon az időjárási minták hosszú távú változásaira.\n- <b>Túllegeltetés</b>: Fontolja meg, hogy az állatállomány legeltetése elterjedt és intenzív-e.',
+    LOSS_OF_ORGANIC_MATTER:
+      '<b>A talaj szervesanyag-tartalmának csökkenése</b> - A szervesanyag-tartalom csökkenése különösen a felső talajban, amikor a szervesanyag éves veszteségét (pl. oxidáció vagy erózió miatt) nem kompenzálja eléggé a növényi maradványokból, komposztból és trágyából származó szervesanyag-gyarapodás.\n<b>A talaj szervesanyag-veszteségének értékelése</b>\n<b>Magyarázat</b>: A talaj szervesanyag tartalma döntő fontosságú a talaj termékenysége és szerkezete szempontjából. A szervesanyag-veszteséget okozhatják a rossz talajművelési gyakorlatok vagy természetes folyamatok.\n<b>Hogyan értékelné a talaj szervesanyag-veszteségét az Ön területén?</b>\nA. Alacsony (minimális veszteség)\nB. Mérsékelt (észrevehető veszteség)\nC. Magas (jelentős veszteség)\nD. Nagyon magas (kiterjedt veszteség)\n<b>Ön szerint mi az elsődleges oka a talaj szervesanyag-veszteségének az Ön területén?</b>\nA. Intenzív mezőgazdaság (gyakori vetés és talajművelés)\nB. Erdőirtás (fák és növényzet eltávolítása)\nC. Túllegeltetés (az állatállomány túlzott legeltetése)\nD. Talajerózió (a szerves anyagokat tartalmazó felső talajréteg elvesztése)\nE. Éghajlatváltozás (a hőmérséklet és a csapadék változása)\nF. Rossz földgazdálkodás (nem megfelelő talajvédelmi gyakorlatok)\nG. Egyéb (kérjük, adja meg)\n<b>Comments for Answers</b>:\n- <b>Intenzív mezőgazdaság</b>: Fontolja meg a gyakori vetési és talajművelési gyakorlatokat.\n- <b>Erdőirtás</b>: Gondoljon a fák és a növényzet eltávolítására.\n- <b>Túllegeltetés</b>: Fontolja meg, hogy az állatállomány legeltetése elterjedt és intenzív-e.\n- <b>Talajerózió</b>: Jelentős talajveszteség.\n- <b>Éghajlatváltozás</b>: Gondolkodjon az időjárási minták hosszú távú változásaira.\n- <b>Rossz földgazdálkodás</b>: Gondoljon a talajvédelmi gyakorlatokra.',
+    PH: '<b>Savasodás</b> - Az a folyamat, amelynek során a talajban a hidrogénionok koncentrációja fokozatosan megnő, és amelyet az enyhén lúgos ionoknak a terméssel való eltávolítása, a kimosódás és a savasító hatású nitrogénműtrágyák alkalmazása okoz. Ezt a folyamatot a talaj természetes összetevői, beleértve az alapanyagot is, felgyorsítják vagy nem kompenzálják megfelelően.\n<b>A talaj pH-ja</b>\n<b>A talaj pH-értékének értékelése</b>\n<b>Magyarázat</b>: A talaj pH-értéke a talaj savasságának vagy lúgosságának mérőszáma. Jelentősen befolyásolja a növények növekedését és a talaj egészségét. Bizonyos növények, az úgynevezett indikátor növények, jelenlétük és egészségük alapján segítenek a talaj pH-értékének meghatározásában.\n<b>Hogyan jellemezné a talaj pH-szintjét a benne termő növények alapján?</b>\nA. Savas (pl. áfonya, azálea jelenléte)\nB. Enyhén savas (pl. páfrányok, rododendronok jelenléte)\nC. Semleges (pl. lóhere, pitypang jelenléte)\nD. Enyhén lúgos (pl. levendula, cickafark jelenléte)\nE. Lúgos (pl. üröm, sóbokor jelenléte)\nF. Nem tudom (nem vagyok biztos a növénytípusok vagy azok jelölése tekintetében)\n<b>Comments for Answers</b>:\n- <b>Savas</b>: Ha azt veszi észre, hogy az olyan növények, mint az áfonya vagy az azálea, virágoznak, akkor a talaj valószínűleg savas.\n- <b>Enyhén savas</b>: A páfrányok és a rododendronok enyhén savanyú talajt jeleznek.\n- <b>Semleges</b>: A lóhere és a gyermekláncfű gyakori a semleges pH-jú talajokban.\n- <b>Enyhén lúgos</b>: A levendula és a cickafark az enyhén lúgos talaj jelzői.\n- <b>Lúgos</b>: Az üröm és sóbokor lúgos körülmények között érzi jól magát.\n- <b>Nem biztos</b>: Ezzel a lehetőséggel fejezheti ki bizonytalanságát a növényekkel vagy azok jelöléseivel kapcsolatban.',
+    BIODIVERSITY:
+      '<b>Biodiverzitás</b> - Az élő szervezetek változatossága minden forrásból, beleértve a szárazföldi, tengeri és egyéb vízi ökoszisztémákat, valamint azokat az ökológiai komplexumokat, amelyeknek részei. Ez magában foglalja a fajokon belüli, a fajok közötti és az ökoszisztémák közötti sokféleséget.\n<b>A talaj és a helyi környezet biológiai sokféleségének értékelése</b>\n<b>Magyarázat</b>: A talaj biológiai sokfélesége a talajban élő szervezetek sokféleségére utal, beleértve a baktériumokat, gombákat, rovarokat és növényeket. A nagy biodiverzitás az egészséges ökoszisztéma jele, amely hozzájárul a talaj termékenységéhez és stabilitásához.\n<b>Hogyan értékelné a talajlakó szervezetek biológiai sokféleségét az Ön területén?</b>\nA. Alacsony (kevés különböző faj)\nB. Mérsékelt (némi fajtaválaszték)\nC. Magas (Sok különböző faj)\nD. Nagyon magas (bőséges fajtaválaszték)\nE. Nem biztos (Nem biztos a talajlakó szervezetek sokféleségében)\n<b>Ön szerint mi az elsődleges tényező, amely befolyásolja a talaj biológiai sokféleségét az Ön területén?</b>\nA. Mezőgazdasági gyakorlat (növényvédő szerek használata, monokultúra)\nB. Urbanizáció (természetes élőhelyek elvesztése)\nC. Szennyezés (a talajéletet befolyásoló szennyező anyagok jelenléte)\nD. Éghajlatváltozás (a hőmérséklet és a csapadék változása)\nE. Erdőirtás (a fák és a növényzet elvesztése)\nF. Természetes talajviszonyok (a talaj sajátos tulajdonságai)\nG. Egyéb (kérjük, adja meg)\n<b>Comments for Answers</b>:\n- <b>Alacsony</b>: Ha kevés különböző fajt figyelhet meg, a biodiverzitás valószínűleg alacsony.\n- <b>Mérsékelt</b>: A fajok némi változatossága mérsékelt biológiai sokféleséget jelez.\n- <b>Magas</b>: Sok különböző faj nagy biodiverzitásra utal.\n- <b>Nagyon magas</b>: A fajok bőséges választéka nagyon magas biológiai sokféleséget jelez.\n- <b>Nem biztos</b>: Ezzel a lehetőséggel fejezheti ki bizonytalanságát a talajlakó szervezetek sokféleségét illetően.\n- <b>Mezőgazdasági gyakorlatok</b>: Vegyük figyelembe a mezőgazdasági módszerek, például a növényvédőszer-használat és a monokultúra hatásait.\n- <b>Urbanizáció</b>: Mérlegelje a városfejlesztés és az élőhelyvesztés mértékét.\n- <b>Szennyezés</b>: Gondoljon a talajéletet befolyásoló szennyező anyagok jelenlétére.\n- <b>Éghajlatváltozás</b>: Vegye figyelembe a hőmérséklet és a csapadékviszonyok változását.\n- <b>Erdőirtás</b>: Gondolkodjon a fák eltávolítására és annak a biológiai sokféleségre gyakorolt hatására.\n- <b>Természetes talajviszonyok</b>: Gondoljon a talaj azon tulajdonságaira, amelyek hatással lehetnek a biológiai sokféleségre.',
+  },
+  categoryInformationTooltip: {
+    DRY_SOILS:
+      '<b>Desertification</b> - The process in which relatively dry land becomes increasingly arid.',
+    WET_SOILS:
+      '<b>Assessment of Soil Waterlogging</b> - Soil waterlogging occurs when excess water saturates the soil.',
+    EROSION:
+      '<b>Soil erosion</b> - Erosion is the removal of land or soil through one or more processes.',
+    SEALED_SOILS:
+      '<b>Soil sealing</b> - The process of covering of a soil by buildings, or types of artificial material.',
+    DEGRADATION:
+      '<b>Soil degradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing).',
+    LOSS_OF_ORGANIC_MATTER:
+      '<b>Loss of Soil Organic Matter</b> - Decline of organic matter content in one or more soil layers.',
+    PH: '<b>Acidification</b> - The process by which the concentration of hydrogen ions in the soil gradually increases.',
+    BIODIVERSITY: '<b>Biodiversity</b> - The variability among living organisms from all sources.',
+  },
+  pointStatus: {
+    status: 'Status',
+    PENDING: 'Pending verification',
+    ACCEPTED: 'Accepted',
+    REJECTED: 'Rejected',
+  },
+  login: 'Belépés',
+  logout: 'Kilépés',
+  register: 'Regisztráció',
+  profile: 'Profil',
+  filters: 'Szűrők',
+  other: 'Other',
+  filtersDescription: 'Válassza ki a térképen megjeleníteni kívánt helyek kategóriáit.',
+  close: 'Bezár',
+  cancel: 'Mégse',
+  back: 'Vissza',
+  next: 'Következő',
+  continue: 'Tovább',
+  skip: 'Ugrás',
+  addPoint: 'Hely hozzáadása',
+  clear: 'Töröl',
+  remove: 'Visszavon',
+  apply: 'Alkalmaz',
+  categories: 'Kategóriák',
+  pressToAddPoint: 'Nyomja meg és tartsa lenyomva jelentés hozzáadásához',
+  addPointHere: 'Hely hozzáadása ezen a területen',
+  seeMore: 'Mutass többet',
+  notAuthenticatedModal: {
+    title: 'Csak bejelentkezett felhasználók adhatnak hozzá jelentést',
+    message: 'Bejelentkezés a folytatáshoz',
+  },
+  addPointForm: {
+    chooseCategory: {
+      title: 'Kategória kiválasztása',
+      description: 'Töltsön ki egy rövid kérdőívet és adjon hozzá egy helyet a térképen.',
+    },
+    affectedArea: {
+      title: 'Érintett terület',
+      placeholder: 'Terület kiterjedésének kijelölése',
+    },
+    addPhoto: {
+      title: 'Kép hozzáadása',
+      takePhoto: 'Kép készítése',
+      or: 'vagy',
+      chooseFromGallery: 'Kép kiválasztása',
+    },
+    description: {
+      title: 'Hely leírása',
+      placeName: {
+        label: 'Hely neve',
+        placeholder: 'pl. Gesztenyés-kert',
+      },
+      problemDescription: {
+        label: 'Probléma leírása',
+        placeholder: '',
+      },
+    },
+    solution: {
+      title: 'Promléma megoldása',
+    },
+    successMessage: 'A jelentés sikeresen hozzáadva a térképhez',
+    errorMessage: 'Hoppá! Valami elromlott. Próbálja újra.',
+  },
+  pointDetails: {
+    title: 'Pont részletei',
+    category: 'Kategória',
+    placeName: 'Hely neve',
+    affectedArea: 'Probléma kiterjedése',
+    problemDescription: 'Probléma leírása',
+    problemSolution: 'Probléma megoldása',
+    reportDate: 'Jelentés dátuma',
+    photo: 'Fénykép',
+  },
+  userProfile: {
+    title: 'Felhasználói profil',
+    appLanguage: 'Applikáció nyelve',
+    manageAccount: 'Fiók kezelése',
+    logout: 'Kijelentkezés',
+    removeAccount: 'Fiók törlése',
+    pts: 'PTS',
+    deleteAccountPopup: {
+      button: 'Remove account',
+      cancel: 'Cancel',
+      firstConfirmation: {
+        title: 'Remove account',
+        description:
+          'Are you sure you want to remove your account? All your data will be lost and you will not be able to restore it.',
+      },
+      secondConfirmation: {
+        title: 'Are you sure you want to remove your account?',
+        description: 'THIS ACTION CANNOT BE UNDONE.',
+      },
+    },
+  },
+  settings: {
+    title: 'Beállítások',
+    appLanguage: 'Applikáció nyelve',
+    appVersion: 'Applikáció verzió',
+    howToUse: 'How to use the app',
+    aboutSoils: 'About soil categories',
+    privacyPolicy: 'Privacy policy',
+  },
+  pointsList: {
+    title: 'Hozzáadott helyek',
+    noPoints: 'Még nincs hozzáadott hely.',
+    unauthorized: 'Jelentkezzen be a hozzáadott helyek megtekintéséhez.',
+  },
+  noPermissions: {
+    library: {
+      title: 'Nem férünk hozzá a fényképeihez',
+      description: 'Kérjük, engedélyezze a fényképekhez való hozzáférést a beállításokban.',
+    },
+    camera: {
+      title: 'Nem férünk hozzá a kamerájához',
+      description: 'Kérjük, engedélyezze a kamerához való hozzáférést a beállítások között.',
+    },
+    cancel: 'Mégse',
+    openSettings: 'Beállítások megnyitása',
+  },
+  pointManagement: {
+    title: 'Points',
+    generateReport: 'Generate report',
+    pointsToApprove: 'Points to approve',
+    approvedPoints: 'Points',
+    pointId: 'Point ID',
+    pointName: 'Point name',
+    dateFrom: 'Date from',
+    dateTo: 'Date to',
+    pointType: 'Point type',
+    approve: 'Approve',
+    delete: 'Delete',
+    noData: 'No data to display',
+    download: 'Download',
+  },
+  userManagement: {
+    title: 'Users Management',
+    searchUser: 'Search user',
+    deleteUser: 'Delete user',
+    setPermissions: 'Set permissions',
+    confirmDeleteMessage:
+      'Are you sure you want to delete this user account along with all their entries?',
+    cancel: 'Cancel',
+    confirm: 'Delete account',
+    noUsers: 'No users to display',
+  },
+  onboarding: {
+    goToTheAppButton: 'Applikáció megnyitása',
+    welcome: {
+      title: 'Üdv a GeoSurveyMap-en!',
+      description: 'Az egészségtelen állapotú talajok jelentésére szolgáló eszköz',
+    },
+    instruction: {
+      title: 'Hogyan használja eszközünket?',
+      step1: {
+        title: 'Egészségtelennek tűnő talaj keresése',
+        description:
+          'A csapatunk által biztosított minták segítségével megnézheti, hogy milyen típusú talajjal van dolga.',
+      },
+      step2: {
+        title: 'Jelentés hozzáadása az azonosított helyhez',
+        description:
+          'Az összes olyan információt adja meg, amelyet a jelentés minősége miatt gyűjtött, és amely segít a probléma megoldására törekvő kutatóknak.',
+      },
+      step3: {
+        title: 'Várjon a visszaigazolásra',
+        description:
+          'Csapatunknak minden jelentést ellenőriznie kell, hogy elkerüljük a káros tartalmakat.',
+      },
+    },
+    aboutSoils: {
+      title: 'A talajokról',
+      description:
+        'Kattintson a talajkategóriára, ha információt szeretne kapni róla. Ez az alkalmazás beállítások részében is elérhető.',
+    },
+  },
+  problemCause: {
+    lackOfRainfall: 'Csapadékhiány',
+    highTemperatures: 'Magas hőmérséklet',
+    poorSoilStructure: 'Gyenge talajszerkezet',
+    overuseOfWaterResources: 'Vízkészletek túlhasználata',
+    deforestation: 'Erdőirtás',
+    climateChange: 'Klímaváltozás',
+    overgrazing: 'Túllegeltetés',
+    other: 'Egyéb',
+    heavyRainfall: 'Heves esőzés',
+    poorDrainageSystems: 'Gyenge vízelvezetési rendszerek',
+    highWaterTable: 'Magas talajvízszint',
+    overIrrigation: 'Túlöntözés',
+    soilCompaction: 'Talajtömörödés',
+    urbanization: 'Urbanizáció',
+    flooding: 'Áradás',
+    windErosion: 'Szélerózió',
+    waterErosion: 'Vízerózió',
+    humanActivity: 'Emberi tevékenység',
+    gullyErosion: 'Völgyerózió',
+    sheetErosion: 'Lemezes erózió',
+    rillErosion: 'Barázdás erózió',
+    agriculturalPractices: 'Mezőgazdasági gyakorlatok',
+    industrialActivities: 'Ipari tevékenységek',
+    pavingAndConcreting: 'Burkolás és betonozás',
+    naturalProcesses: 'Természetes folyamatok',
+    erosion: 'Erózió',
+    contamination: 'Szennyezés',
+    lossOfNutrients: 'Tápanyagveszteség',
+    overuseOfSoil: 'Talaj túlhasználata',
+    intensiveAgriculture: 'Intenzív mezőgazdaság',
+    soilErosion: 'Talajerózió',
+    poorLandManagement: 'Rossz földgazdálkodás',
+    acidic: 'Savas',
+    slightlyAcidic: 'Enyhén savas',
+    neutral: 'Semleges',
+    slightlyAlkaline: 'Enyhén lúgos',
+    alkaline: 'Lúgos',
+    notSure: 'Nem biztos',
+    pollution: 'Szennyezés',
+    naturalSoilConditions: 'Természetes talajviszonyok',
+  },
+  codeRepository: 'Kódtár',
+  allRightsReserved: 'Minden jog fenntartva',
+  shapeTheFuture: 'Formáljuk a talajok oktatásának jövőjét.',
+  togetherWeMap:
+    'Együtt térképezünk, kapcsolódunk és tanítunk a talajok megértéséért, elősegítve a tudatosságot, az elköteleződést és a fenntartható gyakorlatokat.',
+  exploreTheMap: 'Térkép felfedezése',
+  learnMore: 'Tudjon meg többet',
+  aboutTheProject: 'A projektről',
+  learnMoreAboutTheProject: 'Tudjon meg többet a projektről',
+  mappingSoilDegradation: 'Talajromlás feltérképezése kézközelben',
+  mappingSoilDegradationDescription1:
+    'A LOESS Soil Map egy olyan platform, amely összefogja a közösséget a talajok védelméért. Az interaktív térképek és helymeghatározó eszközök révén a felhasználók közösen hozhatnak létre adatbázist a helyi talajállapotokról.',
+  mappingSoilDegradationDescription2:
+    'A begyűjtött adatok segítik a kutatókat és döntéshozókat, hogy megalapozott környezeti döntéseket hozzanak. Az egyszerű kérdőívek és intuitív felület segítségével bárki hozzájárulhat a talajromlási folyamatok mélyebb megértéséhez és a talajvédelemhez.',
+  sharedKnowledgeBase: 'Közös tudásbázis egy jobb jövőért',
+  sharedKnowledgeBaseDescription1:
+    'A nemzetközi LOESS kutatási program keretében végzett LOESS Soil Map projekt összegyűjti a talajerózióról, pH-ról és nedvességről szóló adatokat, lehetővé téve a globális elemzést.',
+  sharedKnowledgeBaseDescription2:
+    'Egy egységes adatokon alapuló ökoszisztéma megteremtése kulcsfontosságú a közös megoldásokhoz. A közösségi részvétel és a modern technológiák révén a LOESS Soil Map központi információcsere-platformmá válik.',
+  howToUseTheApp: 'Az alkalmazás használata',
+  watchVideoDescription: 'Nézze meg a rövid videót az eszköz használatáról',
+  appTutorial: 'Alkalmazás útmutató',
+  dragMarkerMessage: 'Húzza az ideiglenes jelölőt a kívánt helyre',
+  locationError: 'Nem sikerült meghatározni a helyzetét. Frissítse az oldalt.',
+  noPointsToApprove: 'Nincs jóváhagyandó pont',
+  noPointsFound: 'Nem található pont',
+  dateRange: 'Időtartam',
+  selectCategoryPlaceholder: 'Válasszon kategóriát',
+  getDataReport: 'Adatjelentés letöltése',
+  surveyStatusUpdated: 'A felmérés állapota frissítve lett',
+  oopsSomethingWentWrong: 'Hoppá! Valami hiba történt. Próbálja újra később.',
+  downloadReportFailed: 'Nem sikerült letölteni a jelentést.',
+  save: 'Mentés',
+  managePermissions: 'Engedélyek kezelése',
+  banUserTooltip:
+    'Felhasználó tiltása. Ez megakadályozza őket, hogy pontokat adjanak hozzá a térképhez.',
+  usersCount: 'Felhasználók száma:',
+  userPermissionsUpdated: 'A felhasználói engedélyek frissítve lettek.',
+  userStatusUpdated: 'A felhasználó státusza frissítve lett.',
+  pickDate: 'Válasszon dátumot',
+};
