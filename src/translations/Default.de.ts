@@ -36,15 +36,16 @@ export const de = {
 			'<b>Biodiversität</b> - Die Variabilität unter lebenden Organismen aller Herkunft, einschließlich terrestrischer, mariner und anderer aquatischer Ökosysteme sowie der ökologischen Komplexe, zu denen sie gehören. Dies umfasst die Vielfalt innerhalb der Arten, zwischen den Arten und in den Ökosystemen.\n<b>Bewertung der biologischen Vielfalt des Bodens und der lokalen Umwelt</b>\n<b>Erläuterung</b>: Die biologische Vielfalt im Boden bezieht sich auf die Vielfalt der im Boden lebenden Organismen, einschließlich Bakterien, Pilze, Insekten und Pflanzen. Eine hohe biologische Vielfalt ist ein Zeichen für ein gesundes Ökosystem und trägt zur Fruchtbarkeit und Stabilität des Bodens bei.\n<b>Wie würden Sie die Artenvielfalt der Bodenorganismen in Ihrem Gebiet einschätzen?</b>\nA. Gering (Wenige verschiedene Arten)\nB. Mäßig (eine gewisse Artenvielfalt)\nC. Hoch (Viele verschiedene Arten)\nD. Sehr hoch (große Artenvielfalt)\nE. Nicht sicher (Ungewissheit über die Vielfalt der Bodenorganismen)\n<b>Was ist Ihrer Meinung nach der wichtigste Faktor, der die biologische Vielfalt des Bodens in Ihrem Gebiet beeinträchtigt?</b>\nA. Landwirtschaftliche Praktiken (Einsatz von Pestiziden, Monokulturen)\nB. Verstädterung (Verlust von natürlichen Lebensräumen)\nC. Verschmutzung (Verunreinigungen, die das Bodenleben beeinträchtigen)\nD. Klimawandel (Veränderungen der Temperatur und der Niederschläge)\nE. Abholzung (Verlust von Bäumen und Vegetation)\nF. Natürliche Bodenbedingungen (Inhärente Bodeneigenschaften)\nG. Sonstiges (bitte angeben)\n<b>Kommentare zu den Antworten</b>:\n- <b>Gering</b>: Wenn Sie nur wenige verschiedene Arten beobachten, ist die Artenvielfalt wahrscheinlich gering.\n- <b>Mäßig</b>: Eine leichte Varianz der Arten deutet auf eine mäßige Artenvielfalt hin.\n- <b>Hoch</b>: Viele verschiedene Arten deuten auf eine hohe Artenvielfalt hin.\n- <b>Sehr hoch</b>: Eine reiche Artenvielfalt deutet auf eine sehr hohe biologische Vielfalt hin.\n- <b>Nicht sicher</b>: Wenn Sie sich über die Vielfalt der Bodenorganismen unsicher sind, können Sie diese Unsicherheit mit dieser Option zum Ausdruck bringen.\n- <b>Landwirtschaftliche Praktiken</b>: Berücksichtigen Sie die Auswirkungen von Anbaumethoden wie dem Einsatz von Pestiziden und Monokulturen.\n- <b>Verstädterung</b>: Denken Sie über das Ausmaß der städtischen Entwicklung und den Verlust von Lebensräumen nach.\n- <b>Verschmutzung</b>: Denken Sie über das Vorhandensein von Schadstoffen nach, die das Bodenleben beeinträchtigen.\n- <b>Klimawandel</b>: Berücksichtigen Sie Veränderungen der Temperatur- und Niederschlagsmuster.\n- <b>Abholzung</b>: Denken Sie über die Abholzung von Bäumen und ihre Auswirkungen auf die Artenvielfalt nach.\n- <b>Natürliche Bodenbedingungen</b>: Denken Sie über die inhärenten Eigenschaften des Bodens nach, die sich auf die biologische Vielfalt auswirken könnten.'
 	},
 	categoryInformationTooltip: {
-		DRY_SOILS: '<b>Wüstenbildung</b> - The process in which relatively dry land becomes increasingly arid.',
-		WET_SOILS: '<b>Bewertung der Staunässe im Boden</b> - Soil waterlogging occurs when excess water saturates the soil.',
-		EROSION: '<b>Bodenerosion</b> - Erosion is the removal of land or soil through one or more processes.',
-		SEALED_SOILS: '<b>Bodenversiegelung</b> - The process of covering of a soil by buildings, or types of artificial material.',
+		DRY_SOILS: '<b>Wüstenbildung</b> - Der Prozess, bei dem relativ trockenes Land zunehmend arid wird.',
+		WET_SOILS: '<b>Bewertung der Staunässe im Boden</b> - Staunässe tritt auf, wenn überschüssiges Wasser den Boden sättigt.',
+		EROSION: '<b>Bodenerosion</b> - Erosion ist die Abtragung von Land oder Boden durch einen oder mehrere Prozesse.',
+		SEALED_SOILS: '<b>Bodenversiegelung</b> - Der Prozess der Abdeckung eines Bodens durch Gebäude oder andere künstliche Materialien.',
 		DEGRADATION:
-			'<b>Bodendegradation</b> - Negative process often accelerated by human activities (improper soil use and cultivation practices, soil sealing).',
-		LOSS_OF_ORGANIC_MATTER: '<b>Verlust von organischer Substanz im Boden</b> - Decline of organic matter content in one or more soil layers.',
-		PH: '<b>Versauerung</b> - The process by which the concentration of hydrogen ions in the soil gradually increases.',
-		BIODIVERSITY: '<b>Biodiversität</b> - The variability among living organisms from all sources.'
+			'<b>Bodendegradation</b> - Ein negativer Prozess, der oft durch menschliche Aktivitäten (unsachgemäße Bodennutzung und Anbaumethoden, Bodenversiegelung) beschleunigt wird.',
+		LOSS_OF_ORGANIC_MATTER:
+			'<b>Verlust von organischer Substanz im Boden</b> - Rückgang des organischen Gehalts in einer oder mehreren Bodenschichten.',
+		PH: '<b>Versauerung</b> - Der Prozess, bei dem die Konzentration von Wasserstoffionen im Boden allmählich zunimmt.',
+		BIODIVERSITY: '<b>Biodiversität</b> - Die Vielfalt der lebenden Organismen aus allen Quellen.'
 	},
 	pointStatus: {
 		status: 'Status',
@@ -52,8 +53,8 @@ export const de = {
 		ACCEPTED: 'Angenommen',
 		REJECTED: 'Abgelehnt'
 	},
-	login: 'Login',
-	logout: 'Logout',
+	login: 'Anmeldung',
+	logout: 'Abmeldung',
 	register: 'Registrierung',
 	profile: 'Profil',
 	filters: 'Filter',
