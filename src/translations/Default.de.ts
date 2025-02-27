@@ -65,7 +65,7 @@ export const de = {
 	next: 'Nächstes',
 	continue: 'Weiter',
 	skip: 'Überspringen',
-	addPoint: 'Punkt hinzufügen!!!',
+	addPoint: 'Punkt hinzufügen',
 	clear: 'Löschen',
 	remove: 'Entfernen',
 	apply: 'Anwenden',
