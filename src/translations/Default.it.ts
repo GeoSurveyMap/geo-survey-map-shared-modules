@@ -1,6 +1,6 @@
 export const it = {
 	category: {
-		DRY_SOILS: 'Suolo secco',
+		DRY_SOILS: 'Suolo secco test',
 		WET_SOILS: 'Suolo umido',
 		EROSION: 'Erosione',
 		SEALED_SOILS: 'Suolo impermeabilizzato',
